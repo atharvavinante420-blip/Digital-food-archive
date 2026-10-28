@@ -7,17 +7,17 @@ import foods from "../data/food";
 function About() {
   const creators = [
     {
-      name: "venky the goat",
+      name: "Venkatesh K",
       role: "Research & Development",
       initials: "YN",
     },
     {
-      name: "CREATOR 2",
+      name: "Yash Mathur",
       role: "Design & Documentation",
       initials: "C2",
     },
     {
-      name: "CREATOR 3",
+      name: "Atharva Vinante",
       role: "Development",
       initials: "C3",
     },

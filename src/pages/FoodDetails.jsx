@@ -48,9 +48,9 @@ function FoodDetails() {
           <p>{food.shortDescription}</p>
 
           <div className="details-meta">
-            <span style={{ fontSize: "10px" }}>{food.location}</span>
+            <span style={{ fontSize: "15px" }}>{food.location}</span>
 
-            <span style={{ fontSize: "10px" }}>{food.period}</span>
+            <span style={{ fontSize: "15px" }}>{food.period}</span>
           </div>
         </div>
       </section>
@@ -59,11 +59,13 @@ function FoodDetails() {
         {/* STORY */}
 
         <section className="details-story reveal-3d">
-          <span className="eyebrow">THE STORY</span>
+          <span className="eyebrow" style={{ fontSize: "30px", fontWeight:"bold" }}>
+            THE STORY
+          </span>
 
           <h2>More than a recipe.</h2>
 
-          <p>{food.description}</p>
+          <p style={{textAlign:"justify"}}>{food.description}</p>
         </section>
 
         {/* INGREDIENTS */}
@@ -74,7 +76,7 @@ function FoodDetails() {
           <div className="ingredients-list">
             {food.ingredients.map((ingredient, index) => (
               <div key={ingredient} className="ingredient">
-                <span style={{ fontSize: "20px" }}>
+                <span style={{ fontSize: "15px" }}>
                   {String(index + 1).padStart(2, "0")}
                 </span>
 

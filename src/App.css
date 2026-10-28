@@ -46,7 +46,7 @@ h3 {
     monospace;
 
   font-size:
-    14px;
+    25px;
 
   line-height:
     1.4;
@@ -952,6 +952,11 @@ h3 {
 .food-card-body {
   padding:
     24px;
+
+    display: flex;
+  flex-direction: column;
+  height: 100%;
+
 }
 
 .food-card-category {
@@ -1016,6 +1021,7 @@ h3 {
 
   color:
     var(--muted);
+
 }
 
 
@@ -1107,6 +1113,7 @@ h3 {
 
   text-transform:
     uppercase;
+
 }
 
 
@@ -1766,6 +1773,8 @@ h3 {
 
   color:
     var(--muted);
+
+  text-align: justify;
 }
 
 .details-meta {
@@ -1837,60 +1846,126 @@ h3 {
 /* INGREDIENTS */
 
 .ingredients-section {
-  margin-top:
-    100px;
+  margin-top: 90px;
 }
 
+.ingredients-section .eyebrow {
+  display: block;
+  margin-bottom: 28px;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+
+/* 3 equal columns, separate cards, so partial last rows still look clean */
 .ingredients-list {
-  margin-top:
-    24px;
-
-  border-top:
-    1px solid var(--line);
-
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  width: 100%;
+  margin-top: 24px;
 }
 
 .ingredient {
-  display:
-    grid;
+  min-width: 0;
+  min-height: 80px;
 
-  grid-template-columns:
-    50px 1fr;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 
-  gap:
-    15px;
+  padding: 20px 22px;
 
-  padding:
-    17px 0;
+  background: #f8f5ed;
+  border: 1.5px solid #cfc7ba;
 
-  border-bottom:
-    1px solid var(--line);
+  /* color: #26221d; */
+
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
 }
 
 .ingredient > span {
-  font-family:
-    "DM Mono",
-    monospace;
+  flex-shrink: 0;
 
-  font-size:
-    10px;
+  width: 38px;
+  height: 38px;
 
-  color:
-    var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* border: 1.5px solid #9c9387; */
+  border-radius: 50%;
+  background: #eee9df;
+
+  font-family: "DM Mono", "Courier New", monospace;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent-dark);
+  opacity: 1;
 }
 
 .ingredient strong {
-  font-family:
-    "DM Sans",
-    sans-serif;
+  display: block;
+  min-width: 0;
 
-  font-size:
-    14px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
 
-  font-weight:
-    500;
+  color: #29251f;
+  opacity: 1;
+
+  overflow-wrap: anywhere;
 }
 
+.ingredient:hover {
+  background: #eee9df;
+  border-color: #a99f91;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(45, 39, 31, 0.12);
+}
+
+.ingredient:hover > span {
+  background: #e3ddd2;
+  border-color: #7f7569;
+  color: #211e1a;
+}
+
+/* Tablet: 2 columns */
+@media (max-width: 900px) {
+  .ingredients-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile: 1 column */
+@media (max-width: 600px) {
+  .ingredients-list {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .ingredient {
+    min-height: 76px;
+    padding: 16px 18px;
+  }
+
+  .ingredient > span {
+    width: 34px;
+    height: 34px;
+    font-size: 12px;
+  }
+
+  .ingredient strong {
+    font-size: 17px;
+  }
+}
 
 /* MEMORY */
 
@@ -2188,7 +2263,7 @@ h3 {
     monospace;
 
   font-size:
-    100px;
+    40px;
 
   color:
     var(--accent);
