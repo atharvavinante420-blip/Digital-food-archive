@@ -1,17 +1,37 @@
-import { NavLink, Link } from "react-router-dom";
+import {
+  Link,
+  NavLink,
+} from "react-router-dom";
 
-function Navbar({ favoriteCount }) {
+function Navbar() {
   return (
     <header className="navbar">
-      <div className="navbar-container">
 
-        <Link to="/" className="logo">
-          <span>🍲</span>
-          <span>Digital Food Archive</span>
+      <div className="navbar-inner">
+
+        <Link
+          to="/"
+          className="brand"
+        >
+
+          <span className="brand-mark">
+            FA
+          </span>
+
+          <span className="brand-name">
+            Digital
+            <strong>Food Archive</strong>
+          </span>
+
         </Link>
 
-        <nav>
-          <NavLink to="/">
+
+        <nav className="nav-links">
+
+          <NavLink
+            to="/"
+            end
+          >
             Home
           </NavLink>
 
@@ -23,21 +43,14 @@ function Navbar({ favoriteCount }) {
             Oral Histories
           </NavLink>
 
-          <NavLink to="/favorites">
-            Favorites
-            {favoriteCount > 0 && (
-              <span className="nav-favorite-count">
-                {favoriteCount}
-              </span>
-            )}
-          </NavLink>
-
           <NavLink to="/about">
             About
           </NavLink>
+
         </nav>
 
       </div>
+
     </header>
   );
 }

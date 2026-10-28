@@ -2,78 +2,108 @@ import { Link } from "react-router-dom";
 
 function FoodCard({
   food,
-  isFavorite,
-  toggleFavorite
+  index,
 }) {
   return (
-    <article className="food-card">
+    <article className="food-card reveal-3d">
 
-      <div className="food-image-container">
+      <Link
+        to={`/food/${food.id}`}
+        className="food-card-image"
+      >
 
         <img
           src={food.image}
           alt={food.name}
-          className="food-image"
+          onError={(event) => {
+            event.currentTarget.src =
+              "/images/puran-poli.jpg";
+          }}
         />
 
-        <button
-          type="button"
-          className={`favorite-button ${
-            isFavorite
-              ? "favorite-active"
-              : ""
-          }`}
-          onClick={() =>
-            toggleFavorite(food.id)
-          }
-          aria-label={
-            isFavorite
-              ? "Remove from favorites"
-              : "Add to favorites"
-          }
-        >
-          {isFavorite ? "❤️" : "🤍"}
-        </button>
+        <div className="food-card-overlay" />
 
-      </div>
+        <span className="food-card-number">
+          {String(
+            index ?? food.id
+          ).padStart(2, "0")}
+        </span>
+
+        <span className="food-card-region">
+          {food.region}
+        </span>
+
+      </Link>
 
 
-      <div className="food-card-content">
+      <div className="food-card-body">
 
-        <div className="food-meta">
-
-          <span>
-            {food.category}
-          </span>
-
-          <span>
-            {food.region}
-          </span>
-
-        </div>
-
+        <span className="food-card-category">
+          {food.category}
+        </span>
 
         <h3>
           {food.name}
         </h3>
 
-
-        <p>
+        <p className="food-card-description">
           {food.shortDescription}
         </p>
 
 
-        <div className="food-card-footer">
+        <div className="food-card-location">
+          ⌖ {food.location}
+        </div>
 
-          <span>
-            📍 {food.location}
+
+        <div className="card-sources">
+
+          <span className="sources-label">
+            SOURCES
           </span>
 
-          <Link to={`/food/${food.id}`}>
-            Explore →
-          </Link>
+          <div className="sources-list">
+
+            {food.sources.map(
+              (source, sourceIndex) => {
+
+                if (source.url) {
+                  return (
+                    <a
+                      key={sourceIndex}
+                      href={source.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {source.name}
+                      <span>↗</span>
+                    </a>
+                  );
+                }
+
+                return (
+                  <span
+                    key={sourceIndex}
+                    className="source-text"
+                  >
+                    {source.name}
+                  </span>
+                );
+              }
+            )}
+
+          </div>
 
         </div>
+
+
+        <Link
+          to={`/food/${food.id}`}
+          className="food-card-link"
+        >
+          Explore story
+          <span>→</span>
+        </Link>
 
       </div>
 

@@ -1,5 +1,9 @@
-import { useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
+import {
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -8,65 +12,89 @@ import Home from "./pages/Home";
 import Archive from "./pages/Archive";
 import FoodDetails from "./pages/FoodDetails";
 import OralHistories from "./pages/OralHistories";
-import Favorites from "./pages/Favorites";
 import About from "./pages/About";
 
 import "./App.css";
 
-function App() {
-  const [favorites, setFavorites] = useState(() => {
-    const savedFavorites = localStorage.getItem("favorites");
+function AppEffects() {
+  const location = useLocation();
 
-    return savedFavorites
-      ? JSON.parse(savedFavorites)
-      : [];
-  });
+  // Scroll to top whenever route changes
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, [location.pathname, location.search]);
 
-  const toggleFavorite = (id) => {
-    setFavorites((currentFavorites) => {
-      let updatedFavorites;
-
-      if (currentFavorites.includes(id)) {
-        updatedFavorites = currentFavorites.filter(
-          (favoriteId) => favoriteId !== id
+  // 3D scroll reveal
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const elements =
+        document.querySelectorAll(
+          ".reveal-3d"
         );
-      } else {
-        updatedFavorites = [...currentFavorites, id];
+
+      if (!elements.length) {
+        return;
       }
 
-      localStorage.setItem(
-        "favorites",
-        JSON.stringify(updatedFavorites)
-      );
+      const observer =
+        new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add(
+                  "reveal-visible"
+                );
 
-      return updatedFavorites;
-    });
-  };
+                observer.unobserve(
+                  entry.target
+                );
+              }
+            });
+          },
+          {
+            threshold: 0.12,
+          }
+        );
 
+      elements.forEach((element) => {
+        observer.observe(element);
+      });
+
+      return () => {
+        observer.disconnect();
+      };
+    }, 50);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [location.pathname, location.search]);
+
+  return null;
+}
+
+function App() {
   return (
     <div className="app">
-      <Navbar favoriteCount={favorites.length} />
+
+      <AppEffects />
+
+      <Navbar />
 
       <main>
         <Routes>
+
           <Route
             path="/"
-            element={
-              <Home
-                favorites={favorites}
-                toggleFavorite={toggleFavorite}
-              />
-            }
+            element={<Home />}
           />
 
           <Route
             path="/archive"
-            element={
-              <Archive
-                favorites={favorites}
-                toggleFavorite={toggleFavorite}
-              />
-            }
+            element={<Archive />}
           />
 
           <Route
@@ -80,23 +108,21 @@ function App() {
           />
 
           <Route
-            path="/favorites"
-            element={
-              <Favorites
-                favorites={favorites}
-                toggleFavorite={toggleFavorite}
-              />
-            }
-          />
-
-          <Route
             path="/about"
             element={<About />}
           />
+
+          {/* fallback */}
+          <Route
+            path="*"
+            element={<Home />}
+          />
+
         </Routes>
       </main>
 
       <Footer />
+
     </div>
   );
 }

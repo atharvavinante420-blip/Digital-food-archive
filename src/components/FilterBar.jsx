@@ -1,117 +1,115 @@
 function FilterBar({
   category,
-  region,
-  period,
   setCategory,
+  region,
   setRegion,
+  period,
   setPeriod,
-  clearFilters
+  categories,
+  regions,
+  periods,
+  clearFilters,
 }) {
   return (
     <div className="filter-bar">
 
-      <div className="filter-group">
+      <div className="filter-field">
 
         <label htmlFor="category">
-          Category
+          CATEGORY
         </label>
 
         <select
           id="category"
           value={category}
           onChange={(event) =>
-            setCategory(event.target.value)
+            setCategory(
+              event.target.value
+            )
           }
         >
+
           <option value="">
-            All Categories
+            All categories
           </option>
 
-          <option value="Sweet">
-            Sweet
-          </option>
+          {categories.map((item) => (
+            <option
+              key={item}
+              value={item}
+            >
+              {item}
+            </option>
+          ))}
 
-          <option value="Main Course">
-            Main Course
-          </option>
-
-          <option value="Snack">
-            Snack
-          </option>
-
-          <option value="Breakfast">
-            Breakfast
-          </option>
         </select>
 
       </div>
 
 
-      <div className="filter-group">
+      <div className="filter-field">
 
         <label htmlFor="region">
-          Region
+          REGION
         </label>
 
         <select
           id="region"
           value={region}
           onChange={(event) =>
-            setRegion(event.target.value)
+            setRegion(
+              event.target.value
+            )
           }
         >
+
           <option value="">
-            All Regions
+            All regions
           </option>
 
-          <option value="Maharashtra">
-            Maharashtra
-          </option>
+          {regions.map((item) => (
+            <option
+              key={item}
+              value={item}
+            >
+              {item}
+            </option>
+          ))}
 
-          <option value="Karnataka">
-            Karnataka
-          </option>
-
-          <option value="Punjab">
-            Punjab
-          </option>
-
-          <option value="Gujarat">
-            Gujarat
-          </option>
-
-          <option value="Bihar">
-            Bihar
-          </option>
-
-          <option value="South India">
-            South India
-          </option>
         </select>
 
       </div>
 
 
-      <div className="filter-group">
+      <div className="filter-field">
 
         <label htmlFor="period">
-          Period
+          PERIOD
         </label>
 
         <select
           id="period"
           value={period}
           onChange={(event) =>
-            setPeriod(event.target.value)
+            setPeriod(
+              event.target.value
+            )
           }
         >
+
           <option value="">
-            All Periods
+            All periods
           </option>
 
-          <option value="Traditional">
-            Traditional
-          </option>
+          {periods.map((item) => (
+            <option
+              key={item}
+              value={item}
+            >
+              {item}
+            </option>
+          ))}
+
         </select>
 
       </div>
@@ -119,10 +117,10 @@ function FilterBar({
 
       <button
         type="button"
-        className="clear-filter"
+        className="filter-reset"
         onClick={clearFilters}
       >
-        Clear Filters
+        Reset
       </button>
 
     </div>

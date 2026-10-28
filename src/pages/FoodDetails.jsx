@@ -5,171 +5,158 @@ import foods from "../data/food";
 function FoodDetails() {
   const { id } = useParams();
 
-  const food = foods.find(
-    (item) => item.id === Number(id)
-  );
-
+  const food = foods.find((item) => item.id === Number(id));
 
   if (!food) {
     return (
       <div className="not-found">
+        <span className="eyebrow">404</span>
 
-        <h1>
-          Food not found
-        </h1>
+        <h1>Food not found.</h1>
 
-        <Link to="/archive">
-          ← Back to Archive
+        <Link to="/archive" className="button-primary">
+          Back to archive
         </Link>
-
       </div>
     );
   }
 
-
   return (
-    <article className="food-details">
-
-      <Link
-        to="/archive"
-        className="back-link"
-      >
-        ← Back to Archive
+    <div className="details-page">
+      <Link to="/archive" className="details-back">
+        ← Back to archive
       </Link>
 
+      <section className="details-hero">
+        <div className="details-photo reveal-3d">
+          <img
+            src={food.image}
+            alt={food.name}
+            onError={(event) => {
+              event.currentTarget.src = "/images/puran-poli.jpg";
+            }}
+          />
 
-      <div className="details-hero">
-
-        <img
-          src={food.image}
-          alt={food.name}
-        />
-
-
-        <div className="details-intro">
-
-          <div className="food-meta">
-
-            <span>
-              {food.category}
-            </span>
-
-            <span>
-              {food.region}
-            </span>
-
-          </div>
-
-
-          <h1>
-            {food.name}
-          </h1>
-
-
-          <p>
-            {food.shortDescription}
-          </p>
-
-
-          <div className="location">
-            📍 {food.location}
-          </div>
-
+          <span>{food.region}</span>
         </div>
 
-      </div>
+        <div className="details-intro reveal-3d">
+          <span className="eyebrow">{food.category}</span>
 
+          <h1>{food.name}</h1>
 
-      <div className="details-content">
+          <p>{food.shortDescription}</p>
 
-        <section>
+          <div className="details-meta">
+            <span style={{ fontSize: "10px" }}>{food.location}</span>
 
-          <span className="section-label">
-            ABOUT THE FOOD
-          </span>
+            <span style={{ fontSize: "10px" }}>{food.period}</span>
+          </div>
+        </div>
+      </section>
 
-          <h2>
-            Its story
-          </h2>
+      <section className="details-content">
+        {/* STORY */}
+
+        <section className="details-story reveal-3d">
+          <span className="eyebrow">THE STORY</span>
+
+          <h2>More than a recipe.</h2>
+
+          <p>{food.description}</p>
+        </section>
+
+        {/* INGREDIENTS */}
+
+        <section className="ingredients-section reveal-3d">
+          <span className="eyebrow">INGREDIENTS</span>
+
+          <div className="ingredients-list">
+            {food.ingredients.map((ingredient, index) => (
+              <div key={ingredient} className="ingredient">
+                <span style={{ fontSize: "20px" }}>
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+
+                <strong>{ingredient}</strong>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* ORAL HISTORY */}
+
+        <section className="memory-block reveal-3d">
+          <span className="memory-mark">“</span>
+
+          <span className="eyebrow light">ORAL HISTORY</span>
+
+          <h2>Memories of {food.person}</h2>
+
+          <blockquote>{food.oralHistory}</blockquote>
+
+          <span className="memory-person">— {food.person}</span>
+        </section>
+
+        {/* SOURCES */}
+
+        <section className="details-sources reveal-3d">
+          <span className="eyebrow">SOURCES & REFERENCES</span>
+
+          <h2>Where this story comes from.</h2>
 
           <p>
-            {food.description}
+            Research, interviews and references used for this archive entry.
           </p>
 
+          <div className="source-list-details">
+            {food.sources.map((source, index) => {
+              if (source.url) {
+                return (
+                  <a
+                    key={index}
+                    href={source.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="detail-source"
+                  >
+                    <span style={{ fontSize: "20px" }}>
+                      {String(index + 1).padStart(2, "0")}
+                    </span>
+
+                    <strong>{source.name}</strong>
+
+                    <span>↗</span>
+                  </a>
+                );
+              }
+
+              return (
+                <div key={index} className="detail-source">
+                  <span>{String(index + 1).padStart(2, "0")}</span>
+
+                  <strong>{source.name}</strong>
+
+                  <span>—</span>
+                </div>
+              );
+            })}
+          </div>
         </section>
 
-
-        <section>
-
-          <span className="section-label">
-            INGREDIENTS
-          </span>
-
-          <h2>
-            Traditional ingredients
-          </h2>
-
-
-          <ul className="ingredients-list">
-
-            {food.ingredients.map(
-              (ingredient, index) => (
-                <li key={index}>
-                  {ingredient}
-                </li>
-              )
-            )}
-
-          </ul>
-
-        </section>
-
-
-        <section className="oral-history">
-
-          <span className="section-label">
-            ORAL HISTORY
-          </span>
-
-          <h2>
-            A memory from the community
-          </h2>
-
-
-          <blockquote>
-            “{food.oralHistory}”
-          </blockquote>
-
-
-          <p className="storyteller">
-            — {food.storyteller}
-          </p>
-
-        </section>
-
-
-        <section>
-
-          <span className="section-label">
-            TAGS
-          </span>
-
+        {/* TAGS */}
+        {/* 
+        <section className="tags-section reveal-3d">
+          <span className="eyebrow">KEYWORDS</span>
 
           <div className="tags">
-
             {food.tags.map((tag) => (
-              <span key={tag}>
-                #{tag}
-              </span>
+              <span key={tag}>#{tag}</span>
             ))}
-
           </div>
-
-        </section>
-
-      </div>
-
-    </article>
+        </section> */}
+      </section>
+    </div>
   );
 }
 

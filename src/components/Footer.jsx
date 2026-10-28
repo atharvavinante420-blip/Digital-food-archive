@@ -1,39 +1,88 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <footer className="footer">
 
-      <div className="footer-container">
+      <div className="footer-main">
 
-        <div>
-          <h3>🍲 Digital Food Archive</h3>
+        <div className="footer-brand">
+
+          <Link
+            to="/"
+            className="footer-logo"
+          >
+            Food
+            <em>Archive</em>
+          </Link>
 
           <p>
-            Preserving food traditions, memories,
-            photographs and oral histories for
-            future generations.
+            Preserving food traditions,
+            personal memories and cultural
+            stories for future generations.
           </p>
+
         </div>
 
-        <div>
-          <h4>Explore</h4>
 
-          <p>Food Archive</p>
-          <p>Oral Histories</p>
-          <p>Photographs</p>
+        <div className="footer-column">
+
+          <span>
+            EXPLORE
+          </span>
+
+          <Link to="/">
+            Home
+          </Link>
+
+          <Link to="/archive">
+            Archive
+          </Link>
+
+          <Link to="/oral-histories">
+            Oral Histories
+          </Link>
+
+          <Link to="/about">
+            About
+          </Link>
+
         </div>
 
-        <div>
-          <h4>Project</h4>
 
-          <p>About the Archive</p>
-          <p>Preserving Heritage</p>
-          <p>Community Stories</p>
+        <div className="footer-column">
+
+          <span>
+            PROJECT
+          </span>
+
+          <p>
+            Digital Food Archive
+          </p>
+
+          <p>
+            India · 2026
+          </p>
+
+          <p>
+            Built with React
+          </p>
+
         </div>
 
       </div>
 
-      <div className="copyright">
-        © 2026 Digital Food Archive
+
+      <div className="footer-bottom">
+
+        <span>
+          © 2026 Digital Food Archive
+        </span>
+
+        <span>
+          Stories preserved through technology.
+        </span>
+
       </div>
 
     </footer>

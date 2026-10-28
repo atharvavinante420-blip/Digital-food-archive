@@ -1,98 +1,454 @@
+import {
+  Link,
+} from "react-router-dom";
+
 import foods from "../data/food";
 
 function About() {
+  const creators = [
+    {
+      name: "venky the goat",
+      role: "Research & Development",
+      initials: "YN",
+    },
+    {
+      name: "CREATOR 2",
+      role: "Design & Documentation",
+      initials: "C2",
+    },
+    {
+      name: "CREATOR 3",
+      role: "Development",
+      initials: "C3",
+    },
+  ];
+
+
+  const regionCount =
+    new Set(
+      foods.map(
+        (food) => food.region
+      )
+    ).size;
+
+
   return (
     <div className="about-page">
 
-      <section className="page-header">
+      {/* ABOUT HERO */}
 
-        <span className="section-label">
-          ABOUT THE PROJECT
-        </span>
+      <section className="about-hero">
 
-        <h1>
-          Preserving food memories
-        </h1>
+        <div className="reveal-3d">
 
-        <p>
-          The Digital Food Archive is an
-          online collection of food traditions,
-          photographs and oral histories.
-        </p>
+          <span className="eyebrow">
+            ABOUT THE PROJECT
+          </span>
+
+          <h1>
+            Preserving
+            <br />
+            <em>food memories.</em>
+          </h1>
+
+        </div>
+
+
+        <div className="about-hero-description reveal-3d">
+
+          <p>
+            Digital Food Archive is an
+            exploration of food as cultural
+            memory — documenting dishes,
+            people, places and stories that
+            connect generations.
+          </p>
+
+          <Link
+            to="/archive"
+            className="about-link"
+          >
+            Explore the collection →
+          </Link>
+
+        </div>
 
       </section>
 
 
-      <section className="about-content">
+      {/* LARGE STATEMENT */}
 
-        <div>
+      <section className="about-statement">
 
-          <span className="section-label">
-            WHY THIS ARCHIVE?
+        <span className="about-number reveal-3d">
+          01
+        </span>
+
+        <div className="reveal-3d">
+
+          <span className="eyebrow">
+            OUR PURPOSE
           </span>
 
           <h2>
-            Food connects generations.
+            A dish can be a recipe.
+            <br />
+            It can also be a memory.
           </h2>
 
-
           <p>
-            Traditional foods are an important
-            part of cultural heritage. Recipes,
-            preparation methods and memories
-            are often passed from one generation
-            to another through families and
-            communities.
+            Food traditions are often passed
+            through conversation, family
+            practice and shared experience.
+            Our goal is to give those stories a
+            digital space where they can be
+            discovered and preserved.
           </p>
 
+        </div>
+
+      </section>
+
+
+{/* STATS */}
+
+<section className="about-stats">
+
+  <div className="about-stat reveal-3d">
+
+    <div className="stat-top">
+      <span>
+        ARCHIVE / 01
+      </span>
+
+      <span>
+        ↗
+      </span>
+    </div>
+
+
+    <div className="stat-number-wrap">
+
+      <strong>
+        {foods.length}
+      </strong>
+
+      <span className="stat-symbol">
+        +
+      </span>
+
+    </div>
+
+
+    <div className="stat-bottom">
+
+      <span>
+        DOCUMENTED
+      </span>
+
+      <h3>
+        Food Stories
+      </h3>
+
+      <p>
+        Traditional dishes,
+        memories and cultural
+        records.
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <div className="about-stat reveal-3d">
+
+    <div className="stat-top">
+      <span>
+        ARCHIVE / 02
+      </span>
+
+      <span>
+        ◉
+      </span>
+    </div>
+
+
+    <div className="stat-number-wrap">
+
+      <strong>
+        {regionCount}
+      </strong>
+
+      <span className="stat-symbol">
+        ×
+      </span>
+
+    </div>
+
+
+    <div className="stat-bottom">
+
+      <span>
+        COVERAGE
+      </span>
+
+      <h3>
+        Regions
+      </h3>
+
+      <p>
+        Places and communities
+        connected through food.
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <div className="about-stat reveal-3d">
+
+    <div className="stat-top">
+      <span>
+        ARCHIVE / 03
+      </span>
+
+      <span>
+        ●
+      </span>
+    </div>
+
+
+    <div className="stat-number-wrap">
+
+      <strong>
+        {foods.length}
+      </strong>
+
+      <span className="stat-symbol">
+        ◌
+      </span>
+
+    </div>
+
+
+    <div className="stat-bottom">
+
+      <span>
+        VOICES
+      </span>
+
+      <h3>
+        Oral Histories
+      </h3>
+
+      <p>
+        Personal memories passed
+        between generations.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+      {/* METHODOLOGY */}
+
+      <section className="about-method">
+
+        <div className="method-heading reveal-3d">
+
+          <span className="eyebrow">
+            OUR APPROACH
+          </span>
+
+          <h2>
+            Document.
+            <br />
+            Understand.
+            <br />
+            Preserve.
+          </h2>
+
+        </div>
+
+
+        <div className="method-list">
+
+          <div className="method-item reveal-3d">
+
+            <span>
+              01
+            </span>
+
+            <div>
+
+              <h3>
+                Document
+              </h3>
+
+              <p>
+                Gather food stories,
+                locations, ingredients,
+                memories, photographs
+                and community voices.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div className="method-item reveal-3d">
+
+            <span>
+              02
+            </span>
+
+            <div>
+
+              <h3>
+                Understand
+              </h3>
+
+              <p>
+                Connect each food with
+                the people, regions and
+                traditions that give it
+                meaning.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div className="method-item reveal-3d">
+
+            <span>
+              03
+            </span>
+
+            <div>
+
+              <h3>
+                Preserve
+              </h3>
+
+              <p>
+                Create a searchable digital
+                archive that keeps these
+                stories accessible for
+                future generations.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      {/* CREATORS */}
+
+      <section className="creators">
+
+        <div className="creators-heading reveal-3d">
+
+          <span className="eyebrow">
+            THE PEOPLE BEHIND IT
+          </span>
+
+          <h2>
+            Made by people
+            <br />
+            <em>who care about stories.</em>
+          </h2>
 
           <p>
-            This archive provides a digital
-            space where these stories can be
-            collected, explored and preserved.
+            Replace the placeholder names below
+            with the actual creators of your website.
           </p>
 
         </div>
 
 
-        <div className="about-stats">
+        <div className="creator-list">
 
-          <div>
-            <strong>
-              {foods.length}
-            </strong>
+          {creators.map(
+            (creator, index) => (
 
-            <span>
-              Foods
-            </span>
-          </div>
+              <div
+                key={creator.name}
+                className="creator reveal-3d"
+              >
 
-
-          <div>
-            <strong>
-              {new Set(
-                foods.map(
-                  (food) =>
-                    food.storyteller
-                )
-              ).size}
-            </strong>
-
-            <span>
-              Storytellers
-            </span>
-          </div>
+                <span className="creator-number">
+                  {String(
+                    index + 1
+                  ).padStart(2, "0")}
+                </span>
 
 
-          <div>
-            <strong>
-              {foods.length}
-            </strong>
+                <div className="creator-avatar">
+                  {creator.initials}
+                </div>
 
-            <span>
-              Oral Histories
-            </span>
-          </div>
+
+                <div className="creator-details">
+
+                  <h3>
+                    {creator.name}
+                  </h3>
+
+                  <p>
+                    {creator.role}
+                  </p>
+
+                </div>
+
+
+                <span className="creator-arrow">
+                  ↗
+                </span>
+
+              </div>
+
+            )
+          )}
+
+        </div>
+
+      </section>
+
+
+      {/* FINAL CTA */}
+
+      <section className="about-final">
+
+        <div className="reveal-3d">
+
+          <span className="eyebrow light">
+            ENTER THE ARCHIVE
+          </span>
+
+          <h2>
+            Start with
+            <br />
+            <em>one story.</em>
+          </h2>
+
+          <Link
+            to="/archive"
+            className="button-light"
+          >
+            Explore food stories →
+          </Link>
 
         </div>
 

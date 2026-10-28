@@ -1,5 +1,12 @@
-import { useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import {
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
+
+import {
+  useSearchParams,
+} from "react-router-dom";
 
 import foods from "../data/food";
 
@@ -7,120 +14,246 @@ import SearchBar from "../components/SearchBar";
 import FilterBar from "../components/FilterBar";
 import FoodCard from "../components/FoodCard";
 
-function Archive({
-  favorites,
-  toggleFavorite
-}) {
-  const [searchParams] =
-    useSearchParams();
+function Archive() {
+  const [
+    searchParams,
+    setSearchParams,
+  ] = useSearchParams();
 
-  const initialRegion =
-    searchParams.get("region") || "";
 
-  const [search, setSearch] =
-    useState("");
+  const [
+    search,
+    setSearch,
+  ] = useState("");
 
-  const [category, setCategory] =
-    useState("");
 
-  const [region, setRegion] =
-    useState(initialRegion);
+  const [
+    category,
+    setCategory,
+  ] = useState("");
 
-  const [period, setPeriod] =
-    useState("");
+
+  const [
+    region,
+    setRegion,
+  ] = useState(
+    searchParams.get("region") || ""
+  );
+
+
+  const [
+    period,
+    setPeriod,
+  ] = useState("");
+
+
+  // Keep URL region synchronized
+  useEffect(() => {
+    const urlRegion =
+      searchParams.get("region") || "";
+
+    setRegion(urlRegion);
+  }, [searchParams]);
+
+
+  // Dynamic filter options
+  const categories = useMemo(
+    () =>
+      [
+        ...new Set(
+          foods.map(
+            (food) => food.category
+          )
+        ),
+      ].sort(),
+    []
+  );
+
+
+  const regions = useMemo(
+    () =>
+      [
+        ...new Set(
+          foods.map(
+            (food) => food.region
+          )
+        ),
+      ].sort(),
+    []
+  );
+
+
+  const periods = useMemo(
+    () =>
+      [
+        ...new Set(
+          foods.map(
+            (food) => food.period
+          )
+        ),
+      ].sort(),
+    []
+  );
+
+
+  /*
+    IMPORTANT:
+    Always filter from ORIGINAL foods.
+    Never filter the previous filtered result.
+  */
+
+  const filteredFoods = useMemo(() => {
+
+    const query =
+      search.trim().toLowerCase();
+
+
+    return foods.filter(
+      (food) => {
+
+        const matchesSearch =
+          query === "" ||
+          food.name
+            .toLowerCase()
+            .includes(query) ||
+
+          food.person
+            .toLowerCase()
+            .includes(query) ||
+
+          food.region
+            .toLowerCase()
+            .includes(query) ||
+
+          food.category
+            .toLowerCase()
+            .includes(query) ||
+
+          food.shortDescription
+            .toLowerCase()
+            .includes(query) ||
+
+          food.oralHistory
+            .toLowerCase()
+            .includes(query) ||
+
+          food.tags.some((tag) =>
+            tag
+              .toLowerCase()
+              .includes(query)
+          );
+
+
+        const matchesCategory =
+          category === "" ||
+          food.category === category;
+
+
+        const matchesRegion =
+          region === "" ||
+          food.region === region;
+
+
+        const matchesPeriod =
+          period === "" ||
+          food.period === period;
+
+
+        return (
+          matchesSearch &&
+          matchesCategory &&
+          matchesRegion &&
+          matchesPeriod
+        );
+      }
+    );
+
+  }, [
+    search,
+    category,
+    region,
+    period,
+  ]);
+
+
+  const handleRegionChange =
+    (value) => {
+
+      setRegion(value);
+
+      if (value) {
+        setSearchParams({
+          region: value,
+        });
+      } else {
+        setSearchParams({});
+      }
+    };
 
 
   const clearFilters = () => {
+
     setSearch("");
+
     setCategory("");
+
     setRegion("");
+
     setPeriod("");
+
+    setSearchParams({});
   };
-
-
-  const filteredFoods = foods.filter(
-    (food) => {
-
-      const searchText =
-        search.toLowerCase().trim();
-
-
-      const matchesSearch =
-        food.name
-          .toLowerCase()
-          .includes(searchText) ||
-
-        food.region
-          .toLowerCase()
-          .includes(searchText) ||
-
-        food.category
-          .toLowerCase()
-          .includes(searchText) ||
-
-        food.storyteller
-          .toLowerCase()
-          .includes(searchText) ||
-
-        food.oralHistory
-          .toLowerCase()
-          .includes(searchText) ||
-
-        food.tags.some((tag) =>
-          tag
-            .toLowerCase()
-            .includes(searchText)
-        );
-
-
-      const matchesCategory =
-        !category ||
-        food.category === category;
-
-
-      const matchesRegion =
-        !region ||
-        food.region === region;
-
-
-      const matchesPeriod =
-        !period ||
-        food.period === period;
-
-
-      return (
-        matchesSearch &&
-        matchesCategory &&
-        matchesRegion &&
-        matchesPeriod
-      );
-    }
-  );
 
 
   return (
     <div className="archive-page">
 
-      <section className="page-header">
+      {/* HEADER */}
 
-        <span className="section-label">
-          DIGITAL ARCHIVE
-        </span>
+      <section className="archive-hero">
 
-        <h1>
-          Explore the Food Archive
-        </h1>
+        <div className="archive-heading reveal-3d">
 
-        <p>
-          Discover traditional foods,
-          photographs and stories from
-          different regions.
-        </p>
+          <span className="eyebrow">
+            COLLECTION / 2026
+          </span>
+
+          <h1>
+            The
+            <br />
+            <em>Archive.</em>
+          </h1>
+
+          <p>
+            Search, filter and explore
+            food traditions, voices and
+            memories preserved across
+            generations.
+          </p>
+
+        </div>
+
+
+        <div className="archive-total reveal-3d">
+
+          <strong>
+            {filteredFoods.length}
+          </strong>
+
+          <span>
+            DOCUMENTED
+            <br />
+            ENTRIES
+          </span>
+
+        </div>
 
       </section>
 
 
-      <section className="archive-controls">
+      {/* SEARCH + FILTER */}
+
+      <section className="archive-controls reveal-3d">
 
         <SearchBar
           value={search}
@@ -129,101 +262,97 @@ function Archive({
 
         <FilterBar
           category={category}
-          region={region}
-          period={period}
           setCategory={setCategory}
-          setRegion={setRegion}
+          region={region}
+          setRegion={handleRegionChange}
+          period={period}
           setPeriod={setPeriod}
+          categories={categories}
+          regions={regions}
+          periods={periods}
           clearFilters={clearFilters}
         />
 
       </section>
 
 
-      <section className="archive-results">
+      {/* RESULTS */}
 
-        <div className="results-header">
+      <div className="archive-result-bar">
 
-          <h2>
-            {filteredFoods.length}{" "}
-
-            {filteredFoods.length === 1
-              ? "food"
-              : "foods"}{" "}
-            found
-          </h2>
+        <span>
+          {filteredFoods.length}{" "}
+          {filteredFoods.length === 1
+            ? "entry"
+            : "entries"}
+        </span>
 
 
-          {(search ||
-            category ||
-            region ||
-            period) && (
-            <button
-              type="button"
-              onClick={clearFilters}
-            >
-              Reset all
-            </button>
+        {(search ||
+          category ||
+          region ||
+          period) && (
+
+          <button
+            type="button"
+            onClick={clearFilters}
+          >
+            Clear all filters ×
+          </button>
+
+        )}
+
+      </div>
+
+
+      {/* FOOD CARDS */}
+
+      {filteredFoods.length > 0 ? (
+
+        <div className="archive-grid">
+
+          {filteredFoods.map(
+            (food, index) => (
+
+              <FoodCard
+                key={food.id}
+                food={food}
+                index={index + 1}
+              />
+
+            )
           )}
 
         </div>
 
+      ) : (
 
-        {filteredFoods.length > 0 ? (
+        <div className="empty-results">
 
-          <div className="food-grid">
+          <span>
+            00
+          </span>
 
-            {filteredFoods.map(
-              (food) => (
+          <h2>
+            Nothing found.
+          </h2>
 
-                <FoodCard
-                  key={food.id}
-                  food={food}
-                  isFavorite={
-                    favorites.includes(
-                      food.id
-                    )
-                  }
-                  toggleFavorite={
-                    toggleFavorite
-                  }
-                />
+          <p>
+            Try another search or reset
+            your filters.
+          </p>
 
-              )
-            )}
+          <button
+            type="button"
+            className="button-primary"
+            onClick={clearFilters}
+          >
+            Reset archive
+          </button>
 
-          </div>
+        </div>
 
-        ) : (
-
-          <div className="no-results">
-
-            <div>
-              🔎
-            </div>
-
-            <h2>
-              No foods found
-            </h2>
-
-            <p>
-              Try changing your search
-              or filters.
-            </p>
-
-            <button
-              type="button"
-              className="primary-button"
-              onClick={clearFilters}
-            >
-              Clear Filters
-            </button>
-
-          </div>
-
-        )}
-
-      </section>
+      )}
 
     </div>
   );

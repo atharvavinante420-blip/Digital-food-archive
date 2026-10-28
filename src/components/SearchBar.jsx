@@ -1,27 +1,33 @@
-function SearchBar({ value, onChange }) {
+function SearchBar({
+  value,
+  onChange,
+}) {
   return (
-    <div className="search-container">
+    <div className="search-box">
 
-      <span className="search-icon">
-        🔎
+      <span className="search-symbol">
+        ⌕
       </span>
 
       <input
         type="text"
         value={value}
         onChange={(event) =>
-          onChange(event.target.value)
+          onChange(
+            event.target.value
+          )
         }
-        placeholder="Search foods, regions, stories..."
+        placeholder="Search food, storyteller, region or story..."
+        aria-label="Search the food archive"
       />
 
       {value && (
         <button
           type="button"
-          onClick={() => onChange("")}
           className="search-clear"
+          onClick={() => onChange("")}
         >
-          ✕
+          ×
         </button>
       )}
 
