@@ -2,7 +2,7 @@ const foods = [
 {
   id: 1,
   name: "Dhokla",
-  person: "Gujarati culinary tradition",
+  person: "Pinky Jhaveri",
   category: "Snack / Farsan",
   region: "Gujarat",
   location: "Gujarat, India",
@@ -64,29 +64,7 @@ const foods = [
     "Oil"
   ],
 
-  oralHistory: [
-    "For many Gujarati families, dhokla is remembered as part of the everyday rhythm of home cooking rather than as an occasional special dish. The preparation of batter, waiting for fermentation and steaming the final mixture could become a familiar kitchen routine. Older family members often developed an intuitive understanding of when the batter was ready simply by looking at its texture and smelling it.",
-
-    "The preparation of fermented dhokla required planning. A family might soak rice and dal in advance, grind them and leave the batter to ferment before breakfast or the next day's meal. This meant that traditional cooking was connected to anticipation and routine. The batter prepared one day could become the soft steamed snack eaten the following day.",
-
-    "Many people remember the sound and smell of the tempering being poured over freshly steamed dhokla. Mustard seeds crackling in hot oil, curry leaves and green chillies releasing their aroma, and the final pieces absorbing the seasoning are small sensory details that become part of household food memories.",
-
-    "Household recipes often differ in small but meaningful ways. One family may prefer a more sour dhokla, another may add extra sugar to the tempering, while another may prefer more green chilli and coriander. Some families like softer pieces, while others prefer a slightly firmer texture. These preferences are usually learned informally through repeated meals rather than from written recipes.",
-
-    "Dhokla is also strongly connected with Gujarati farsan shops. For many people, memories of visiting a local farsan shop include seeing trays of yellow and white steamed snacks arranged behind glass counters. Buying fresh dhokla for breakfast, guests or an evening snack became part of ordinary urban life in Gujarat.",
-
-    "In Gujarati households, food preparation is often closely connected with hospitality. Dhokla can be prepared in quantity and cut into many small pieces, making it convenient when guests arrive. A plate of dhokla accompanied by chutney and other farsan can become part of a larger spread offered to visitors.",
-
-    "Festivals and family gatherings create another layer of memory. Dhokla may appear alongside other Gujarati snacks and sweets during celebrations, religious occasions and community events. Its soft texture and easy serving style make it practical for larger groups, where food has to be prepared and distributed efficiently.",
-
-    "Migration has carried these memories far beyond Gujarat. Gujarati families living in Mumbai, Delhi, other Indian cities and overseas communities often continue preparing dhokla at home or buying it from Gujarati food shops. For people living away from Gujarat, the taste of freshly steamed dhokla can become a connection to family kitchens and regional identity.",
-
-    "Younger generations have also encountered dhokla in a different way. Instead of learning only the traditional fermented method, many have grown up with instant mixes and restaurant versions. This creates an interesting contrast between the older memory of preparing batter overnight and the modern expectation that dhokla can be prepared quickly whenever it is wanted.",
-
-    "The distinction between dhokla and khaman is itself part of Gujarati food memory. Outside Gujarat, people often use the two names interchangeably, while Gujarati food traditions recognize differences in ingredients, fermentation and texture. For someone raised with these foods, knowing which one is being served can be an ordinary part of food culture.",
-
-    "The oral history of dhokla therefore lives in everyday experiences: a grandmother checking fermented batter, a mother preparing the tempering, children waiting for the first steamed batch, a family buying farsan from a neighbourhood shop, or relatives preparing large quantities for guests. These repeated moments have allowed dhokla to remain a living part of Gujarati culinary identity rather than simply a historical recipe."
-  ],
+  oralHistory: "I remember these. We call them Tipela Dhokla or patted dhokla. Sadly, we do not make them anymore, but the Tipela Dhokla was a once-a-year occurrence in our family. My Dadi would make them after she and my mother hand-milled mung beans for our joint family of 15 members. The recipe used the small broken pieces of mung beans that were left after separating the whole beans and dal. As children, we never really relished them, but now that I understand and appreciate the philosophy behind such ingenious recipes, I have a fondness and respect for these traditional food practices.",
 
   tags: [
     "dhokla",
@@ -143,7 +121,7 @@ const foods = [
 
   name: "Dal Baati Churma",
 
-  person: "Rajasthani household tradition",
+  person: "Surabhi Bhandari",
 
   category: "Main Course",
 
@@ -184,7 +162,7 @@ const foods = [
   ],
 
   oralHistory:
-    "For many Rajasthani families, Dal Baati Churma is remembered not simply as a recipe but as a meal associated with weddings, festivals, guests and large family gatherings. The preparation and serving of baati, the generous use of ghee and the final serving of sweet churma can become part of memories passed from grandparents and parents to younger generations. In oral-history interviews, people may remember who prepared the baati, how it was baked, how much ghee was used and which occasions brought the entire family together around the meal.",
+    "I remember calling my mother-in-law for every small thing when I first made dal baati for a group of ten people. I had to ask her how much dal to soak, how much flour to knead and how much water to add. Even after all that, I made far too little and had to prepare another batch while the guests were still at home. That experience taught me how to judge the quantities when cooking dal baati for a large group.",
 
   tags: [
     "Rajasthan",
@@ -226,7 +204,7 @@ const foods = [
 
   name: "Masala Dosa",
 
-  person: "Udupi culinary tradition",
+  person: "Geo Joseph",
 
   category: "Breakfast / Tiffin",
 
@@ -296,27 +274,7 @@ const foods = [
     "Sambar"
   ],
 
-  oralHistory: [
-    "Masala dosa is strongly connected with the everyday tiffin culture of Karnataka rather than being remembered only as a festival or ceremonial food. In Udupi and other parts of coastal Karnataka, dosa became part of the food served in small vegetarian hotels and tiffin establishments, where people could eat a hot meal quickly and at relatively low cost.",
-
-    "The Udupi hotel became an important part of the cultural memory surrounding the dish. As restaurant families and cooks from Udupi and neighbouring areas moved to larger cities, they carried with them a recognizable style of vegetarian cooking. For many people outside coastal Karnataka, an 'Udupi hotel' therefore became associated with familiar foods such as masala dosa, idli, vada, sambar and coconut chutney.",
-
-    "The dish is also remembered through the experience of watching it being prepared. In traditional restaurants, the batter is spread directly onto a hot tawa in a circular motion, allowed to become crisp, and then filled with potato palya. The sound of the batter hitting the hot surface, the aroma of ghee or oil and the sight of the dosa being folded are all part of the everyday restaurant experience associated with masala dosa.",
-
-    "In many families, dosa is remembered as a food that requires preparation in advance because the batter needs time to ferment. Preparing dosa at home therefore involves a sequence that is passed between generations: soaking the ingredients, grinding the batter, allowing it to ferment and then learning how to spread it correctly on the tawa. The technique can vary considerably between households.",
-
-    "The texture of the dosa is often part of personal and regional preference. Some people remember very thin and crisp dosas, while others prefer a slightly thicker dosa with a softer centre. The amount of oil or ghee used, the heat of the tawa and the consistency of the batter all influence this texture, which is why the same basic dish can taste noticeably different in different homes and restaurants.",
-
-    "The potato filling also carries regional and household variation. Some traditional versions emphasize potatoes, mustard seeds, curry leaves and turmeric without onion or garlic, reflecting particular vegetarian and sattvik culinary practices. Other restaurant and home versions include onion, ginger or additional spices. These differences show how the dish has adapted while retaining its basic identity.",
-
-    "For people in Karnataka, the dish can also be connected with regional food memories. Mysuru masala dosa, for example, is remembered for its spicy red chutney or paste spread inside the dosa. This distinction allows people to identify a dosa not simply by its name but by the city and style with which they associate it.",
-
-    "The spread of Udupi restaurants created another layer of food memory. A dish that was closely associated with a particular region became something that people could encounter in Bengaluru, Mumbai, Chennai, Delhi and many other cities. The restaurant itself became part of the experience, allowing regional Karnataka food traditions to become part of urban everyday life elsewhere.",
-
-    "Masala dosa is therefore remembered not only as a recipe but also as a social food. It has been eaten during ordinary breakfasts, quick tiffin breaks, family outings and restaurant visits. Its importance comes partly from this familiarity: it became a dish that could be eaten regularly rather than reserved for a particular ceremony.",
-
-    "The dish has continued to change as it has travelled. Restaurants have experimented with different fillings, levels of crispness, amounts of butter or ghee and additional chutneys. At the same time, traditional versions continue to be served. This combination of continuity and adaptation is an important part of the living food tradition surrounding masala dosa."
-  ],
+  oralHistory: "My best food memories come with masala dosa. As a child, the cooking style and presentation of masala dosa and ghee roast always tempted me. In Kerala, the tall, crispy, cone-shaped dosa was thrilling to see, and its aroma could never be forgotten. I still remember the taste of the potato filling inside the dosa, especially when it was paired with coconut chutney and hot sambar.",
 
   tags: [
     "masala dosa",
@@ -377,7 +335,7 @@ const foods = [
 
   name: "Vada Pav",
 
-  person: "Ashok Vaidya",
+  person: "Shweta Tripathi Sharma",
 
   category: "Street Food / Snack",
 
@@ -454,35 +412,7 @@ const foods = [
     "Fried green chilli"
   ],
 
-  oralHistory: [
-    "Vada pav is remembered primarily as a food of Mumbai's streets rather than as a dish associated with formal dining. Its strongest memories are connected with roadside stalls, railway stations, crowded markets and small neighbourhood vendors where the snack could be bought quickly and eaten immediately.",
-
-    "For generations of Mumbai commuters, the railway station has been an important setting for eating vada pav. The snack fits naturally into the rhythm of commuting because it can be purchased within a short time, carried easily and eaten without a plate or elaborate serving arrangement.",
-
-    "Dadar has a particularly strong place in the remembered history of vada pav. The area around Dadar station is repeatedly identified in historical accounts with Ashok Vaidya and the early commercial sale of the snack. The continued memory of the Dadar connection has helped make the area part of the cultural story of Mumbai's vada pav.",
-
-    "The food is also remembered through the working-class history of the city. Textile-mill workers and other urban labourers needed filling food that could fit into short breaks and did not cost much. Vada pav's combination of potato, bread and fried batter provided substantial food in a form that could be consumed quickly.",
-
-    "The snack became more than a workers' meal as Mumbai changed. Students began buying it outside colleges, office workers picked it up during breaks, and commuters made it part of their daily journeys. In this way, a food originally associated strongly with working-class street life became an everyday snack for a much wider section of the city.",
-
-    "Many people remember vada pav according to the particular vendor or neighbourhood where they ate it. One vendor may be associated with a particularly spicy garlic chutney, another with a crispier vada, and another with a specific style of pav. These small differences create personal food memories that cannot be captured by a single standardized recipe.",
-
-    "The chutney is often one of the strongest parts of these memories. Maharashtrian-style dry garlic chutney, green chilli chutney and fresh fried green chillies can change the character of the same basic potato vada. Regular customers often develop preferences for the particular chutney combination used by their local vendor.",
-
-    "The fried green chilli served alongside vada pav is also part of its recognizable street-food experience. For some customers it is an essential accompaniment rather than an optional garnish. Its heat contrasts with the potato filling and bread and contributes to the characteristic experience of eating the snack from a street stall.",
-
-    "Vada pav is often remembered as food eaten while standing, walking or travelling rather than sitting at a dining table. This matters to its cultural identity because the snack was shaped by the pace of Mumbai itself. The railway station, workplace and street became part of the environment in which the food was consumed.",
-
-    "The dish also carries memories of affordability. For many older Mumbai residents, vada pav represented a snack that could be purchased regularly without spending much money. Even as prices and living costs changed, the idea of vada pav as an accessible everyday food remained an important part of its public identity.",
-
-    "Family memories of vada pav can also involve introducing younger generations to a particular neighbourhood stall. A parent or older relative may take a child to a familiar vendor and identify the stall by its chutney, preparation style or long-standing reputation. In this way, knowledge about favourite food vendors can be passed down alongside the food itself.",
-
-    "The spread of vada pav beyond Mumbai has produced new memories and adaptations. People who moved away from Maharashtra often looked for familiar versions of the snack in their new cities, while local vendors adapted the dish to the tastes of their customers. The result is a food that remains strongly associated with Mumbai while also becoming part of wider Indian street-food culture.",
-
-    "There are competing oral histories about how the dish was created. Some accounts strongly credit Ashok Vaidya, while other stories connect its development to earlier combinations of potato preparations and bread or to other vendors. These competing memories are themselves part of the history of the dish because they show that street-food traditions are often remembered through people, neighbourhoods and family stories rather than through a single official record.",
-
-    "Vada pav therefore works particularly well as an example of living food heritage. Its history is preserved not only in written sources but also through vendors who continue familiar preparation methods, customers who return to long-standing stalls, and families who remember particular places and flavours as part of their experience of Mumbai."
-  ],
+  oralHistory: "I used to work at a post-production studio before acting and when it would rain, I would go out and have masala chai with a vada pav and chilli. There is no fun without the chilli and I love spicy food. I would enjoy that so much as I’d get to disassociate from the hustle of the work. My mother-in-law cooks it for me whenever I crave it, and then the whole family gets together for it. During the lockdown, we once made tea and vada pav, and we sat on the terrace, looking at the ocean and eating it. I still have that picture and it just brings such good memories. There are such memories with vada pav as you make a picnic out of it. Also, it’s so reasonably priced, so it’s for all.",
 
   tags: [
     "vada pav",
@@ -549,7 +479,7 @@ const foods = [
 
   name: "Puran Poli",
 
-  person: "Maharashtrian household tradition",
+  person: "Tejaswi Prakash Wayangankar",
 
   category: "Festive Sweet / Flatbread",
 
@@ -617,37 +547,7 @@ const foods = [
     "Coconut (in some Konkan variations)"
   ],
 
-  oralHistory: [
-    "For many Maharashtrian families, puran poli is remembered less as an everyday sweet and more as a sign that an important festival or family occasion has arrived. The preparation itself can become part of the anticipation of Holi, Gudi Padwa, Ganesh Chaturthi and other celebrations.",
-
-    "One of the strongest household memories associated with puran poli is the preparation of the puran itself. The dal is cooked until soft, mixed with jaggery and slowly cooked until the mixture becomes thick. Traditionally, someone experienced in the kitchen would judge the consistency by touch and appearance rather than relying on an exact written measurement.",
-
-    "The skill of rolling puran poli is often remembered as something learned from older members of the family. The filling can easily break through the dough if the outer layer is too thin or if the puran is not at the right consistency. Because of this, making a good poli is often treated as a practical cooking skill developed through observation and repeated attempts.",
-
-    "In many households, preparing puran poli is a collective activity rather than a single-person task. One person may prepare the dal and puran, another may prepare the dough, and an experienced family member may take responsibility for rolling and cooking the polis. This makes the dish part of the social preparation of a festival rather than simply the final item on the plate.",
-
-    "The aroma of cooked jaggery, cardamom and nutmeg is closely connected with the sensory memory of the dish. The smell begins during preparation, when the puran is cooked and flavoured, and continues while the stuffed polis are roasted on the tawa. For families that prepare the dish only on special occasions, these smells can become strongly associated with particular festivals.",
-
-    "Ghee is another important part of the traditional eating experience. A hot puran poli is often served with ghee spread over its surface, allowing the ghee to melt into the warm bread. The combination of warm poli, sweet filling and ghee is one of the most commonly remembered ways of eating the dish.",
-
-    "The accompaniment can reveal where a family comes from. In parts of Maharashtra, especially around Pune, puran poli may be served with katachi amti, producing a deliberate contrast between sweet and spicy-tangy flavours. Elsewhere, families may prefer milk, ghee, basundi or aamras. These differences become part of regional and family food identity.",
-
-    "The dish is particularly connected with Gudi Padwa in Maharashtrian households. The festival marks the beginning of the traditional new year, and festive meals are prepared alongside household rituals and the raising of the Gudhi. Puran poli's presence on the table makes the dish part of the wider memory of the celebration rather than an isolated food item.",
-
-    "Holi provides another important setting for the food. In Maharashtra, families traditionally prepare puran poli around the festival, and the dish has become closely associated with the seasonal celebration. The connection with Holi also gives the preparation an agricultural dimension because the festival falls around an important seasonal transition.",
-
-    "The dish can also represent hospitality. During festivals, freshly prepared puran poli may be offered to visiting relatives and guests. Sharing the food becomes part of welcoming people into the household, and the effort required to prepare it communicates the importance of the occasion.",
-
-    "Different families often have strong opinions about what makes the 'right' puran poli. Some prefer a very thin outer layer with a large amount of filling, while others prefer a slightly thicker bread. Some use more jaggery, some emphasize cardamom, and some use nutmeg more prominently. These preferences are often inherited through family practice rather than written recipes.",
-
-    "Regional variations are also preserved through household memory. In parts of the Konkan, coconut may be included in the filling, while other regions maintain a simpler chana-dal and jaggery mixture. Such variations demonstrate that there is no single completely standardized puran poli tradition across Maharashtra.",
-
-    "The making of puran poli can also be remembered as a measure of cooking experience. Older family members may be recognized for their ability to roll the stuffed dough without tearing it, spread the filling evenly and cook several polis one after another. Younger members often learn by watching these techniques before eventually preparing the dish themselves.",
-
-    "Because the dish is strongly associated with special occasions, recipes are often transmitted through memory rather than exact written measurements. A family member may say to add ingredients until the puran reaches the correct consistency or until the dough feels soft enough to roll. This kind of practical knowledge is an important part of the oral tradition surrounding the dish.",
-
-    "Puran poli therefore survives as a living household tradition rather than simply as a historical recipe. Its cultural memory is carried through festival preparation, family teaching, regional serving styles, sensory memories and repeated participation in celebrations. Each generation can modify the recipe slightly while still recognizing the food as the same traditional puran poli."
-  ],
+  oralHistory: "Puran poli, being an authentic Maharashtrian dish, is made at my home every Diwali. We even give it as prasad during Laxmi Pooja. I love making them with mum. I cook it over the pan and mum makes the poli as I can never get it round in shape. We have it hot with ghee on top of it.",
 
   tags: [
     "puran poli",
@@ -709,7 +609,7 @@ const foods = [
  {
   id: 6,
   name: "Idli",
-  person: "South Indian culinary tradition",
+  person: "Nargis Mithani",
   category: "Breakfast / Tiffin",
   region: "South India",
   location: "Karnataka, Tamil Nadu & South India",
@@ -751,23 +651,7 @@ const foods = [
     "Fenugreek seeds (optional/traditional in some households)"
   ],
 
-  oralHistory: [
-    "For many South Indian families, idli is remembered less as a special dish and more as part of the rhythm of everyday life. The familiar routine of soaking rice and urad dal, grinding them, mixing the batter and leaving it overnight is often associated with the kitchen work of mothers and grandmothers. The next morning, the transformation of the batter into a soft, risen mixture becomes almost a small household ritual.",
-
-    "The sound and smell of idli preparation are part of these memories. Family members often remember the wet grinding of the batter, the slightly sour smell of properly fermented batter and the burst of steam when the idli plates are opened. For someone growing up with homemade idli, checking whether the batter has risen properly can become an intuitive skill learned simply by watching an older family member prepare it repeatedly.",
-
-    "The idea of a 'perfect idli' is also strongly connected with household memory. Some families prefer idlis that are extremely soft and fluffy, while others prefer a slightly denser texture. The amount of rice, urad dal and water, the grinding method and the length of fermentation may all be adjusted according to local climate and family preference. Experienced cooks often do not measure everything precisely; instead, they learn the correct consistency through years of practice.",
-
-    "In South Indian homes, idli is commonly associated with busy mornings because the batter can be prepared in advance and steamed quickly when required. This made it especially practical for families where breakfast had to be prepared before school, college or work. The same batter could also serve several people, making idli a convenient food for larger households.",
-
-    "For many people, the strongest memory of idli is connected to its accompaniments. One household may remember hot idlis with coconut chutney, another with a generous serving of sambar, while another may associate breakfast with podi mixed with oil or ghee. These combinations become part of family identity, and people often carry their preferred version with them even after moving to another city.",
-
-    "Idli also has a strong association with South Indian hotels and tiffin centres. A plate of steaming idlis served on a steel plate or banana leaf, surrounded by chutney and sambar, became a familiar sight in restaurants across Karnataka, Tamil Nadu and other parts of India. For students, workers and travellers, such meals could become regular landmarks of daily life rather than occasional restaurant experiences.",
-
-    "Regional traditions have created their own memories around idli. Temple-associated preparations such as Kanchipuram idli show that the basic steamed cake could become more elaborate through the addition of spices and ghee. Karnataka's rava idli tells another story of adaptation, demonstrating how cooks could respond to changing circumstances and ingredients while preserving the familiar idea of a steamed savoury cake.",
-
-    "The oral history of idli therefore exists in countless small memories rather than one single origin story: a grandmother checking fermented batter, a mother preparing breakfast before everyone leaves for the day, children waiting for the first batch from the steamer, a family arguing about whether chutney or sambar should accompany it, or a traveller remembering a particular South Indian hotel for its hot idlis. These everyday memories are what turned idli from an old culinary preparation into a living food tradition."
-  ],
+  oralHistory: "I’ve learnt to make South Indian dishes, and that’s come into my family culture. Most of the mornings we have idli, dosa, vada, that kind of thing, but it has not basically made any changes to my cooking style.",
 
   tags: [
     "idli",
@@ -825,7 +709,7 @@ const foods = [
 {
   id: 7,
   name: "Litti Chokha",
-  person: "Bihari culinary tradition",
+  person: "Kabita Singh",
   category: "Main Course / Regional Food",
   region: "Bihar & Bhojpuri Region",
   location: "Bihar, India",
@@ -880,25 +764,7 @@ const foods = [
     "Ghee"
   ],
 
-  oralHistory: [
-    "For many families from Bihar and the Bhojpuri region, Litti Chokha is remembered as a food connected with home, village life and shared meals. The preparation often involved several people working around the same cooking fire, preparing the sattu filling, shaping the littis and roasting vegetables for the chokha. Food was not simply prepared and served; the cooking itself could become part of family and community life.",
-
-    "The smell of litti roasting over a fire is one of the strongest sensory memories associated with the dish. As the wheat exterior cooks, the roasted aroma mixes with the smell of sattu and smoke. Older generations often remember litti being prepared over traditional fires rather than in modern ovens. The smoky flavour created by this method remains an important part of what many people consider an authentic litti experience.",
-
-    "Sattu itself carries strong memories in Bihari households. It is not limited to litti and appears in several everyday preparations, including drinks and stuffed breads. For many families, knowing how to season sattu properly is a practical kitchen skill passed from one generation to another. The balance of salt, mustard oil, lemon, onion, chilli and spices can vary significantly between households.",
-
-    "The preparation of chokha is equally tied to household habits. One family may prefer heavily roasted baingan with plenty of mustard oil, while another may prefer potato and tomato chokha. Some households keep the vegetables roughly mashed so that individual pieces remain noticeable, while others make a softer mixture. These small differences often become recognizable as the 'home taste' of a particular family.",
-
-    "Eating litti traditionally involves breaking the hot litti open and allowing ghee to soak into the roasted shell and sattu filling. The litti is then eaten together with chokha, often by hand. For people who grew up with the dish, this combination of hot litti, ghee, smoky vegetables and mustard oil is closely connected with comfort and familiarity rather than formal restaurant dining.",
-
-    "Litti is also associated with gatherings and occasions where food is prepared in larger quantities. Families and communities can make many littis together, particularly when relatives or guests are present. The round dough balls can be prepared beforehand while the fire and vegetables are arranged, making the dish well suited to communal cooking.",
-
-    "Migration has created another important layer in the oral history of Litti Chokha. People from Bihar who moved to Delhi, Mumbai, Kolkata, Hyderabad and other cities carried their food preferences with them. Eating litti outside Bihar could become a way of reconnecting with home, especially for students, workers and families living far from their native villages and towns.",
-
-    "For younger generations, the dish can represent a connection between traditional family food and modern urban identity. Litti Chokha is now found not only in village kitchens but also at restaurants, food festivals and city street stalls. This has allowed people who did not grow up eating it to discover the dish, while families from Bihar continue to debate which preparation tastes most like home.",
-
-    "The memories surrounding Litti Chokha therefore differ from family to family. Some remember village fires and winter gatherings, others remember their grandmother or mother preparing the sattu filling, while others associate the dish with relatives returning home from another city. These memories show how the identity of Litti Chokha has been preserved not only through recipes, but through repeated acts of cooking, eating and sharing."
-  ],
+  oralHistory: "Whenever I visited my village in Ballia (Eastern UP), we used to cook litti chokha in a group. Most family members participate in the preparation process of litti chokha. Recalling the moment when my family sits together and cooks this delicious food makes it memorable to me.",
 
   tags: [
     "litti-chokha",
@@ -956,7 +822,7 @@ const foods = [
 {
   id: 8,
   name: "Chole Bhature",
-  person: "Punjabi culinary tradition",
+  person: "Sadi Dehlvi",
   category: "Main Course / Street Food",
   region: "Punjab & North India",
   location: "Punjab, Delhi & North India",
@@ -1020,25 +886,7 @@ const foods = [
     "Fresh coriander"
   ],
 
-  oralHistory: [
-    "For many people in North India, Chole Bhature is remembered through the experience of eating it outside the home. A familiar neighbourhood shop with large steel plates, hot bhature coming directly from the fryer and a bowl of strongly spiced chole can become part of someone's everyday memory. The identity of the dish is often connected as much to a particular shop or locality as to the recipe itself.",
-
-    "Delhi has developed particularly strong food memories around Chole Bhature. Students remember discovering inexpensive shops near colleges, office workers remember quick weekend or lunch meals, and families often have their own preferred neighbourhood restaurant. People may disagree strongly about which shop serves the best version, especially when comparing the spice level of the chole, the size of the bhature or the amount of accompanying pickle and onion.",
-
-    "The sound and sight of bhature being fried are part of the experience. A piece of dough is lowered into hot oil and quickly begins to expand, often becoming dramatically larger than its original size. Customers waiting near the counter can watch several bhature being prepared in succession. Eating it immediately while it is still hot is a major part of the memory associated with the dish.",
-
-    "Family traditions also shape the way Chole Bhature is remembered. Some households prepare chole at home but rarely make bhature because deep-frying large breads requires more time and oil. As a result, the restaurant or street-side version can become something associated with weekends, celebrations or eating out rather than ordinary daily cooking.",
-
-    "The taste of chole varies so much between families that people often develop strong personal definitions of what 'real' chole should taste like. Some prefer a dark, tangy and strongly spiced preparation, while others prefer a thick tomato-based gravy. Some families add more amchur or anardana, while others rely on garam masala and chilli. These preferences are often passed down through repeated family meals rather than written recipes.",
-
-    "For Punjabi families who migrated after Partition, food could become an important way of maintaining cultural connections after leaving ancestral homes. Restaurants and home kitchens provided spaces where familiar flavours could be recreated in new cities. Chole Bhature became part of this broader culinary continuity, allowing dishes associated with Punjabi homes and neighbourhoods to survive and adapt in new environments.",
-
-    "Among younger generations, Chole Bhature is often associated with college life, friends and casual eating. It is the kind of food people commonly share after classes, during weekend outings or while exploring a city's famous food streets. These experiences create a newer layer of oral history in which the dish is connected with friendship and urban youth culture as much as with traditional Punjabi cooking.",
-
-    "The accompaniments are also remembered individually. Some people immediately associate Chole Bhature with raw onion and green chilli, others with a sharp pickle, and others with a particular chutney served by their favourite shop. These small details may seem insignificant, but they are exactly what distinguish one food memory from another.",
-
-    "The strongest oral histories of Chole Bhature therefore come from ordinary eating experiences: a Sunday family breakfast, a crowded Delhi food stall, a college-area restaurant, a Punjabi household recipe, or a favourite shop visited repeatedly over many years. These memories show how the dish became culturally important not through a single historical event, but through countless everyday meals shared across generations."
-  ],
+  oralHistory: "My son now wants Chole bhature for breakfast on a Sunday. People from Delhi are eating paneer pasanda, aloo zeera besides chole. Alas, what have we come to?",
 
   tags: [
     "chole-bhature",
@@ -1095,9 +943,9 @@ const foods = [
 },
 
 {
-  id: 10,
+  id: 9,
   name: "Momos",
-  person: "Tibetan and Himalayan culinary traditions",
+  person: "Kalsang Nyima",
   category: "Snack / Street Food",
   region: "Himalayan Region & North India",
   location: "Tibet, Nepal & Himalayan India",
@@ -1164,31 +1012,7 @@ const foods = [
     "Vinegar or lemon juice"
   ],
 
-  oralHistory: [
-    "For Tibetan and Himalayan families, momos can carry memories of home, community and shared preparation. Making momos is often a collective activity: one person prepares the filling, another rolls the dough, and several people sit together folding the dumplings. The repetitive process of shaping and pleating dozens of momos can turn ordinary food preparation into a social activity.",
-
-    "The folding of momos is itself part of culinary memory. Children and younger family members may learn by watching parents or grandparents shape the dough. At first the folds may look uneven, but with practice the movements become automatic. The ability to produce neat, uniform momos can become a small point of pride within a household or professional kitchen.",
-
-    "For Tibetan refugees who established communities in India, food became one way of maintaining connections with a homeland they had left behind. Momos could be prepared using familiar techniques and eaten within refugee settlements, restaurants and community gatherings. Over time, the food became familiar to people outside the Tibetan community as well.",
-
-    "Early memories of momos in places such as Darjeeling and Delhi were very different from today's street-food experience. Older residents remember a time when momos were relatively uncommon outside Tibetan, Chinese or Nepali establishments. In Darjeeling, meat-filled momos were especially familiar, while vegetable momos became increasingly common as the dish spread to new customers.",
-
-    "Delhi developed its own momo memories during the 1990s. Customers who had never encountered steamed dumplings sometimes found them unfamiliar or assumed they were undercooked. Vendors had to explain the food and convince customers to try it. The fiery chutney became especially important because it connected the mild steamed dumpling with the stronger flavours familiar in Indian street food.",
-
-    "For many Delhi residents, momos are now connected with particular neighbourhoods. Majnu Ka Tila is associated with Tibetan food and culture, while Lajpat Nagar, Kamla Nagar, Nehru Place and other areas developed their own momo stalls and local favourites. People often remember not just the momo itself but the particular red chutney, soup or folding style of a favourite vendor.",
-
-    "Momos have also become closely associated with student life. College students commonly encounter inexpensive momo stalls around campuses and markets. A plate shared with friends after classes can become a recurring part of student memories. The food's relatively low cost and small individual pieces make it particularly suited to casual group eating.",
-
-    "For migrant families and vendors, selling momos can represent more than a food business. Momo-making became a livelihood for many migrants, including women who entered street vending when other employment opportunities were limited. In this way, the history of the momo in Indian cities is also connected to work, entrepreneurship and economic independence.",
-
-    "The red chutney has become almost inseparable from the Indian momo experience. Different vendors develop their own versions using combinations of red chillies, garlic, tomato, vinegar and other ingredients. Customers frequently judge a momo stall by its chutney as much as by the dumpling itself. A particular combination of soft steamed momo and fiery chutney can therefore become a strong food memory.",
-
-    "Modern Indian momo culture has also created memories that would have been unfamiliar in earlier Himalayan kitchens. Tandoori momos, fried momos, cheese momos, paneer momos and other versions have appeared in urban food markets. These adaptations show how younger generations are continuing to reshape the dish while retaining the basic idea of a filled and folded dumpling.",
-
-    "The oral history of momos therefore exists across many communities. A Tibetan family may remember making meat momos together at home, a Nepali family may associate them with achar and family gatherings, a Darjeeling resident may remember inexpensive restaurant plates from childhood, and a Delhi student may remember discovering a favourite roadside stall with friends.",
-
-    "These different memories are not contradictory; they demonstrate how the momo has travelled. Its story is preserved not through one official recipe or one origin story, but through people who carried the food across mountains, borders, refugee settlements, neighbourhoods and cities. Every community that adopted the momo added another layer to its living history."
-  ],
+  oralHistory: "When I was a child in the 1980s, I remember my parents making momos on special occasions or on Sundays. There was a time when Tibetans prepared this dish only on special occasions or when special guests were coming, perhaps because it took longer to make and required a special appliance called a Moktu. Momos represent my identity, and I grew up eating them. Making momos is a collective effort, with family members often joining in the preparation. When I saw my mother picking chives, cilantro and scallions from our field, I knew we were going to have momos that day.",
 
   tags: [
     "momos",
@@ -1244,6 +1068,1574 @@ const foods = [
     }
   ]
 },
+
+{
+  id: 10,
+
+  name: "Samosa",
+
+  person: "Seema Goswami",
+
+  category: "Snack / Street Food",
+
+  region: "North India and South Asia",
+
+  location: "Indian subcontinent",
+
+  period: "Medieval; adapted into Indian cuisine over several centuries",
+
+  year: "Early references date to the medieval Persianate world; samosa-like pastries were documented in India by the 13th–14th centuries",
+
+  image: "/images/samosa.jpg",
+
+  shortDescription:
+    "Samosa is a crisp, triangular pastry filled with a savoury mixture and deep-fried until golden. Although strongly associated with Indian street food today, its history belongs to a wider family of stuffed pastries that travelled from the Persianate and Central Asian world into South Asia. In India, the dish gradually adapted to local tastes, with spiced potato and vegetable fillings becoming especially popular.",
+
+  description: [
+    "Samosa is a triangular stuffed pastry that is usually made from wheat flour dough, filled with a savoury mixture and fried until crisp. In India, the most familiar version is filled with spiced potatoes and peas, although meat, paneer, vegetables and other fillings are also used.",
+
+    "The history of the samosa is much older than its modern Indian form. Food historians generally connect it with a wider family of stuffed pastries found across the Persianate world, Central Asia, the Middle East and parts of Africa. Historical names include sanbusak, sanbusaq, sanbusaj and sanbosag, reflecting variations of an older Persian term.",
+
+    "The exact birthplace of the samosa cannot be established with complete certainty. Early references to similar pastries appear in medieval Persian and Arabic culinary traditions. Alan Davidson's Oxford Companion to Food describes the Indian samosa as part of a much larger family of stuffed pastries extending from Egypt and Zanzibar through Central Asia and western China.",
+
+    "One early literary reference is associated with the 9th-century Abbasid-era poet Ishaq al-Mawsili, who praised a pastry called sanbusaj. Medieval Arabic cookbooks also contain recipes for related pastries. These early versions were generally different from the potato-filled samosa familiar in India today.",
+
+    "The samosa travelled through trade routes and migration networks across the Middle East and Central Asia. Its small size and filled pastry structure made it suitable for travellers and merchants because it could be carried and eaten relatively easily. As the dish moved between regions, its name, shape, filling and cooking method changed according to local culinary traditions.",
+
+    "The samosa became established in the Indian subcontinent during the medieval period. Accounts associated with the Delhi Sultanate describe samosa-like pastries being enjoyed by members of the court. This suggests that the dish entered Indian culinary culture through connections with Persianate, Central Asian and Middle Eastern traditions.",
+
+    "The 14th-century Moroccan traveller Ibn Battuta provides an important description of sambusak at the court of Sultan Muhammad bin Tughluq in Delhi. He described triangular pastries containing minced meat, almonds, walnuts, pistachios, onions and spices, enclosed in thin dough and fried in ghee. This version was very different from the common potato samosa of modern India.",
+
+    "Amir Khusrau, the Indo-Persian poet and scholar associated with the Delhi Sultanate, is also commonly cited in discussions of early Indian references to samosa. Accounts of his period describe samosa as a food enjoyed by nobles, showing that the dish had become familiar within elite food culture by the early 14th century.",
+
+    "The Ni'matnama, a late-15th- to early-16th-century illustrated cookbook associated with the Malwa Sultanate, contains several preparations identified with samosa. The recipes demonstrate that samosa-like pastries were being prepared in different forms in medieval India, with fillings and seasonings that varied considerably from the modern potato version.",
+
+    "The Ain-i-Akbari, compiled during the reign of Mughal emperor Akbar, also records a dish called qutab and notes that people in Hindustan called it sanbusa. This provides further evidence that samosa-like pastries had become established within the culinary culture of the Indian subcontinent by the Mughal period.",
+
+    "The potato filling that defines many Indian samosas today is a much later development. Potatoes originated in South America and reached India after European contact. Therefore, the medieval samosas described in historical sources could not have been the familiar aloo samosa based on potatoes.",
+
+    "As potatoes became more widely cultivated and incorporated into Indian cooking, they became an effective filling for samosas. Potatoes were relatively affordable, filling and capable of absorbing spices. Their combination with green peas, chilli, coriander, cumin and other seasonings helped create the vegetarian samosa that became extremely popular across India.",
+
+    "The Indian samosa developed many regional variations. In Bengal and parts of eastern India, the related shingara is often smaller and may contain potatoes, peanuts, cauliflower and other seasonal ingredients. In Hyderabad, the lukhmi is a related pastry that is usually square and can contain minced meat.",
+
+    "Regional differences also appear in the size, pastry thickness, filling and spices used. Some samosas are large and heavily filled, while others are small and thin. Vegetarian versions are particularly widespread, but chicken, mutton, paneer, onion, lentil and other fillings are also found in different parts of India.",
+
+    "Samosa gradually moved from elite and courtly food culture into everyday eating. Its relatively inexpensive ingredients and convenient hand-held form made it suitable for markets, tea stalls, railway stations, school and college canteens, restaurants and street-food shops.",
+
+    "The growth of India's railway network and urban food culture further helped fried snacks become widely available. Samosas could be prepared in batches and served quickly, making them particularly suitable for busy markets and public places. Over time, the snack became associated with tea-time eating and everyday Indian street-food culture.",
+
+    "Chutneys became an important part of the modern Indian samosa experience. Samosas are commonly served with mint or coriander chutney and tamarind chutney. The fresh, spicy and tangy accompaniments provide a contrast to the crisp pastry and savoury filling.",
+
+    "The samosa also became an important example of culinary adaptation. Rather than remaining identical to the pastry traditions from which it developed, the dish absorbed Indian ingredients, spices and regional cooking practices. The widespread use of potato, peas, chilli and local spice combinations helped create a distinctly South Asian identity.",
+
+    "Today, samosa is one of the most recognizable Indian snacks, but its history is best understood as a story of movement and adaptation rather than the invention of a single person or place. Its journey across West and Central Asia and into South Asia produced many related forms, while Indian cooks transformed it into a major part of street-food and snack culture."
+  ],
+
+  ingredients: [
+    "Wheat flour / maida",
+    "Potatoes",
+    "Green peas",
+    "Green chillies",
+    "Ginger",
+    "Cumin seeds",
+    "Coriander seeds",
+    "Garam masala",
+    "Red chilli powder",
+    "Turmeric",
+    "Coriander leaves",
+    "Amchur / dry mango powder",
+    "Salt",
+    "Oil or ghee",
+    "Water",
+    "Mint or coriander chutney",
+    "Tamarind chutney"
+  ],
+
+  oralHistory: "I still remember the taste of the shingara, as we called samosa, and jalebi that used to be my holiday breakfast as a child. Those memories are strongly connected with my childhood in Calcutta, along with the other street foods I enjoyed during those days.",
+
+  tags: [
+    "samosa",
+    "Indian cuisine",
+    "street food",
+    "snack",
+    "South Asian cuisine",
+    "Delhi Sultanate",
+    "Mughal cuisine",
+    "Persian cuisine",
+    "Central Asian food",
+    "medieval food",
+    "potato samosa",
+    "aloo samosa",
+    "shingara",
+    "lukhmi",
+    "street food culture",
+    "culinary heritage",
+    "food history",
+    "oral history"
+  ],
+
+  sources: [
+    {
+      name: "Oxford Companion to Food – Alan Davidson",
+      url: "https://origin.ckbk.com/reference/food77337c19s001e053"
+    },
+    {
+      name: "University of California, Berkeley – Ibn Battuta and Delhi",
+      url: "https://orias.berkeley.edu/node/171"
+    },
+    {
+      name: "The Indian Express – Where Did Samosa Come From?",
+      url: "https://indianexpress.com/article/lifestyle/food-wine/deep-fried-triangles-of-spicy-goodness-where-did-samosa-come-from-9636634/lite/"
+    },
+    {
+      name: "The Indian Express – History of India's Most Loved Snack",
+      url: "https://indianexpress.com/photos/lifestyle-gallery/history-of-indias-most-loved-snack-10503108/"
+    },
+    {
+      name: "Manorama English – History of Ghiyath Shahi's Samosa",
+      url: "https://www.onmanorama.com/food/features/2021/09/12/samosa-ghiyath-shahi-sultan-culinary-adventure.html"
+    },
+    {
+      name: "BBC – The story of India as told by a humble street snack",
+      url: "https://www.bbc.com/news/magazine-36548445"
+    },
+    {
+      name: "K. T. Achaya – Indian Food: A Historical Companion",
+      url: ""
+    },
+    {
+      name: "K. T. Achaya – The Story of Our Food",
+      url: ""
+    }
+  ]
+},
+
+{
+  id: 11,
+
+  name: "Kachori",
+
+  person: "Arti Khatri",
+
+  category: "Snack / Street Food",
+
+  region: "Rajasthan and North India",
+
+  location: "Rajasthan, India",
+
+  period: "Traditional; developed through medieval and early-modern North Indian food traditions",
+
+  year: "Traditional food; exact origin and date of invention are uncertain",
+
+  image: "/images/kachori.jpg",
+
+  shortDescription:
+    "Kachori is a deep-fried, crisp and flaky pastry filled with a seasoned mixture of lentils, spices, onions or other ingredients. Strongly associated with Rajasthan and North India, kachori developed into many regional forms and became an important part of Indian snack and street-food culture.",
+
+  description: [
+    "Kachori is a round, deep-fried pastry made from wheat flour or refined flour and filled with a savoury mixture. The dough is generally prepared so that the finished pastry develops a crisp and flaky exterior while the filling remains richly spiced.",
+
+    "Unlike dishes with a clearly documented inventor, kachori does not have a universally accepted single origin story. It belongs to a wider Indian tradition of stuffed fried breads and pastries that developed differently across regions.",
+
+    "Rajasthan is particularly strongly associated with kachori. The dry climate and long-standing traditions of grain, pulse and spice-based cooking helped create a food culture in which durable, highly seasoned snacks became important. Kachori became especially prominent in cities such as Jodhpur, Jaipur, Kota and other parts of Rajasthan.",
+
+    "The traditional filling of many Rajasthani kachoris is based on pulses rather than potatoes. Moong dal, urad dal or other ground pulses can be combined with spices such as cumin, fennel, coriander, chilli, asafoetida and other seasonings.",
+
+    "One of the most famous forms is the Rajasthani dal kachori. The filling is made from spiced lentils or pulses and is enclosed inside the dough before the pastry is carefully rolled or pressed and deep-fried. The result is a crisp exterior with a strongly seasoned filling.",
+
+    "Pyaaz kachori became particularly associated with Rajasthan, especially Jodhpur. Instead of a lentil-based filling, it contains a spiced onion mixture. The combination of onion, chilli, fennel, coriander and other spices gives this version its characteristic flavour.",
+
+    "The Jodhpur-style pyaaz kachori became particularly popular through local sweet shops and snack establishments. It demonstrates how the basic kachori form could be adapted to ingredients that were locally available and culturally preferred.",
+
+    "Another important regional form is Kota kachori, associated with Kota in Rajasthan. Like other regional kachoris, it has its own preparation style and spice balance. The popularity of these regional versions shows that kachori is better understood as a family of related foods rather than one completely standardized recipe.",
+
+    "Kachori also spread beyond Rajasthan into Uttar Pradesh, Madhya Pradesh, Delhi and other parts of North India. As it travelled, the filling and preparation changed according to local tastes.",
+
+    "In Uttar Pradesh, kachori is often associated with breakfast and is commonly served with potato curry, aloo sabzi, chutney or other accompaniments. In some areas, the kachori is made with a lighter or differently seasoned filling compared with the heavier Rajasthani versions.",
+
+    "The popularity of kachori is closely connected with India's street-food and bazaar culture. Small shops and sweet shops could prepare large quantities of kachoris and fry them throughout the day. This made the snack accessible to workers, travellers, students and customers visiting markets.",
+
+    "Kachori also became closely associated with Indian breakfast culture in several regions. A hot kachori served with spiced potato curry or chutney became a common combination in North Indian food stalls and traditional snack shops.",
+
+    "The dish demonstrates the importance of pulses in traditional Indian cooking. Lentils and other pulses provide protein and were widely available across many parts of India. Combining them with flour and spices created a filling snack that could be prepared without expensive ingredients.",
+
+    "Spices are central to the identity of kachori. Depending on the regional recipe, cumin, fennel, coriander, chilli, black pepper, asafoetida, ginger and other spices may be used. These combinations vary significantly between households and commercial food establishments.",
+
+    "The technique used to prepare the dough is also important. The dough is often given a sufficient amount of fat, traditionally oil or ghee, to create a crisp and flaky texture. The filled dough is then fried at a controlled temperature so that the exterior becomes crisp while the interior cooks properly.",
+
+    "Kachori developed alongside India's broader tradition of mithai shops and snack houses. Many establishments sell kachori alongside jalebi, samosa, sweets, namkeen and other snacks, creating a distinctive pattern of North Indian food culture.",
+
+    "Although kachori is commonly regarded as a savoury snack, its regional forms can vary greatly. Some versions are made with lentils, some with onions, and others with potatoes, peas or different combinations of ingredients.",
+
+    "Kachori has also developed sweet forms. Mawa kachori, particularly associated with Rajasthan, contains a sweet filling made using ingredients such as mawa, sugar, nuts and cardamom. It demonstrates how the same basic pastry technique can be adapted from savoury to sweet preparations.",
+
+    "The spread of Indian migration and restaurant culture helped kachori become familiar outside its traditional regions. Today, different forms of kachori can be found across India and in Indian communities abroad.",
+
+    "Kachori's history therefore reflects regional adaptation rather than a single moment of invention. Its combination of flour, pulses, spices and deep-frying connects it with long-standing Indian food traditions, while regional varieties such as dal kachori, pyaaz kachori and mawa kachori demonstrate how communities have developed their own versions over time.",
+
+    "Today, kachori remains an important part of Indian snack culture. Whether eaten as a breakfast with aloo sabzi, served as a street snack with chutney, or prepared as a festive sweet, it continues to represent the regional diversity and adaptability of Indian cuisine."
+  ],
+
+  ingredients: [
+    "Wheat flour / maida",
+    "Moong dal",
+    "Urad dal",
+    "Cumin seeds",
+    "Fennel seeds",
+    "Coriander seeds",
+    "Red chilli powder",
+    "Black pepper",
+    "Asafoetida / hing",
+    "Ginger",
+    "Green chilli",
+    "Turmeric",
+    "Amchur / dry mango powder",
+    "Salt",
+    "Oil or ghee",
+    "Water",
+    "Onion (for pyaaz kachori)",
+    "Potatoes (for regional preparations)",
+    "Mawa / khoya (for sweet kachori)",
+    "Sugar",
+    "Cardamom",
+    "Nuts"
+  ],
+
+  oralHistory: "I remember going to my grandma’s house during the summer break, and kachori aloo was one of the things we definitely used to have a couple of times a week. It was an all-time favourite among the kids as well as the adults, and those meals at my grandmother’s house remain a strong childhood food memory for me.",
+
+  tags: [
+    "kachori",
+    "kahori",
+    "Rajasthani cuisine",
+    "North Indian cuisine",
+    "Rajasthan",
+    "Jodhpur",
+    "Jaipur",
+    "Kota",
+    "dal kachori",
+    "pyaaz kachori",
+    "mawa kachori",
+    "Indian street food",
+    "Indian snack",
+    "breakfast",
+    "lentil food",
+    "fried food",
+    "vegetarian food",
+    "regional cuisine",
+    "culinary heritage",
+    "food history",
+    "oral history"
+  ],
+
+  sources: [
+    {
+      name: "Rajasthan Tourism – Food and Cuisine",
+      url: "https://www.tourism.rajasthan.gov.in/"
+    },
+    {
+      name: "Incredible India – Rajasthan Cuisine",
+      url: "https://www.incredibleindia.gov.in/en/rajasthan"
+    },
+    {
+      name: "K. T. Achaya – Indian Food: A Historical Companion",
+      url: ""
+    },
+    {
+      name: "K. T. Achaya – The Story of Our Food",
+      url: ""
+    },
+    {
+      name: "The Hindu – Rajasthani Food Traditions",
+      url: ""
+    },
+    {
+      name: "Times Food – Kachori and Regional Indian Snacks",
+      url: ""
+    }
+  ]
+},
+
+{
+  id: 12,
+
+  name: "Pizza",
+
+  person: "Domenico Cicchetti",
+
+  category: "Main Dish / Street Food",
+
+  region: "Campania",
+
+  location: "Naples, Italy",
+
+  period: "Ancient flatbread traditions; modern pizza developed in Naples during the 18th–19th centuries",
+
+  year: "Modern Neapolitan pizza emerged during the 18th and 19th centuries",
+
+  image: "/images/pizza.jpg",
+
+  shortDescription:
+    "Pizza is a baked flatbread topped with ingredients such as tomato, cheese, vegetables, meat and herbs. Its modern form developed in Naples, Italy, where inexpensive flatbreads became associated with working-class food culture. Neapolitan pizza later spread internationally and became one of the world's most recognizable foods.",
+
+  description: [
+    "Pizza is a flatbread-based dish that is traditionally topped with ingredients such as tomato, cheese, olive oil and herbs before being baked at high temperature. Modern pizza exists in many styles, but its best-known historical roots are connected with Naples in southern Italy.",
+
+    "The basic idea of placing ingredients on bread is much older than pizza itself. Ancient Mediterranean and Near Eastern societies prepared various forms of flatbread with toppings, oils, herbs and other ingredients. These foods should not be described as modern pizza, but they form part of the broader culinary background from which later flatbread traditions developed.",
+
+    "The word pizza has a long and complicated history. Historical documents from medieval Italy contain forms of the word, although these early references do not necessarily describe the modern tomato-and-cheese pizza. The meaning and preparation of pizza changed over time.",
+
+    "Modern pizza is strongly associated with Naples. During the 18th and 19th centuries, inexpensive flatbreads topped with simple ingredients became popular among the city's working population. Pizza was practical, relatively inexpensive and could be eaten quickly.",
+
+    "Tomatoes became an important part of pizza's identity only after they were introduced to Europe from the Americas. Europeans initially viewed tomatoes with suspicion, but they gradually became an important ingredient in southern Italian cooking.",
+
+    "The combination of flatbread, tomato and cheese eventually produced the basic form of Neapolitan pizza that became internationally famous. Local ingredients such as tomatoes, mozzarella, olive oil and basil became particularly important.",
+
+    "One of the most famous pizza varieties is pizza Margherita. A popular tradition connects the pizza with Queen Margherita of Savoy during a visit to Naples in 1889. According to the story, a pizza representing the colours of the Italian flag was prepared using tomato, mozzarella and basil.",
+
+    "The Margherita story is widely repeated, but historians have questioned some details of the traditional royal-origin narrative. Similar combinations of tomato, cheese and basil existed before the famous 1889 story. Therefore, it is safer to describe the royal connection as an important part of pizza's popular history rather than claim that the queen personally invented the dish.",
+
+    "The Associazione Verace Pizza Napoletana later helped define standards for traditional Neapolitan pizza. These standards emphasize characteristics such as the type of dough, ingredients, preparation method and baking technique.",
+
+    "Traditional Neapolitan pizza is generally made from a simple dough of flour, water, salt and yeast. The dough is fermented before being shaped by hand. Tomato, mozzarella, olive oil and basil may then be added before the pizza is baked in a very hot wood-fired oven.",
+
+    "The high temperature of a traditional pizza oven is important because it allows the pizza to cook quickly. The crust develops a characteristic combination of crispness and softness, while the toppings cook without becoming excessively dry.",
+
+    "Pizza developed as part of Naples' urban food culture. It was particularly suitable for ordinary people because the basic ingredients were comparatively simple and the finished food could be eaten without elaborate table service.",
+
+    "Pizza sellers and bakeries helped establish pizza as an everyday Neapolitan food. The dish was eventually sold in dedicated pizzerias, where different combinations of toppings became available.",
+
+    "Italian migration played an important role in spreading pizza beyond Italy. During the late 19th and early 20th centuries, Italian migrants carried their food traditions to countries including the United States and Argentina.",
+
+    "Pizza changed significantly as it travelled. In the United States, different regional styles developed, including New York-style pizza and Chicago-style deep-dish pizza. These styles differ substantially in crust, thickness, toppings and preparation from traditional Neapolitan pizza.",
+
+    "The spread of pizza was accelerated by urbanization, restaurants, mass food production and later global food chains. Pizza became adaptable because its basic structure could accommodate local ingredients and tastes.",
+
+    "Different countries developed their own pizza traditions. Toppings may include vegetables, seafood, meat, spices and ingredients that are uncommon in traditional Italian versions. This adaptability helped pizza become a global food rather than remaining exclusively Italian.",
+
+    "Pizza also became an important part of modern popular culture. Pizzerias, takeaway restaurants and delivery services made it convenient for people to order pizza in homes, workplaces and social gatherings.",
+
+    "In India, pizza became increasingly popular with the growth of urban restaurants and international fast-food chains. Indian versions often incorporate ingredients such as paneer, tandoori vegetables, chilli, corn and Indian-style sauces. These adaptations demonstrate how pizza has been modified to suit local tastes.",
+
+    "Despite its many international variations, Neapolitan pizza remains an important reference point in discussions of traditional pizza. The combination of simple dough, tomato, cheese, olive oil and high-temperature baking continues to represent one of the foundational forms of modern pizza.",
+
+    "Today, pizza exists in countless forms, from traditional wood-fired Neapolitan pizza to thin-crust, thick-crust, deep-dish, frozen and commercially produced versions. Its history illustrates how a local working-class food can travel internationally and become a flexible global culinary tradition."
+  ],
+
+  ingredients: [
+    "Wheat flour",
+    "Water",
+    "Yeast",
+    "Salt",
+    "Tomatoes",
+    "Mozzarella cheese",
+    "Basil",
+    "Olive oil",
+    "Garlic",
+    "Oregano",
+    "Onion",
+    "Bell peppers",
+    "Mushrooms",
+    "Corn",
+    "Olives",
+    "Paneer (in Indian versions)",
+    "Chilli",
+    "Vegetables",
+    "Meat or seafood (depending on the variation)"
+  ],
+
+  oralHistory: "The first pizza I remember truly loving takes me back to my childhood in Italy. Every Saturday, my mother and I travelled from Treglio to nearby Lanciano for the lively market in the main square. After wandering through the colourful, noisy stalls, she would buy me a slice from a tiny old-fashioned pizzeria nearby. It wasn’t fancy; it was made with simple ingredients, served warm and eaten on the go, but that first bite stayed with me and is probably where my love for pizza began.",
+
+  tags: [
+    "pizza",
+    "Italian cuisine",
+    "Neapolitan pizza",
+    "Naples",
+    "Italy",
+    "Campania",
+    "pizza Margherita",
+    "flatbread",
+    "street food",
+    "working-class food",
+    "global food",
+    "Italian food",
+    "pizzeria",
+    "mozzarella",
+    "tomato",
+    "wood-fired pizza",
+    "Indian pizza",
+    "culinary heritage",
+    "food history",
+    "oral history"
+  ],
+
+  sources: [
+    {
+      name: "UNESCO – Art of Neapolitan Pizzaiuolo",
+      url: "https://ich.unesco.org/en/RL/art-of-neapolitan-pizzaiuolo-00722"
+    },
+    {
+      name: "Associazione Verace Pizza Napoletana",
+      url: "https://www.pizzanapoletana.org/"
+    },
+    {
+      name: "Encyclopaedia Britannica – Pizza",
+      url: "https://www.britannica.com/topic/pizza"
+    },
+    {
+      name: "Oxford Companion to Food – Alan Davidson",
+      url: ""
+    },
+    {
+      name: "K. T. Achaya – Indian Food: A Historical Companion",
+      url: ""
+    },
+    {
+      name: "K. T. Achaya – The Story of Our Food",
+      url: ""
+    }
+  ]
+},
+
+{
+  id: 13,
+
+  name: "Pani Puri",
+
+  person: "Shilpa Shetty",
+
+  category: "Snack / Street Food",
+
+  region: "North India and South Asia",
+
+  location: "Indian subcontinent",
+
+  period: "Traditional; developed through regional street-food traditions over several centuries",
+
+  year: "Exact origin and date of invention are uncertain",
+
+  image: "/images/pani-puri.jpg",
+
+  shortDescription:
+    "Pani puri is a popular Indian street-food snack made from crisp, hollow puris filled with spiced potato, chickpeas or other fillings and served with tangy and spicy flavoured water. Known by different names across India, it has developed into a diverse family of regional preparations.",
+
+  description: [
+    "Pani puri is a small, hollow, crisp fried puri filled with ingredients such as spiced potatoes, chickpeas, moong sprouts or other regional fillings. The puri is usually filled with flavoured water, chutneys and spices before being eaten immediately.",
+
+    "The exact origin of pani puri is uncertain. Unlike foods with a well-documented inventor or establishment, there is no universally accepted historical record identifying one person or place as the creator of modern pani puri.",
+
+    "The dish belongs to a wider family of Indian foods based on small fried puris. Similar hollow puris and filled snacks developed in different parts of the Indian subcontinent, making it difficult to establish a single origin for the complete modern dish.",
+
+    "The word pani puri describes two important components of the snack: puri, referring to the crisp fried shell, and pani, referring to the seasoned water used to fill it. The water is commonly flavoured with ingredients such as tamarind, mint, coriander, green chilli, cumin and black salt.",
+
+    "Different regions use different names for pani puri. In Maharashtra it is commonly called pani puri, while in North India it is widely known as golgappa. In parts of West Bengal, Bihar and Jharkhand it is commonly called puchka. These regional names are accompanied by differences in ingredients and preparation.",
+
+    "Pani puri in Maharashtra often contains a combination of potato, chickpeas, chutneys and spicy or tangy water. The balance of sweetness, sourness and heat can vary between vendors and cities.",
+
+    "Gol gappa in North India commonly uses a spiced potato or chickpea filling and a strongly flavoured pani. The puris are often served one by one by street vendors, with the vendor filling each shell immediately before handing it to the customer.",
+
+    "Puchka, particularly associated with West Bengal, Bihar and neighbouring regions, is generally distinguished by its stronger tamarind flavour and a filling that may contain mashed potato mixed with spices. The pani and filling can differ noticeably from versions found in Maharashtra or North India.",
+
+    "The crisp puri is central to the experience of the dish. The dough is usually prepared from semolina, refined flour or a combination of grains, rolled thinly and cut into small circles. The pieces are then deep-fried so that they puff into hollow shells.",
+
+    "Achieving a hollow puri requires careful preparation of the dough and frying temperature. When the dough is rolled and fried correctly, steam causes the small disc to expand and form a hollow centre that can later be filled.",
+
+    "The filling provides the main body of the snack. Potatoes are one of the most common ingredients, often combined with chickpeas, moong sprouts, onion, chilli and spices. Some regional versions use different combinations according to local preferences.",
+
+    "The pani is usually prepared separately. Mint, coriander, green chilli, cumin, black salt, tamarind and lemon or other souring ingredients may be combined with water to create a strongly flavoured liquid.",
+
+    "Sweet tamarind chutney is frequently added to balance the spicy and sour pani. Some vendors also add a sweetened chutney made from dates and tamarind, while others rely primarily on spicy mint-based water.",
+
+    "The preparation method makes pani puri particularly suited to street-food culture. Vendors can prepare large quantities of puris and fillings in advance and assemble each serving rapidly when customers arrive.",
+
+    "Pani puri became especially associated with urban markets, roadside stalls and busy public areas. Its small size, relatively inexpensive ingredients and interactive method of eating made it popular among a wide range of customers.",
+
+    "The dish is also an example of how Indian street foods are shaped by regional adaptation. Although the basic idea of a filled, water-filled puri remains recognizable, the ingredients, flavour profile and name change considerably between regions.",
+
+    "In Maharashtra, pani puri became an important part of Mumbai's street-food culture. Vendors developed their own combinations of spicy pani, sweet chutney and potato or chickpea fillings, creating considerable variation between individual stalls.",
+
+    "In Uttar Pradesh and Delhi, golgappa became strongly associated with street vendors and local markets. The snack is often served with several types of pani, allowing customers to experience different levels of spice and sourness.",
+
+    "In Bengal, puchka developed its own identity through its potato-based filling and distinctive tamarind-heavy flavour. This regional form shows that the same broad snack tradition can develop into a noticeably different culinary experience.",
+
+    "The popularity of pani puri eventually extended beyond traditional street stalls. Restaurants, food courts and modern food businesses began serving the snack, sometimes introducing hygienic preparation systems and new flavours while retaining the basic filled-puri structure.",
+
+    "Contemporary versions may include fillings such as ragda, sprouts, paneer or flavoured water combinations. These adaptations demonstrate the continuing ability of pani puri to change according to local tastes and modern food trends.",
+
+    "Pani puri is therefore best understood not as a dish with one clearly documented inventor, but as a regional family of related street foods. Its history reflects the development of Indian fried-puri traditions, regional flavour preferences and the growth of urban street-food culture.",
+
+    "Today, pani puri, golgappa and puchka remain among the most recognizable street foods of India. Their combination of crisp texture, spicy filling, sour and sweet flavours and freshly prepared pani gives the snack a distinctive place in Indian culinary culture."
+  ],
+
+  ingredients: [
+    "Semolina / sooji",
+    "Maida / refined flour",
+    "Water",
+    "Potatoes",
+    "Chickpeas",
+    "Moong sprouts",
+    "Mint leaves",
+    "Coriander leaves",
+    "Green chillies",
+    "Tamarind",
+    "Black salt",
+    "Roasted cumin powder",
+    "Chaat masala",
+    "Red chilli powder",
+    "Lemon juice",
+    "Onion",
+    "Jaggery or sugar",
+    "Dates",
+    "Salt",
+    "Oil"
+  ],
+
+  oralHistory: "I remember eating pani puri with my friends after school. We would stop at our favourite street vendor, and the excitement was always in choosing how spicy and tangy we wanted the pani to be. It was a simple street snack, but those small moments of sharing pani puri, laughing and talking with friends became some of my fondest food memories.",
+
+  tags: [
+    "pani puri",
+    "golgappa",
+    "puchka",
+    "Indian street food",
+    "Indian snack",
+    "Mumbai street food",
+    "North Indian cuisine",
+    "Maharashtrian cuisine",
+    "Bengali cuisine",
+    "chaat",
+    "street food culture",
+    "puri",
+    "spicy food",
+    "tamarind",
+    "mint pani",
+    "potato filling",
+    "chickpeas",
+    "regional cuisine",
+    "culinary heritage",
+    "food history",
+    "oral history"
+  ],
+
+  sources: [
+    {
+      name: "K. T. Achaya – Indian Food: A Historical Companion",
+      url: ""
+    },
+    {
+      name: "K. T. Achaya – The Story of Our Food",
+      url: ""
+    },
+    {
+      name: "The Indian Express – Pani Puri and Its Regional Variations",
+      url: ""
+    },
+    {
+      name: "The Hindu – Indian Street Food Traditions",
+      url: ""
+    },
+    {
+      name: "Incredible India – Indian Street Food",
+      url: "https://www.incredibleindia.gov.in/"
+    },
+    {
+      name: "Maharashtra Tourism – Food and Cuisine",
+      url: "https://www.mtdc.co/"
+    }
+  ]
+},
+
+{
+  id: 14,
+
+  name: "Burger",
+
+  person: "Purab Kohli",
+
+  category: "Main Dish / Fast Food",
+
+  region: "North America and Europe",
+
+  location: "United States",
+
+  period: "Modern; developed from 19th-century minced-meat and sandwich traditions",
+
+  year: "Hamburger became established in the United States during the late 19th and early 20th centuries",
+
+  image: "/images/burger.jpg",
+
+  shortDescription:
+    "A burger is a sandwich made with a cooked patty placed inside a sliced bun and commonly served with ingredients such as lettuce, tomato, onion, pickles, cheese and sauces. Its modern form developed in the United States from European minced-meat traditions and became one of the world's most recognizable fast foods.",
+
+  description: [
+    "A burger is generally made by placing a cooked patty between the two halves of a sliced bun. The patty may be made from beef, chicken, fish, vegetables, beans or other ingredients, depending on the regional and culinary style.",
+
+    "The exact origin of the modern hamburger is debated. There is no universally accepted single inventor. Instead, the burger developed through the combination of several older culinary traditions involving minced meat, bread rolls and portable sandwiches.",
+
+    "One important influence was the German tradition of Hamburg steak. During the 19th century, minced or chopped beef prepared in the style associated with Hamburg became known in Europe and later in the United States.",
+
+    "Hamburg steak was not originally the same as the modern hamburger. It was generally served as a minced-meat preparation rather than as a patty inside a bun. The combination of the meat patty with bread developed gradually in the United States.",
+
+    "German immigrants played an important role in bringing Hamburg-style minced meat traditions to the United States during the 19th century. American cooks and food vendors subsequently adapted these traditions to local eating habits.",
+
+    "The development of the hamburger was also connected with the growth of American fairs, markets and travelling food vendors. Portable foods became increasingly important as industrialization and urbanization changed eating patterns.",
+
+    "Several American towns and restaurants have claimed to have invented the hamburger. Among the best-known claims are stories connected with Seymour, Wisconsin, Athens, Texas, New Haven, Connecticut and other places. Because the historical evidence is incomplete and competing claims exist, no single inventor can be established with certainty.",
+
+    "The hamburger became increasingly recognizable during the late 19th and early 20th centuries. Putting a meat patty inside a bun made the food easy to carry and eat while travelling, working or attending public events.",
+
+    "The bun was particularly important to the development of the modern burger. Instead of requiring cutlery, the sandwich format allowed customers to hold the entire meal in their hands.",
+
+    "Hamburgers became strongly associated with American diners, lunch counters, roadside restaurants and drive-in food culture. Their relatively simple ingredients and fast preparation made them suitable for busy urban and suburban environments.",
+
+    "The growth of fast-food restaurants transformed the hamburger from a regional American food into a mass-market product. Restaurants standardized cooking methods, portion sizes and toppings, allowing burgers to be produced quickly and consistently.",
+
+    "White Castle, founded in 1921, played an important role in the history of standardized hamburger restaurants in the United States. Its small square hamburgers, known as sliders, became an influential model for later fast-food businesses.",
+
+    "McDonald's later became one of the most influential companies in the global spread of the hamburger. The restaurant's emphasis on standardized preparation, rapid service and franchising helped make the burger familiar to consumers around the world.",
+
+    "Cheeseburgers became another major development in burger culture. Adding cheese to the meat patty created a variation that eventually became common in American restaurants and fast-food chains.",
+
+    "The toppings used on burgers vary widely. Lettuce, tomato, onion, pickles, ketchup, mustard and mayonnaise are common, while cheese, bacon, fried eggs, mushrooms and many other ingredients may be added.",
+
+    "Regional burger styles developed as the food spread across the United States. Different cities and regions developed distinctive combinations of toppings, sauces, buns and cooking techniques.",
+
+    "The hamburger eventually became a global food. International restaurants adapted burgers to local ingredients and cultural preferences. In India, for example, vegetarian burgers using potato, paneer, vegetables or other plant-based patties became widely available.",
+
+    "Indian burger variations demonstrate how global fast food can be adapted to local dietary preferences. Ingredients such as paneer, aloo tikki, green chutney, chilli and Indian spices may be incorporated into the burger format.",
+
+    "The burger also moved beyond traditional fast food. Modern restaurants offer gourmet burgers using different types of bread, specialty cheeses, sauces, vegetables and carefully prepared meat or plant-based patties.",
+
+    "Plant-based burgers have become another major development in contemporary burger culture. Patties made from ingredients such as soy, peas, beans, mushrooms and other plant proteins provide alternatives to traditional meat-based burgers.",
+
+    "The burger's global success comes partly from its flexibility. The basic structure of bun, filling and toppings can remain recognizable while the ingredients can be changed to suit local tastes, available foods and dietary preferences.",
+
+    "Today, the burger represents both a major part of American food history and a global fast-food tradition. Its development demonstrates how migration, industrialization, urbanization, mass production and cultural adaptation can transform a relatively simple food into an international culinary symbol."
+  ],
+
+  ingredients: [
+    "Burger bun",
+    "Beef patty",
+    "Chicken patty",
+    "Vegetable or plant-based patty",
+    "Cheese",
+    "Lettuce",
+    "Tomato",
+    "Onion",
+    "Pickles",
+    "Ketchup",
+    "Mustard",
+    "Mayonnaise",
+    "Black pepper",
+    "Salt",
+    "Butter or oil",
+    "Bacon (in some versions)",
+    "Potato",
+    "Paneer (in Indian versions)",
+    "Green chutney (in Indian versions)"
+  ],
+
+  oralHistory: "My favourite childhood food memory is of Way Side Grill's chicken burger. My best friend and I would collect money throughout the week so that we could go and eat the burger together. What made it special was that instead of the regular cutlet, the burger had a piece of marinated chicken in it.",
+
+  tags: [
+    "burger",
+    "hamburger",
+    "American cuisine",
+    "German cuisine",
+    "American fast food",
+    "fast food",
+    "Hamburg steak",
+    "cheeseburger",
+    "slider",
+    "street food",
+    "diner culture",
+    "McDonald's",
+    "White Castle",
+    "Indian burger",
+    "aloo tikki burger",
+    "vegetarian burger",
+    "plant-based food",
+    "global food",
+    "culinary heritage",
+    "food history",
+    "oral history"
+  ],
+
+  sources: [
+    {
+      name: "Encyclopaedia Britannica – Hamburger",
+      url: "https://www.britannica.com/topic/hamburger"
+    },
+    {
+      name: "Smithsonian Magazine – The Hamburger's Origin",
+      url: "https://www.smithsonianmag.com/history-archaeology/true-origins-hamburger-180953754/"
+    },
+    {
+      name: "Library of Congress – Hamburger History",
+      url: "https://www.loc.gov/"
+    },
+    {
+      name: "White Castle – Our History",
+      url: "https://www.whitecastle.com/about-us"
+    },
+    {
+      name: "McDonald's – Our History",
+      url: "https://corporate.mcdonalds.com/corpmcd/our-purpose/our-history.html"
+    },
+    {
+      name: "K. T. Achaya – Indian Food: A Historical Companion",
+      url: ""
+    },
+    {
+      name: "K. T. Achaya – The Story of Our Food",
+      url: ""
+    }
+  ]
+},
+
+{
+  id: 15,
+
+  name: "Soan Papdi",
+
+  person: "Sai Sriteesh Jammula",
+
+  category: "Sweet / Confectionery",
+
+  region: "North and Western India",
+
+  location: "India",
+
+  period: "Traditional; developed within the North Indian and South Asian confectionery tradition",
+
+  year: "Exact origin and date of invention are uncertain",
+
+  image: "/images/soan-papdi.jpg",
+
+  shortDescription:
+    "Soan papdi is a light, flaky Indian sweet made by combining gram flour, refined flour, sugar and ghee into a layered, thread-like confection. Its delicate texture is created through a specialized stretching and folding technique, and it is commonly flavoured with cardamom and garnished with nuts.",
+
+  description: [
+    "Soan papdi is a traditional Indian confection known for its extremely light, flaky and fibrous texture. It is usually prepared from gram flour, refined flour, sugar and ghee, with cardamom and nuts commonly added for flavour and decoration.",
+
+    "The exact origin of soan papdi is difficult to establish. Unlike some Indian sweets with strong associations with a particular royal court, temple or documented inventor, there is no universally accepted historical record identifying one person as its creator.",
+
+    "Soan papdi belongs to the broader tradition of South Asian sweets in which flour, pulses, sugar and ghee are transformed into distinctive textures through specialized cooking techniques. Similar confectionery traditions developed across North and Western India.",
+
+    "One of the most distinctive characteristics of soan papdi is its thread-like structure. The cooked mixture is repeatedly stretched, folded and worked so that numerous fine layers or strands are produced. This gives the sweet its characteristic flaky texture.",
+
+    "Gram flour, also known as besan, is one of the main ingredients. It contributes both flavour and structure to the sweet. Refined flour is often combined with the gram flour to help produce the fine strands for which soan papdi is known.",
+
+    "Ghee plays an important role in the preparation. It is used while roasting the flour and during the processing of the mixture. The fat helps separate the fine layers and contributes to the rich flavour of the finished sweet.",
+
+    "Sugar is cooked into a syrup before being combined with the flour mixture. The temperature and consistency of the sugar syrup are important because they influence the final texture of the confection.",
+
+    "The process of making soan papdi traditionally requires considerable skill. The cooked mixture must be handled at the correct stage so that it can be stretched and folded without becoming either too hard or too sticky.",
+
+    "The repeated stretching process creates many extremely thin strands. When these strands are gathered together, they form the characteristic flaky and airy structure of soan papdi.",
+
+    "Cardamom is commonly used to provide fragrance. Depending on the recipe, saffron, rose flavouring or other aromatic ingredients may also be included.",
+
+    "Nuts such as pistachios, almonds and cashews are commonly used as garnishes. They provide additional texture and visual contrast against the pale, flaky sweet.",
+
+    "Soan papdi is particularly associated with North Indian and Western Indian sweet-making traditions. It is commonly sold in mithai shops and is especially popular during festivals, weddings and other celebrations.",
+
+    "The sweet became well suited to commercial production because it could be prepared in batches and cut into uniform pieces. It is commonly packaged in small boxes, making it convenient for gifting and transportation.",
+
+    "The development of commercial Indian confectionery helped soan papdi become widely available outside the regions where it was traditionally prepared. Packaged versions eventually made the sweet familiar throughout India.",
+
+    "Soan papdi is sometimes compared with other flaky sweets because of its layered structure. However, its particular combination of gram flour, refined flour, sugar and the stretching technique gives it a distinctive identity within Indian confectionery.",
+
+    "The preparation of soan papdi demonstrates the importance of technique in Indian sweet-making. The ingredients themselves are relatively simple, but achieving the characteristic texture requires careful control of roasting, sugar-syrup preparation and stretching.",
+
+    "Regional and household recipes can vary. Some preparations may use more gram flour, while others alter the amount of ghee or sugar. The choice of flavouring and nuts also differs between manufacturers and households.",
+
+    "Modern commercial versions are often produced using mechanized processes rather than entirely by hand. Industrial production allows manufacturers to create large quantities while maintaining a relatively consistent texture and appearance.",
+
+    "Soan papdi is commonly eaten during festivals such as Diwali and is also exchanged as a gift during celebrations. Its light texture and attractive packaging have made it a familiar part of Indian festive sweet culture.",
+
+    "The sweet also became popular among Indian communities outside India. Indian sweet shops and restaurants in other countries commonly stock packaged or freshly prepared versions of soan papdi.",
+
+    "Although its precise historical origin remains uncertain, soan papdi represents the wider development of Indian confectionery in which grains, pulses, sugar, ghee and aromatic spices are transformed into elaborate sweets through specialized techniques.",
+
+    "Today, soan papdi remains one of India's most recognizable packaged sweets. Its delicate texture, layered appearance and long association with festivals and gifting have made it an enduring part of Indian culinary culture."
+  ],
+
+  ingredients: [
+    "Gram flour / besan",
+    "Maida / refined flour",
+    "Sugar",
+    "Ghee",
+    "Water",
+    "Cardamom",
+    "Almonds",
+    "Pistachios",
+    "Cashews",
+    "Saffron (optional)",
+    "Rose water or flavouring (optional)"
+  ],
+
+  oralHistory: "I remember when I was around five or six years old, a man would come through our street every evening carrying two large bags—one filled with old plastic objects and the other with loose Soan Papdi. He would ring his bell and call out 'Soan Papdi', and I would run to the storeroom to collect the plastic items my grandmother had saved. I would then exchange those old plastic things for a small bundle of Soan Papdi wrapped in newspaper. That little exchange became a cherished part of my childhood evenings, and even today the sweet brings back those memories of simple pleasures and community life.",
+
+  tags: [
+    "soan papdi",
+    "son papdi",
+    "Indian sweets",
+    "Indian confectionery",
+    "North Indian cuisine",
+    "Western Indian cuisine",
+    "mithai",
+    "Diwali sweets",
+    "festival food",
+    "gram flour",
+    "besan",
+    "ghee",
+    "cardamom",
+    "flaky sweet",
+    "layered sweet",
+    "traditional sweet",
+    "Indian dessert",
+    "festive food",
+    "culinary heritage",
+    "food history",
+    "oral history"
+  ],
+
+  sources: [
+    {
+      name: "K. T. Achaya – Indian Food: A Historical Companion",
+      url: ""
+    },
+    {
+      name: "K. T. Achaya – The Story of Our Food",
+      url: ""
+    },
+    {
+      name: "Incredible India – Indian Cuisine and Sweets",
+      url: "https://www.incredibleindia.gov.in/"
+    },
+    {
+      name: "Ministry of Tourism, Government of India",
+      url: "https://tourism.gov.in/"
+    },
+    {
+      name: "The Hindu – Indian Sweet Traditions",
+      url: ""
+    }
+  ]
+},
+
+{
+  id: 16,
+
+  name: "Manchurian",
+
+  person: "Raj Thandhi",
+
+  category: "Snack / Main Dish",
+
+  region: "India",
+
+  location: "Kolkata, West Bengal",
+
+  period: "Modern; developed within India's Indo-Chinese restaurant tradition during the 20th century",
+
+  year: "Developed in the 1970s; commonly associated with Nelson Wang and Mumbai's Chinese-Indian restaurant culture",
+
+  image: "/images/manchurian.jpg",
+
+  shortDescription:
+    "Manchurian is an Indo-Chinese dish made from fried vegetable, chicken or other savoury balls or pieces cooked in a strongly seasoned sauce. Despite its name, Indian Manchurian is not a traditional dish of Manchu cuisine; it developed in India's Chinese-restaurant culture through the adaptation of Chinese cooking techniques and Indian ingredients and flavours.",
+
+  description: [
+    "Manchurian is one of the most recognizable dishes of India's Indo-Chinese cuisine. It usually consists of fried balls or pieces made from vegetables, chicken or other ingredients that are tossed in a thick, savoury sauce containing ingredients such as soy sauce, garlic, ginger, chilli and spring onion.",
+
+    "Despite the name, Manchurian is not a traditional dish from Manchuria or from the cuisines of northeastern China. The dish is an Indian creation that developed within the Chinese-restaurant culture of India.",
+
+    "The development of Manchurian is connected with India's long-standing Chinese communities and the evolution of Chinese restaurants in Indian cities. Chinese migrants, particularly communities associated with Kolkata, established restaurants, bakeries and food businesses that introduced Chinese-style cooking to Indian customers.",
+
+    "Kolkata played a particularly important role in the development of Indian Chinese cuisine. The city's Chinese community developed a distinctive food culture that combined Chinese cooking methods with ingredients, spices and eating preferences found in India.",
+
+    "Indian Chinese cuisine gradually developed its own identity. Dishes such as chilli chicken, chilli paneer, Hakka noodles, fried rice and Manchurian became popular examples of this hybrid culinary tradition.",
+
+    "The exact origin of Manchurian is debated, but one commonly repeated account credits chef Nelson Wang with creating the dish in Mumbai during the 1970s. According to this story, Wang developed a new preparation by combining Indian ingredients and Chinese cooking techniques.",
+
+    "Nelson Wang is associated with the development of the modern Chicken Manchurian. He later became known for his restaurant China Garden in Mumbai, which became an important name in India's Chinese-restaurant culture.",
+
+    "According to the popular account, the creation of Manchurian involved frying pieces of chicken and combining them with ingredients such as garlic, ginger, soy sauce and chilli. The resulting dish reflected the flavour preferences of Indian customers while using techniques associated with Chinese cooking.",
+
+    "The exact historical details surrounding the invention story are difficult to independently establish, so Nelson Wang is better described as a person widely credited with popularising or developing the modern dish rather than as an unquestionably proven sole inventor.",
+
+    "Vegetable Manchurian became particularly popular in India because it provided a vegetarian adaptation of the dish. Vegetable balls are usually prepared using finely chopped cabbage, carrots, capsicum, spring onion and other vegetables mixed with flour or starch before being deep-fried.",
+
+    "Chicken Manchurian uses pieces of chicken that are coated, fried and then combined with the characteristic sauce. The sauce generally contains soy sauce, chilli, garlic, ginger and other seasonings.",
+
+    "The sauce is one of the defining characteristics of Manchurian. Unlike many traditional Chinese sauces, the Indian Manchurian sauce often has a stronger combination of chilli, garlic, ginger, soy sauce and sometimes tomato-based or sweet elements.",
+
+    "Corn flour or another starch is commonly used to thicken the sauce. This produces the glossy, thick consistency that is strongly associated with restaurant-style Manchurian.",
+
+    "Manchurian became particularly popular in Indian cities because Indo-Chinese restaurants offered a style of food that was familiar enough to Indian customers while still presenting itself as Chinese-inspired cuisine.",
+
+    "Street-food stalls and small restaurants further increased the popularity of Manchurian. The dish could be prepared relatively quickly and adapted to different price points, making it suitable for casual dining.",
+
+    "The dish also became popular in Indian college areas, food courts and fast-food restaurants. Vegetable Manchurian in particular became a common vegetarian snack and starter.",
+
+    "Manchurian is often served as a dry preparation or with gravy. Dry Manchurian is usually served as a starter or snack, while gravy Manchurian is commonly paired with fried rice, Hakka noodles or other Indo-Chinese dishes.",
+
+    "Regional variations developed as the dish spread throughout India. Restaurants may alter the amount of chilli, sweetness, soy sauce, garlic or tomato according to local tastes.",
+
+    "The dish also inspired many variations beyond the original chicken version. Vegetable Manchurian became one of the most widespread forms, while versions using paneer, cauliflower, mushroom and other ingredients have also appeared.",
+
+    "Manchurian demonstrates how food traditions can change when culinary techniques move between cultures. Chinese cooking methods such as stir-frying, deep-frying and sauce-based preparation were combined with Indian preferences for stronger chilli, garlic and spice flavours.",
+
+    "The popularity of Manchurian also illustrates the difference between food names and actual culinary origins. Although the word 'Manchurian' suggests Manchuria, the Indian dish is better understood as part of the modern Indo-Chinese food tradition.",
+
+    "Today, Manchurian is served across India in restaurants, street-food stalls, canteens and food courts. It has become so familiar that many people consider it a standard part of Indian Chinese cuisine.",
+
+    "The dish has also become popular among Indian communities outside India, where Indo-Chinese restaurants continue to serve versions of vegetable, chicken and other Manchurian preparations.",
+
+    "Manchurian therefore represents a distinctly Indian chapter in the global history of Chinese-inspired food. Its development shows how immigrant communities, local ingredients, restaurant culture and changing consumer preferences can create an entirely new culinary tradition."
+  ],
+
+  ingredients: [
+    "Cabbage",
+    "Carrot",
+    "Capsicum",
+    "Spring onion",
+    "Green chilli",
+    "Garlic",
+    "Ginger",
+    "Corn flour",
+    "Maida / refined flour",
+    "Soy sauce",
+    "Chilli sauce",
+    "Tomato ketchup",
+    "Vinegar",
+    "Black pepper",
+    "Salt",
+    "Oil",
+    "Chicken (for Chicken Manchurian)",
+    "Paneer (for Paneer Manchurian)",
+    "Water"
+  ],
+
+  oralHistory: "One meal that always sticks out for me, even 25 years later, is the first time I had Indo-Chinese food. I was about 11 or 12 years old, and we were visiting family in Chandigarh. My uncle took us out for a fancy dinner, and we finally tried masala fried rice, Hakka noodles and Manchurian for the first time. I still remember that meal and the flavours from that evening.",
+
+  tags: [
+    "manchurian",
+    "vegetable manchurian",
+    "chicken manchurian",
+    "Indo-Chinese cuisine",
+    "Indian Chinese food",
+    "Chinese food in India",
+    "Kolkata",
+    "Mumbai",
+    "Nelson Wang",
+    "China Garden",
+    "street food",
+    "fast food",
+    "vegetarian food",
+    "chilli garlic",
+    "soy sauce",
+    "Indian fusion food",
+    "restaurant culture",
+    "culinary adaptation",
+    "culinary heritage",
+    "food history",
+    "oral history"
+  ],
+
+  sources: [
+    {
+      name: "The Indian Express – The Story of Chicken Manchurian",
+      url: ""
+    },
+    {
+      name: "The Hindu – Indo-Chinese Food and Its History",
+      url: ""
+    },
+    {
+      name: "The New Indian Express – History of Indo-Chinese Cuisine",
+      url: ""
+    },
+    {
+      name: "K. T. Achaya – Indian Food: A Historical Companion",
+      url: ""
+    },
+    {
+      name: "K. T. Achaya – The Story of Our Food",
+      url: ""
+    },
+    {
+      name: "Encyclopaedia Britannica – Chinese Cuisine",
+      url: "https://www.britannica.com/topic/Chinese-cuisine"
+    }
+  ]
+},
+
+{
+  id: 17,
+
+  name: "Medu Vada",
+
+  person: "Nargis Mithani",
+
+  category: "Breakfast / Tiffin / Snack",
+
+  region: "South India",
+
+  location: "Tamil Nadu, Karnataka, Kerala and Andhra-Telangana regions",
+
+  period: "Traditional; part of the long-standing South Indian vada and tiffin tradition",
+
+  year: "Exact origin and date of invention are uncertain",
+
+  image: "/images/medu-vada.jpg",
+
+  shortDescription:
+    "Medu vada is a crisp, doughnut-shaped South Indian fritter made primarily from fermented or soaked urad dal. Known for its crisp exterior and soft, airy centre, it is commonly served with sambar and coconut chutney and has become one of the most recognizable foods of South Indian tiffin culture.",
+
+  description: [
+    "Medu vada is a savoury South Indian fritter made primarily from urad dal, also known as black gram. The soaked dal is ground into a thick batter, seasoned and shaped into a ring before being deep-fried until the outside becomes crisp and golden.",
+
+    "The exact origin of medu vada is uncertain. It belongs to the wider Indian tradition of vada, a family of fried savoury preparations made from pulses, grains and other ingredients. Different forms of vada developed across the Indian subcontinent.",
+
+    "The word 'vada' refers broadly to fried savoury foods, and historical and regional varieties include preparations made from different pulses and grains. Medu vada is one of the forms that became especially associated with South Indian cuisine.",
+
+    "The name 'medu' is commonly understood to refer to softness. This reflects the contrast between the crisp fried exterior and the soft, light interior that characterizes a well-prepared medu vada.",
+
+    "Urad dal is the key ingredient. The dal is soaked in water and then ground into a thick, smooth or slightly coarse batter. The consistency of the batter is important because it determines whether the vada becomes light and airy or dense after frying.",
+
+    "The batter is usually seasoned with salt, green chilli, ginger, black pepper and curry leaves. Some preparations also include cumin seeds, coconut pieces or finely chopped onions.",
+
+    "The characteristic hole in the centre is created when the batter is shaped into a ring before frying. The shape increases the surface area exposed to hot oil and helps produce the distinctive crisp exterior.",
+
+    "Traditional preparation requires skill because the batter is relatively soft and sticky. Cooks may shape the vada by hand or use a wet cloth, spoon or other technique before carefully placing it into hot oil.",
+
+    "The frying temperature is important. If the oil is too hot, the outside may brown before the inside cooks properly. If the temperature is too low, the vada can absorb excessive oil and become heavy.",
+
+    "Medu vada became an important part of South Indian tiffin culture. Tiffin refers to a category of light meals and snacks that commonly includes foods such as idli, dosa, vada and other preparations.",
+
+    "The combination of medu vada with sambar and coconut chutney became particularly recognizable. The crisp and soft texture of the vada contrasts with the liquid, spiced sambar and creamy chutney.",
+
+    "In South Indian homes and restaurants, medu vada is commonly served for breakfast, as part of a larger tiffin meal or as a snack. It is also frequently included in traditional restaurant meals.",
+
+    "Restaurants played an important role in popularising medu vada beyond individual South Indian communities. Udupi-style restaurants in particular helped spread South Indian tiffin foods such as idli, dosa and vada across Indian cities.",
+
+    "The growth of vegetarian restaurants and Udupi hotels made medu vada familiar to customers throughout India. These restaurants offered relatively inexpensive vegetarian meals and snacks that could be prepared quickly.",
+
+    "Regional variations can be found across South India. Some versions include onions, while others emphasize pepper, ginger, curry leaves or coconut. The size and texture can also differ between households and restaurants.",
+
+    "Medu vada is closely related to other vada traditions but should not be treated as identical to every pulse-based fried snack. Ingredients, shape, texture and serving practices distinguish it from varieties such as paruppu vadai, masala vada and dahi vada.",
+
+    "Dahi vada is an important later preparation using fried vadas soaked in yogurt and topped with chutneys and spices. The same basic fried pulse cake can therefore become part of a different culinary preparation.",
+
+    "Medu vada also demonstrates the importance of pulses in South Indian cooking. Urad dal is nutritious, widely used and capable of producing a batter with a distinctive texture when soaked and ground.",
+
+    "The dish's popularity is partly due to its relatively simple ingredient list. Urad dal, salt and a few spices are enough to produce the basic vada, while accompaniments such as sambar and chutney provide additional flavour.",
+
+    "Modern restaurants may use specialized equipment to grind batter, portion the mixture and maintain consistent frying temperatures. Home cooks continue to use traditional hand-shaping techniques.",
+
+    "The dish has also travelled internationally with South Indian communities. Indian restaurants around the world commonly serve medu vada alongside idli, dosa, sambar and chutney.",
+
+    "Today, medu vada remains one of the most recognizable South Indian foods. Its combination of pulse-based batter, distinctive ring shape, crisp exterior and soft centre has made it an enduring part of Indian tiffin and restaurant culture."
+  ],
+
+  ingredients: [
+    "Urad dal / black gram",
+    "Green chillies",
+    "Ginger",
+    "Black pepper",
+    "Curry leaves",
+    "Cumin seeds",
+    "Coconut pieces",
+    "Onion (in some versions)",
+    "Salt",
+    "Water",
+    "Oil for deep frying",
+    "Coconut chutney",
+    "Sambar"
+  ],
+
+  oralHistory: "I remember medu vada as one of the South Indian foods that was regularly prepared and enjoyed at home. It was especially memorable when served hot with sambar and chutney, and the combination made it a comforting part of everyday meals and family food memories.",
+
+  tags: [
+    "medu vada",
+    "medhu vada",
+    "ulundu vadai",
+    "urad dal",
+    "vada",
+    "South Indian cuisine",
+    "South Indian food",
+    "Tamil cuisine",
+    "Karnataka cuisine",
+    "Kerala cuisine",
+    "Andhra cuisine",
+    "Udupi cuisine",
+    "tiffin",
+    "breakfast",
+    "Indian snack",
+    "vegetarian food",
+    "sambar",
+    "coconut chutney",
+    "fried food",
+    "pulse food",
+    "culinary heritage",
+    "food history",
+    "oral history"
+  ],
+
+  sources: [
+    {
+      name: "K. T. Achaya – Indian Food: A Historical Companion",
+      url: ""
+    },
+    {
+      name: "K. T. Achaya – The Story of Our Food",
+      url: ""
+    },
+    {
+      name: "Karnataka Tourism – Karnataka Cuisine",
+      url: "https://karnatakatourism.org/wp-content/uploads/2020/05/Karnataka-Cuisine.pdf"
+    },
+    {
+      name: "Udupi District Administration – Tourism",
+      url: "https://udupi.nic.in/en/tourism/"
+    },
+    {
+      name: "Incredible India – South Indian Cuisine",
+      url: "https://www.incredibleindia.gov.in/"
+    },
+    {
+      name: "The Hindu – South Indian Food Traditions",
+      url: ""
+    }
+  ]
+},
+
+{
+  id: 18,
+  name: "Muffins",
+  person: "madras samayal",
+  category: "Bakery / Snack",
+  region: "Britain and North America",
+  location: "United Kingdom and United States",
+  period: "Traditional; modern muffin styles developed through British and American baking traditions",
+  year: "English muffins have medieval roots; modern American-style muffins became popular during the 19th century",
+  image: "/images/muffins.jpg",
+
+  shortDescription:
+    "Muffins are small baked or griddled breads that developed through British and American baking traditions. The word refers to different foods in Britain and North America, from the yeast-based English muffin to the sweet, quick-bread American muffin.",
+
+  description: [
+    "The history of muffins is interesting because the word 'muffin' refers to two related but quite different foods. In Britain, an English muffin is a small, round, yeast-leavened bread that is traditionally cooked on a griddle. In the United States and Canada, a muffin usually means a small individual cake-like baked product made with flour, a raising agent, and other ingredients.",
+
+    "The English muffin has a long history in Britain. Earlier forms were associated with working-class food traditions and were commonly prepared from relatively simple ingredients such as flour, yeast, milk, and water.",
+
+    "The word 'muffin' appears in English sources several centuries ago, although the exact origin of the word is uncertain. Historical references show that muffins became established as a recognizable type of baked food in Britain by the early modern period.",
+
+    "Traditional English muffins were generally cooked on a hot griddle rather than baked inside an oven. Their characteristic flat, round shape made them suitable for cooking directly on a heated surface.",
+
+    "English muffins became particularly associated with breakfast and tea-time eating. They could be split open and served with butter, jam, or other toppings.",
+
+    "By the 18th and 19th centuries, muffin sellers became a familiar part of urban British life. Street vendors sold freshly cooked muffins, especially in London and other cities.",
+
+    "The English muffin was also connected with the development of commercial baking. As cities grew and food businesses became more organized, muffins could be produced and sold in larger quantities.",
+
+    "The American muffin developed along a different path. During the 19th century, American cooks increasingly prepared small individual quick breads using chemical leavening agents such as baking powder instead of yeast.",
+
+    "American-style muffins are generally made from a batter rather than a yeast dough. Flour is combined with ingredients such as milk, eggs, butter or oil, sugar, and a chemical leavening agent.",
+
+    "The development of baking powder was important to the popularity of American muffins. Chemical leaveners allowed quick breads to rise without requiring the long fermentation time associated with yeast.",
+
+    "Muffin tins and individual baking cups also helped establish the familiar modern muffin shape. Instead of preparing one large loaf, cooks could divide the batter into small portions and bake them separately.",
+
+    "American muffins became increasingly diverse during the 19th and 20th centuries. Blueberry, corn, bran, banana, chocolate, and other varieties became popular in different households and bakeries.",
+
+    "Corn muffins became especially important in American food culture because cornmeal had long been an important ingredient in North American cooking. Corn muffins developed as a practical way of turning cornmeal into a small individual bread.",
+
+    "The blueberry muffin became another well-known American variety. The combination of a simple sweet batter and blueberries became strongly associated with American-style breakfast and bakery foods.",
+
+    "Muffins also became closely connected with home baking. Their relatively simple preparation made them suitable for family kitchens, school lunches, breakfasts, and afternoon snacks.",
+
+    "During the 20th century, industrial food production made muffins increasingly available through bakeries, supermarkets, cafés, and restaurants. Packaged muffin mixes also made home preparation easier.",
+
+    "Modern muffins can range from relatively bread-like products to very sweet, cake-like bakery items. The ingredients and texture vary considerably depending on the regional and culinary tradition.",
+
+    "In Britain, the term 'muffin' can still refer to the traditional English muffin, while in North America it usually refers to the baked individual quick bread. This difference sometimes creates confusion when discussing muffin history.",
+
+    "Muffins eventually spread internationally through British and American food culture. Today they are commonly found in cafés, bakeries, hotels, supermarkets, and home kitchens around the world.",
+
+    "In India, muffins have become increasingly common through cafés, bakeries, supermarkets, and international-style food businesses. Indian bakeries also produce localized varieties using ingredients such as chocolate, banana, nuts, spices, and dried fruits.",
+
+    "Although modern muffins are often considered a simple bakery snack, their history reflects larger changes in food technology, urban life, commercial baking, and the movement of British and American food traditions across the world."
+  ],
+
+  ingredients: [
+    "All-purpose flour / wheat flour",
+    "Sugar",
+    "Milk",
+    "Eggs",
+    "Butter or vegetable oil",
+    "Baking powder",
+    "Baking soda",
+    "Salt",
+    "Vanilla or other flavoring",
+    "Blueberries, chocolate, banana, nuts, cornmeal, or other optional ingredients"
+  ],
+
+  oralHistory: "I remember making muffins at home with my children, especially when we wanted to bake something simple together. The process of mixing the ingredients, preparing the batter and waiting for them to bake became a small family activity. For me, these homemade muffins are connected not just with the food itself, but with the memories of spending time together in the kitchen.",
+
+  tags: [
+    "muffin",
+    "muffins",
+    "English muffin",
+    "American muffin",
+    "British cuisine",
+    "American cuisine",
+    "bakery",
+    "baked food",
+    "breakfast",
+    "snack",
+    "quick bread",
+    "baking",
+    "British baking",
+    "American baking",
+    "blueberry muffin",
+    "corn muffin",
+    "chocolate muffin",
+    "food history",
+    "culinary heritage",
+    "global food culture",
+    "bakery culture",
+    "oral history"
+  ],
+
+  sources: [
+    {
+      name: "Encyclopaedia Britannica - Muffin",
+      url: "https://www.britannica.com/topic/muffin"
+    },
+    {
+      name: "Oxford English Dictionary - Muffin",
+      url: "https://www.oed.com/"
+    },
+    {
+      name: "Smithsonian Magazine - The History of the English Muffin",
+      url: "https://www.smithsonianmag.com/"
+    },
+    {
+      name: "The Oxford Companion to Food",
+      url: "https://global.oup.com/academic/product/the-oxford-companion-to-food-9780199677337"
+    }
+  ]
+},
+
+{
+  id: 19,
+  name: "Upma",
+  person: "Ravnish Singh",
+  category: "Breakfast / Tiffin",
+  region: "South India",
+  location: "Karnataka, Tamil Nadu, Kerala, Andhra Pradesh and Telangana",
+  period: "Traditional; part of South Indian breakfast and tiffin culture",
+  year: "Traditional food; exact origin and date of invention are uncertain",
+  image: "/images/upma.jpg",
+
+  shortDescription: "Upma is a popular South Indian breakfast made mainly from roasted semolina or rava. It is cooked with spices, vegetables, curry leaves and other tempering ingredients and is known for being simple, filling and easy to prepare.",
+
+  description: [
+    "Upma is a traditional Indian breakfast preparation made mainly from semolina, commonly known as rava or sooji.",
+    "It is especially associated with South Indian breakfast and tiffin culture and is commonly prepared in homes, restaurants and canteens.",
+    "The most common version of upma uses wheat semolina. The rava is usually dry roasted before cooking.",
+    "Roasting the rava gives it a pleasant aroma and helps produce the characteristic texture of the finished dish.",
+    "The basic preparation involves cooking roasted rava with water, salt and a tempering of spices and other ingredients.",
+    "Common tempering ingredients include mustard seeds, urad dal, chana dal, curry leaves, green chilli and ginger.",
+    "Onions are frequently added to modern versions of upma and provide additional flavour and texture.",
+    "Vegetable upma is another popular version in which vegetables such as carrots, peas and beans are added during cooking.",
+    "Some regional and household preparations also use grated coconut, cashews, coriander leaves or lemon juice.",
+    "The amount of water used during cooking affects the final texture of upma. More water generally produces a softer preparation.",
+    "Upma is closely connected with the South Indian concept of tiffin, which includes light meals and snacks eaten during breakfast or between meals.",
+    "South Indian restaurants commonly serve upma along with other breakfast foods such as idli, dosa, vada and pongal.",
+    "The dish became popular as an everyday food because its ingredients are relatively inexpensive and easy to store.",
+    "Roasted rava can also be prepared in advance, making upma a convenient option for quick breakfast preparation.",
+    "Different regions and households have developed their own versions of the dish according to local ingredients and preferences.",
+    "Rice-based upma is prepared in some parts of South India using coarsely broken rice instead of wheat semolina.",
+    "Modern versions may also use broken wheat, oats, millets and other grains instead of traditional rava.",
+    "These variations show how the basic cooking technique of upma can be adapted to different ingredients.",
+    "Upma gradually became popular outside South India and is now commonly eaten across many parts of India.",
+    "In Maharashtra and other neighbouring regions, rava-based breakfast preparations are also widely consumed.",
+    "Upma is often served with coconut chutney, chutney powder, pickle, sambar or a small amount of ghee.",
+    "Some households also serve it with lemon, coconut or other accompaniments depending on local preference.",
+    "Because it is simple, affordable and adaptable, upma has remained an important part of everyday Indian breakfast culture.",
+    "Today, upma continues to be prepared in homes, hotels, restaurants, hostels, railway stations and institutional canteens throughout India."
+  ],
+
+  ingredients: [
+    "Semolina / rava / sooji",
+    "Water",
+    "Onion",
+    "Green chilli",
+    "Ginger",
+    "Mustard seeds",
+    "Urad dal",
+    "Chana dal",
+    "Curry leaves",
+    "Cashews",
+    "Cooking oil or ghee",
+    "Salt",
+    "Turmeric",
+    "Coriander leaves",
+    "Carrot",
+    "Green peas",
+    "Beans",
+    "Grated coconut",
+    "Lemon juice"
+  ],
+
+  oralHistory: "I’m North Indian but grew up in Bombay, and when we came home from school, we would have upma. From our point of view, it was simple, but from a Western point of view, it feels exotic. We would have it with achar or mint chutney. When I make it myself, I like to add peanuts, and if you add a sunny-side egg on top, it tastes amazing.",
+
+  tags: [
+    "upma",
+    "rava upma",
+    "sooji upma",
+    "South Indian cuisine",
+    "Indian breakfast",
+    "tiffin",
+    "Karnataka cuisine",
+    "Tamil cuisine",
+    "Kerala cuisine",
+    "Andhra cuisine",
+    "Telangana cuisine",
+    "semolina",
+    "rava",
+    "vegetable upma",
+    "rice upma",
+    "millet upma",
+    "Indian vegetarian food",
+    "home cooking",
+    "breakfast food",
+    "regional cuisine",
+    "culinary heritage",
+    "food history",
+    "oral history"
+  ],
+
+  sources: [
+    {
+      name: "The Oxford Companion to Food",
+      url: "https://global.oup.com/academic/product/the-oxford-companion-to-food-9780199677337"
+    },
+    {
+      name: "Indian Food: A Historical Companion by K. T. Achaya",
+      url: "https://books.google.com/books/about/Indian_Food.html?id=ZVqXAAAAMAAJ"
+    },
+    {
+      name: "The Story of Our Food by K. T. Achaya",
+      url: "https://books.google.com/books/about/The_Story_of_Our_Food.html?id=8WQ5AQAAIAAJ"
+    }
+  ]
+},
+
+{
+  id: 20,
+  name: "Sambar Vadi",
+  person: "Ashu",
+  category: "Snack / Breakfast",
+  region: "Maharashtra and South India",
+  location: "Maharashtra, India",
+  period: "Modern regional adaptation of South Indian sambar with Maharashtrian vada traditions",
+  year: "Modern; exact origin and date of invention are uncertain",
+  image: "/images/sambar-vadi.jpg",
+
+  shortDescription: "Sambar Vadi is a regional snack that combines the flavours of South Indian sambar with a fried or steamed vadi-style preparation. It reflects the exchange and adaptation of food traditions between Maharashtra and South India.",
+
+  description: [
+    "Sambar Vadi represents the way Indian regional cuisines influence each other and create new dishes.",
+    "The dish combines the familiar flavours associated with South Indian sambar with the idea of vadi, a term used for different shaped or prepared savoury foods in Maharashtra and other parts of India.",
+    "Sambar is a lentil and vegetable preparation traditionally associated with South Indian cuisine. It is usually flavoured with tamarind, spices and a characteristic sambar masala.",
+    "Vadi is a broader term in Indian cooking and can refer to prepared savoury foods made from ingredients such as lentils, flour, vegetables or spices.",
+    "The combination of these culinary ideas demonstrates how food names and preparations can change when they move between regions.",
+    "Maharashtra has a long tradition of savoury snacks prepared from gram flour, lentils, spices and vegetables.",
+    "South Indian food traditions also became increasingly popular in Maharashtra through migration, restaurants, hotels and everyday cultural exchange.",
+    "The growth of South Indian restaurants and tiffin centres in Maharashtra introduced foods such as idli, dosa, vada and sambar to a wider audience.",
+    "Over time, cooks and households adapted these flavours according to local preferences and available ingredients.",
+    "Sambar provides the characteristic combination of lentils, tamarind, vegetables and spices that gives the dish its distinctive flavour.",
+    "Common sambar ingredients include pigeon peas or other lentils, vegetables, tamarind, mustard seeds, curry leaves and spice mixtures.",
+    "The vadi component can provide a firm or crisp texture that contrasts with the soft and aromatic flavours associated with sambar.",
+    "Depending on the preparation, the mixture may be shaped into small pieces, steamed, fried or prepared using a batter or flour-based mixture.",
+    "Regional variations are common because there is no single standardized recipe for every preparation known as sambar vadi.",
+    "The dish can be served as a snack, breakfast item or tea-time food depending on the household and local food culture.",
+    "Its flavour profile reflects the blending of Maharashtrian and South Indian culinary preferences.",
+    "This type of culinary adaptation is common in Indian food culture, where dishes are modified when communities migrate or interact with neighbouring regions.",
+    "Urban centres have played an important role in this process because restaurants and street-food businesses bring different regional cuisines together.",
+    "Maharashtra, especially cities with diverse migrant populations, has developed many foods influenced by neighbouring and distant culinary traditions.",
+    "Sambar vadi can therefore be understood as part of a larger history of regional food exchange rather than as a dish belonging exclusively to one ancient culinary tradition.",
+    "Modern home cooks may also modify the preparation by adding vegetables, coconut, coriander, chilli or different spice combinations.",
+    "The dish demonstrates how familiar ingredients can be combined in new ways while still retaining recognizable regional flavours.",
+    "Today, foods combining Maharashtrian snack traditions with South Indian flavours can be found in homes, local eateries and regional food businesses.",
+    "Sambar vadi is therefore an example of India's evolving food culture, where migration, restaurants and household experimentation contribute to the development of regional dishes."
+  ],
+
+  ingredients: [
+    "Toor dal",
+    "Semolina or rice flour",
+    "Gram flour",
+    "Tamarind",
+    "Sambar masala",
+    "Onion",
+    "Green chilli",
+    "Curry leaves",
+    "Mustard seeds",
+    "Cumin seeds",
+    "Turmeric",
+    "Red chilli powder",
+    "Coriander leaves",
+    "Salt",
+    "Cooking oil",
+    "Mixed vegetables",
+    "Grated coconut (optional)",
+    "Water"
+  ],
+
+  oralHistory: "We call it Sambar Vadi in my household. I remember my mother buying one or two kilograms of green coriander, patiently cleaning the bunches, washing and drying the leaves, and then finely chopping them. The dry coconut also had to be grated and the onions finely chopped. As a child, I thought all of this was too much work and I had even decided that I would never make it myself. I never ate the coriander filling when I was young, but today I make Sambar Vadi every winter and still feel that my mother's version is the best.",
+
+  tags: [
+    "sambar vadi",
+    "sambar",
+    "vadi",
+    "Maharashtrian cuisine",
+    "South Indian cuisine",
+    "Maharashtra",
+    "Indian snacks",
+    "Indian breakfast",
+    "tiffin",
+    "regional food",
+    "vegetarian food",
+    "lentil food",
+    "South Indian influence",
+    "Maharashtrian snacks",
+    "street food",
+    "home cooking",
+    "culinary adaptation",
+    "regional cuisine",
+    "culinary heritage",
+    "food history",
+    "oral history"
+  ],
+
+  sources: [
+    {
+      name: "The Oxford Companion to Food",
+      url: "https://global.oup.com/academic/product/the-oxford-companion-to-food-9780199677337"
+    },
+    {
+      name: "Indian Food: A Historical Companion by K. T. Achaya",
+      url: "https://books.google.com/books/about/Indian_Food.html?id=ZVqXAAAAMAAJ"
+    },
+    {
+      name: "The Story of Our Food by K. T. Achaya",
+      url: "https://books.google.com/books/about/The_Story_of_Our_Food.html?id=8WQ5AQAAIAAJ"
+    }
+  ]
+},
+
+{
+  id: 21,
+  name: "Gulab Jamun",
+  person: "Madhura",
+  category: "Sweet / Dessert",
+  region: "South Asia",
+  location: "Indian subcontinent",
+  period: "Medieval to early-modern; developed through South Asian and Persian-influenced confectionery traditions",
+  year: "Traditional; exact origin and date of invention are uncertain",
+  image: "/images/gulab-jamun.jpg",
+
+  shortDescription: "Gulab Jamun is a popular South Asian sweet made from milk solids or milk-based dough, shaped into small balls, fried and soaked in a fragrant sugar syrup. It is widely associated with Indian festive and celebratory food culture.",
+
+  description: [
+    "Gulab jamun is one of the most widely recognized sweets of South Asian cuisine.",
+    "The sweet is traditionally prepared by forming small balls from a milk-based mixture, frying them until golden brown and soaking them in sugar syrup.",
+    "The name 'gulab jamun' reflects the cultural history of the dish. 'Gulab' is associated with rose, while 'jamun' refers to the Indian fruit whose dark, round shape resembles the finished sweet.",
+    "The exact origin of gulab jamun is uncertain, and different historical accounts connect it with Persian and Central Asian culinary traditions.",
+    "South Asian cuisine has a long history of interaction with Persianate food traditions, particularly during the medieval and early-modern periods.",
+    "Milk-based sweets were already important in the Indian subcontinent before the development of the modern gulab jamun.",
+    "The use of reduced milk solids is particularly important in many traditional Indian sweets. These milk solids are commonly known as khoya or mawa.",
+    "Traditional gulab jamun can be prepared using khoya, flour and other ingredients to create a soft dough.",
+    "The dough is shaped into small smooth balls. Careful shaping is important because cracks can cause the balls to break apart while frying or soaking.",
+    "The balls are generally fried at a controlled temperature so that they develop a deep golden-brown colour while remaining soft inside.",
+    "After frying, the pieces are placed in sugar syrup. The syrup gradually enters the fried sweet and gives it its characteristic softness and sweetness.",
+    "Rose water, cardamom, saffron or other flavourings may be added to the syrup depending on the regional or household recipe.",
+    "The use of rose-flavoured syrup helps explain the 'gulab' part of the name and connects the sweet with Persian-influenced flavour traditions.",
+    "Different regions of India have developed their own variations of gulab jamun. The size, texture, ingredients and syrup can vary considerably.",
+    "In some modern recipes, milk powder is used instead of traditional khoya. This makes the sweet easier to prepare in home kitchens.",
+    "Other variations use paneer, ricotta or different combinations of milk solids and flour, although these are adaptations rather than a single historical standard.",
+    "Gulab jamun became closely associated with celebrations and special occasions. It is commonly served during festivals, weddings, family gatherings and religious celebrations.",
+    "The sweet also became an important part of the restaurant and mithai-shop tradition in South Asia.",
+    "Indian sweet shops helped standardize and popularize gulab jamun as a commercially available sweet that could be prepared in large quantities.",
+    "Gulab jamun is also popular outside India, particularly in Pakistan, Bangladesh, Nepal and other parts of South Asia.",
+    "South Asian migration helped spread the sweet to communities around the world. It can now be found in restaurants and sweet shops in many countries.",
+    "Modern versions sometimes include fillings such as nuts, dried fruits or flavoured centres.",
+    "The popularity of gulab jamun shows how South Asian sweets developed through the interaction of local ingredients, Persianate culinary influences and regional cooking traditions.",
+    "Today, gulab jamun remains an important part of South Asian dessert culture and is recognized as a symbol of celebration, hospitality and festive food."
+  ],
+
+  ingredients: [
+    "Khoya / mawa",
+    "All-purpose flour",
+    "Sugar",
+    "Water",
+    "Cardamom",
+    "Rose water",
+    "Saffron (optional)",
+    "Ghee or cooking oil",
+    "Milk",
+    "Baking soda or baking powder (optional)",
+    "Almonds or pistachios (optional)"
+  ],
+
+  oralHistory: "Gulab jamun has always been one of my favourite sweets. I remember having it during family celebrations and festivals, when a large bowl would be placed on the table and everyone would wait for their turn. For me, the soft texture, warm syrup and sweet aroma are closely connected with those happy occasions and childhood memories.",
+
+  tags: [
+    "gulab jamun",
+    "gulabjamun",
+    "Indian sweets",
+    "Indian dessert",
+    "South Asian cuisine",
+    "South Asian sweets",
+    "Indian cuisine",
+    "mithai",
+    "khoya",
+    "mawa",
+    "milk sweets",
+    "Persian influence",
+    "Mughal cuisine",
+    "festive food",
+    "wedding food",
+    "Diwali sweets",
+    "Ramadan food",
+    "dessert",
+    "sweet",
+    "culinary heritage",
+    "food history",
+    "oral history"
+  ],
+
+  sources: [
+    {
+      name: "The Oxford Companion to Food",
+      url: "https://global.oup.com/academic/product/the-oxford-companion-to-food-9780199677337"
+    },
+    {
+      name: "Indian Food: A Historical Companion by K. T. Achaya",
+      url: "https://books.google.com/books/about/Indian_Food.html?id=ZVqXAAAAMAAJ"
+    },
+    {
+      name: "The Story of Our Food by K. T. Achaya",
+      url: "https://books.google.com/books/about/The_Story_of_Our_Food.html?id=8WQ5AQAAIAAJ"
+    }
+  ]
+},
+
+
 ];
 
 export default foods;
