@@ -2641,7 +2641,7 @@ const foods = [
     name: "Dharwad Peda",
 
     person:
-      "Thakur family; traditionally associated with Ram Ratan Singh Thakur and his descendants",
+      "Nithya",
 
     category: "Sweet / Milk-based confectionery",
 
@@ -2686,9 +2686,7 @@ const foods = [
       "Powdered sugar for the outer coating"
     ],
 
-    oralHistory: "",
-
-    storyteller: "",
+    oralHistory: "I have the earliest memories of my father bringing Dharwad peda home. His Kannadiga friend would bring it for him when he visited his native place, and I loved it every time. I never imagined then that I would one day settle in Karnataka; looking back, many of my childhood memories are associated with food, making it and sharing it with relatives.",
 
     tags: [
       "Dharwad Peda",
@@ -2735,7 +2733,7 @@ const foods = [
     name: "Mysore Pak",
 
     person:
-      "Kakasura Madappa; traditionally credited as the palace cook who created the sweet",
+      "D. K. Shivakumar",
 
     category: "Sweet / Traditional confectionery",
 
@@ -2783,9 +2781,7 @@ const foods = [
       "Water"
     ],
 
-    oralHistory: "",
-
-    storyteller: "",
+    oralHistory: "My childhood memories of sharing Mysore Pak when my father and relatives who came home often brought me still resonate with me.",
 
     tags: [
       "Mysore Pak",
@@ -2832,7 +2828,7 @@ const foods = [
     name: "Ghevar",
 
     person:
-      "Rajasthani sweet-making tradition; no single inventor is firmly established",
+      "Depinder Chhibber",
 
     category: "Sweet / Festive confectionery",
 
@@ -2891,9 +2887,7 @@ const foods = [
       "Saffron, optional"
     ],
 
-    oralHistory: "",
-
-    storyteller: "",
+    oralHistory: "I grew up in Delhi, and a lot of my cooking is nostalgic and memory-driven. After moving to Newcastle in 2002, I could not find the Indian street food I had grown up eating, so my mother and I started making it at home. Ghevar became a dish I particularly enjoyed working on, and I spent time making and perfecting it as my signature dish.",
 
     tags: [
       "Ghevar",
@@ -2943,7 +2937,7 @@ const foods = [
   name: "Hyderabadi Dum Biryani",
 
   person:
-    "Hyderabadi court cooks and Deccani culinary traditions; no single inventor is firmly established",
+    "Rana Daggubati",
 
   category: "Main Course / Rice and Meat Dish",
 
@@ -3020,9 +3014,8 @@ const foods = [
     "Water"
   ],
 
-  oralHistory: "",
+  oralHistory: "I grew up eating biryani and I absolutely love Hyderabadi haleem and biryani. It is one of the reasons why I look forward to Ramzan every year in Hyderabad. The festival gives me a chance to savour the customary home-cooked haleem with my old city friends.",
 
-  storyteller: "",
 
   tags: [
     "Hyderabadi Dum Biryani",
@@ -3085,7 +3078,7 @@ const foods = [
 {
   id: 26,
   name: "Croissant",
-  person: "French bakers and the European viennoiserie tradition",
+  person: "Nick",
   category: "Pastry",
   region: "France, with Austrian roots",
   location: "Paris, France; inspired by the Austrian kipferl",
@@ -3111,8 +3104,8 @@ const foods = [
     "Egg wash for brushing before baking (optional)",
     "Flour for dusting and rolling"
   ],
-  oralHistory: "",
-  storyteller: "",
+  oralHistory: "I remember croissants as one of the foods that made me appreciate French baking. The first time I really noticed how special they were was when I had a freshly baked one in Paris. The crisp, flaky layers and buttery flavour made it very different from the breads I had grown up eating, and it became a food I associated with French café culture.",
+ 
   tags: [
     "French cuisine",
     "Austrian culinary heritage",
@@ -3153,7 +3146,7 @@ const foods = [
 {
   id: 27,
   name: "Sushi",
-  person: "Japanese sushi chefs and generations of culinary practitioners",
+  person: "Daisuke Nakazawa",
   category: "Main Course",
   region: "Japan, particularly Edo (modern-day Tokyo)",
   location: "Japan; nigiri sushi developed in Edo, present-day Tokyo",
@@ -3186,8 +3179,8 @@ const foods = [
     "Pickled ginger, for serving",
     "Sesame seeds, optional"
   ],
-  oralHistory: "",
-  storyteller: "",
+  oralHistory: "My first memory of eating sushi was eating delivery sushi at my grandfather’s house; I might have been five or six years old. But my first memory of actually liking sushi was in high school, when a friend of mine was training to be a sushi chef, and he influenced me. I never really had a favorite dish before then, but that’s when I started liking sushi.",
+
   tags: [
     "Japanese cuisine",
     "Traditional food",
@@ -3233,7 +3226,7 @@ const foods = [
 {
   id: 28,
   name: "Noodles",
-  person: "Generations of Chinese and other Asian culinary practitioners",
+  person: "David Chang",
   category: "Main Course",
   region: "East Asia, with extensive regional traditions across Asia and beyond",
   location: "China; subsequently developed into diverse regional traditions across East, Southeast and Central Asia and other parts of the world",
@@ -3264,8 +3257,8 @@ const foods = [
     "Soy sauce or other regional sauces, depending on the recipe",
     "Broth, chilli, herbs, meat, seafood or other toppings, depending on the dish"
   ],
-  oralHistory: "",
-  storyteller: "",
+  oralHistory: "My grandmother was the best cook, and being younger than my brothers and sisters, she took care of me a lot of the time. I remember eating noodles with my dad or my grandfather. Instead of going to the park or going to a ball game, it was, 'let's go to this noodle place somewhere,' and I remember the guys hand-stretching noodles and eating them with kimchi. Those are my food memories.",
+
   tags: [
     "Chinese cuisine",
     "Asian cuisine",
@@ -3313,7 +3306,7 @@ const foods = [
 {
   id: 29,
   name: "Caesar Salad",
-  person: "Caesar Cardini, an Italian immigrant and restaurateur, is widely credited with its creation",
+  person: "Julia Child",
   category: "Salad",
   region: "Tijuana, Baja California, Mexico",
   location: "Caesar's restaurant, Tijuana, Mexico",
@@ -3347,8 +3340,8 @@ const foods = [
     "Anchovy fillets or anchovy paste, optional in some traditional and modern recipes",
     "Dijon mustard, optional in some modern recipes"
   ],
-  oralHistory: "",
-  storyteller: "",
+  oralHistory: "I was about nine when my parents took me to his restaurant in Tijuana, just the other side of the border from San Diego. They were so excited when big, jolly Caesar himself came to the table to make the salad, which had already been written up and talked about everywhere. I am probably one of the few people around who saw the real Caesar Cardini making his salad.",
+
   tags: [
     "Mexican culinary history",
     "Tijuana",
@@ -3394,7 +3387,7 @@ const foods = [
 {
   id: 30,
   name: "Ramen",
-  person: "Japanese ramen chefs and Chinese culinary influences; Momofuku Ando pioneered instant ramen",
+  person: "Rahul Khopkar",
   category: "Main Course",
   region: "Japan, with roots in Chinese noodle traditions",
   location: "Japan; early modern ramen culture developed in port cities and urban centres, including Yokohama, Tokyo and Sapporo",
@@ -3430,8 +3423,8 @@ const foods = [
     "Mushrooms, bean sprouts or other vegetables, optional",
     "Chilli oil, sesame seeds or additional seasonings, optional"
   ],
-  oralHistory: "",
-  storyteller: "",
+  oralHistory: "I used to come home from school and our grandmother was living with us at the time, and she and I would sit down and have a bowl of ramen together after school. I definitely remember that growing up. Food was always an important thing in our family, and we would sit down together and eat dinner as a family for as long as I can remember.",
+
   tags: [
     "Japanese cuisine",
     "Chinese culinary influences",
@@ -3480,7 +3473,7 @@ const foods = [
 {
   id: 31,
   name: "Pav Bhaji",
-  person: "Mumbai's street-food vendors and working-class culinary traditions",
+  person: "Sanjyot Keer",
   category: "Street Food",
   region: "Maharashtra, Western India",
   location: "Mumbai, Maharashtra, India",
@@ -3524,8 +3517,8 @@ const foods = [
     "Extra butter for toasting the pav",
     "Chopped raw onion for garnish"
   ],
-  oralHistory: "",
-  storyteller: "",
+  oralHistory: "I always wanted to enter the kitchen to see what was happening. I remember my first memories of cooking—my first recipe was Pav Bhaji. I used to go on bike rides with my father and my sister to a pav bhaji vendor, where I learned my first recipe by watching him. I cooked my first meal, and it worked out well. My mother had the superpower of putting a smile on people's faces with her cooking. I wanted that superpower too, and when I cooked my first meal and gave it to my family, they had smiles on their faces. That is when I realized I could have that superpower, and that is where my culinary journey began.",
+ 
   tags: [
     "Indian cuisine",
     "Maharashtrian cuisine",
@@ -3571,7 +3564,7 @@ const foods = [
 
   name: "Butter Chicken",
 
-  person: "Kundan Lal Gujral and the Moti Mahal culinary tradition; Kundan Lal Jaggi and Thakur Dass Mago are also associated with the dish's disputed history",
+  person: "Romy Gill",
 
   category: "Main Course / Curry / Punjabi Cuisine",
 
@@ -3670,9 +3663,7 @@ const foods = [
     "Steamed rice or jeera rice (common accompaniment)"
   ],
 
-  oralHistory: "",
-
-  storyteller: "",
+  oralHistory: "I remember my first taste of butter chicken. I must have been about 10 years old. My dad’s cousins used to marinate a whole chicken from their farm in yoghurt, spices, ginger, garlic and chilli, before cooking it over an open fire. That first taste has stayed with me, and butter chicken has remained an important comfort food in my life and something I associate strongly with family.",
 
   tags: [
     "butter chicken",
@@ -3742,7 +3733,7 @@ const foods = [
 
   name: "Ice Cream",
 
-  person: "No single documented inventor; developed through the culinary traditions of ancient frozen desserts, Persian ice-storage techniques, European confectionery, and modern dairy technology",
+  person: "Suvir Saran",
 
   category: "Dessert / Frozen Dairy Dessert / Sweet",
 
@@ -3836,9 +3827,8 @@ const foods = [
     "Chocolate chips or other inclusions (optional)"
   ],
 
-  oralHistory: "",
+  oralHistory: "My earliest memories are all around food. One of them is making no-churn ice cream with my mum in our Delhi kitchen. My mother had very few tools and the ones she had were old, yet she had tremendous patience and a strong desire to feed and please people. At her side, I learned how to cook and bake, but more importantly I learned the value of hospitality and perseverance. Those early food memories became the building blocks of my relationship with cooking.",
 
-  storyteller: "",
 
   tags: [
     "ice cream",
@@ -3918,7 +3908,7 @@ const foods = [
 
   name: "Waffles",
 
-  person: "No single documented inventor; developed through European wafer-baking traditions, particularly in the Low Countries, including present-day Belgium and the Netherlands",
+  person: "Al Roker",
 
   category: "Breakfast / Dessert / Baked Food / Snack",
 
@@ -4014,9 +4004,9 @@ const foods = [
     "Nuts (optional topping)"
   ],
 
-  oralHistory: "",
+  oralHistory: "Even before there were Eggo waffles, there was something called Downyflake waffles. They were square, frozen waffles that you put in the toaster. I remember watching a television show when I was a kid where the mother was making waffles with a waffle maker, and I was transfixed by it. I remember thinking that when I was an adult, I would never have another frozen waffle as long as I lived. I still have a Magic Chef waffle maker that's about 30 years old, and it makes fantastic waffles.",
 
-  storyteller: "",
+
 
   tags: [
     "waffles",
@@ -4092,7 +4082,7 @@ const foods = [
 
   name: "Pasta",
 
-  person: "No single documented inventor; developed through distinct culinary traditions in the Mediterranean and East Asia, with Italy becoming central to the development of modern dried wheat pasta",
+  person: "Om Nayak",
 
   category: "Main Course / Staple Food / Noodles",
 
@@ -4204,9 +4194,8 @@ const foods = [
     "Fresh parsley (optional garnish)"
   ],
 
-  oralHistory: "",
+  oralHistory: "Some of my earliest childhood memories are of my father bringing home pasta of different shapes, sizes and smells. I remember joining him while he cooked his own recipes, and those moments were the beginning of my fascination with Italian cuisine. Later, when I trained as a chef, I discovered the depth and variety of Italian cooking, but those childhood memories of pasta with my father remained an important part of my connection with the cuisine.",
 
-  storyteller: "",
 
   tags: [
     "pasta",
@@ -4291,7 +4280,7 @@ const foods = [
 {
     id: 36,
     name: "Tacos",
-    person: "Traditional Mexican cooks, Indigenous communities, and generations of taqueros (taco makers)",
+    person: "Edson Diaz-Fuentes",
     category: "Main Course / Street Food",
     region: "Mexico",
     location: "Mexico, with regional traditions across the country",
@@ -4333,8 +4322,8 @@ const foods = [
         "Cooking oil or fat, when required",
         "Optional toppings such as avocado, cheese, radishes, cabbage, or pickled vegetables"
     ],
-    oralHistory: "",
-    storyteller: "",
+    oralHistory: "My mum would cook the dishes, the stews, the chicken, and the beef, and she’d put the tortillas on the side, so you’d make your own tacos. The salsas are really, really important. For us as a kid they were not spicy — as you don’t like spicy things as a child — but it was really fresh salsa, and you’d have them right next to the chicken and the garnishes, the salsa verde, the onion, the coriander. There was a period when it was mandatory to go and eat tacos at the market. Each stand in the market has its own speciality.",
+  
     tags: [
         "Mexican Cuisine",
         "Tacos",
@@ -4386,7 +4375,7 @@ const foods = [
 {
     id: 37,
     name: "Aloo Paratha",
-    person: "Punjabi households, traditional home cooks, and generations of paratha makers",
+    person: "Arshad",
     category: "Main Course / Flatbread",
     region: "Punjab, North India",
     location: "Punjab, India and Punjab, Pakistan; popular throughout South Asia",
@@ -4441,8 +4430,8 @@ const foods = [
         "Mango pickle, for serving",
         "Fresh white butter (makhan) or chutney, optional"
     ],
-    oralHistory: "",
-    storyteller: "",
+    oralHistory: "I remember sitting down and eating a big spoonful of homemade yogurt with aloo or gobi paratha and a side of pickle. Sometimes bhatura or halwa puri with aloo. We spend time with my cousins and aunties.",
+
     tags: [
         "Indian Cuisine",
         "Punjabi Cuisine",
@@ -4489,7 +4478,7 @@ const foods = [
 {
     id: 38,
     name: "Poha",
-    person: "Traditional Indian home cooks, Maharashtrian culinary communities, and generations of regional breakfast vendors",
+    person: "Nilav Pyne",
     category: "Breakfast / Snack",
     region: "Western and Central India",
     location: "Maharashtra, Madhya Pradesh, and other regions across India",
@@ -4545,8 +4534,8 @@ const foods = [
         "Pomegranate seeds, optional",
         "Jalebi, commonly served alongside Indori poha"
     ],
-    oralHistory: "",
-    storyteller: "",
+    oralHistory: "At times we have poha, at times Maa cooks noodles, which becomes a quick fix. But more often than not, she does engage in the lengthier process of cooking food, and I also personally enjoy that when I cook at home as well.",
+  
     tags: [
         "Indian Cuisine",
         "Poha",
@@ -4597,7 +4586,7 @@ const foods = [
 {
     id: 39,
     name: "Rasgulla",
-    person: "Nobin Chandra Das and generations of Bengali confectioners; traditional Odia cooks and temple food traditions",
+    person: "Jigyasa Mishra",
     category: "Sweet / Dessert",
     region: "Eastern India",
     location: "West Bengal and Odisha, India",
@@ -4642,8 +4631,8 @@ const foods = [
         "Cardamom, optional",
         "Rose water, optional in some modern or household variations"
     ],
-    oralHistory: "",
-    storyteller: "",
+    oralHistory: "My earliest food memories are of my grandfather, Baba, bringing home rasgullas from Sweet Home, a little sweet shop in Darbhanga, Bihar. On payday, Baba would often parcel my favourite rasgullas and send them with someone travelling to my hometown, Chitrakoot, by train. Baba is no more, but Sweet Home remains in its iconic location, still serving Maithils that same old taste of nostalgia.",
+
     tags: [
         "Indian Cuisine",
         "Rasgulla",
@@ -4698,7 +4687,7 @@ const foods = [
 
   name: "Kaju Katli",
 
-  person: "Traditional Indian confectionery tradition; no reliably documented single inventor",
+  person: "Victor Rogers",
 
   category: "Dessert / Mithai",
 
@@ -4762,9 +4751,8 @@ const foods = [
     "Edible silver leaf / chandi varq (optional decorative finish)"
   ],
 
-  oralHistory: "",
+  oralHistory: "One food that is a must-have during Diwali in India, and among the diaspora around the world, is kaju katli. It is a sweet that has a strong connection with the festival and with family celebrations.",
 
-  storyteller: "",
 
   tags: [
     "kaju katli",
