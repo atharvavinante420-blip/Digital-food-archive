@@ -1,37 +1,24 @@
-import {
-  Link,
-  NavLink,
-} from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
     <header className="navbar">
-
       <div className="navbar-inner">
-
-        <Link
-          to="/"
-          className="brand"
-        >
-
-          <span className="brand-mark">
-            FA
-          </span>
+        <Link to="/" className="brand">
+          <img
+            src="/images/Logo.png"
+            alt="Digital Food Archive"
+            className="brand-logo"
+          />
 
           <span className="brand-name">
             Digital
             <strong>Food Archive</strong>
           </span>
-
         </Link>
 
-
         <nav className="nav-links">
-
-          <NavLink
-            to="/"
-            end
-          >
+          <NavLink to="/" end>
             Home
           </NavLink>
 
@@ -46,11 +33,8 @@ function Navbar() {
           <NavLink to="/about">
             About
           </NavLink>
-
         </nav>
-
       </div>
-
     </header>
   );
 }

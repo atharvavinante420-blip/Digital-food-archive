@@ -3,11 +3,11 @@ const foods = [
   id: 1,
   name: "Dhokla",
   person: "Pinky Jhaveri",
-  category: "Snack / Farsan",
-  region: "Gujarat",
+  category: "Snacks",
+  region: "Western India",
   location: "Gujarat, India",
-  period: "Traditional Gujarati food",
-  year: "Traditional; developed over generations",
+  period: "Traditional",
+  year: "Traditional",
 
   image: "/images/dhokla.jpg",
 
@@ -68,16 +68,13 @@ const foods = [
 
   tags: [
     "dhokla",
+    "khaman",
+    "gujarati cuisine",
     "gujarat",
-    "gujarati-food",
     "farsan",
-    "fermentation",
-    "steamed-food",
-    "vegetarian-food",
-    "traditional-food",
-    "regional-food",
-    "oral-history",
-    "indian-food-history"
+    "fermented food",
+    "steamed food",
+    "vegetarian"
   ],
 
   sources: [
@@ -125,13 +122,13 @@ const foods = [
 
   category: "Main Course",
 
-  region: "Rajasthan",
+  region: "Northern India",
 
   location: "Rajasthan, India",
 
   period: "Traditional",
 
-  year: "Historical; exact origin period uncertain",
+  year: "Historical",
 
   image: "/images/dal-bhati.jpg",
 
@@ -165,18 +162,15 @@ const foods = [
     "I remember calling my mother-in-law for every small thing when I first made dal baati for a group of ten people. I had to ask her how much dal to soak, how much flour to knead and how much water to add. Even after all that, I made far too little and had to prepare another batch while the guests were still at home. That experience taught me how to judge the quantities when cooking dal baati for a large group.",
 
   tags: [
-    "Rajasthan",
+    "dal baati churma",
+    "rajasthani cuisine",
+    "rajasthan",
     "dal",
     "baati",
     "churma",
-    "traditional",
-    "festival",
-    "wedding",
-    "family",
-    "hospitality",
-    "regional-cuisine",
-    "heritage-food",
-    "Indian-food",
+    "festive food",
+    "wedding food",
+    "hospitality"
   ],
 
   sources: [
@@ -206,13 +200,13 @@ const foods = [
 
   person: "Geo Joseph",
 
-  category: "Breakfast / Tiffin",
+  category: "Breakfast",
 
-  region: "Coastal Karnataka",
+  region: "Southern India",
 
-  location: "Udupi, Karnataka",
+  location: "Udupi, Karnataka, India",
 
-  period: "Traditional; modern masala dosa associated with the Udupi restaurant tradition",
+  period: "Modern",
 
   year: "Dosa documented in medieval sources; masala dosa commonly associated with the 20th-century Udupi hotel tradition",
 
@@ -279,19 +273,15 @@ const foods = [
   tags: [
     "masala dosa",
     "dosa",
-    "Udupi",
-    "Karnataka",
-    "South Indian cuisine",
-    "tiffin",
-    "breakfast",
-    "vegetarian food",
-    "fermented food",
+    "udupi",
+    "karnataka",
+    "south indian cuisine",
+    "udupi restaurants",
+    "mysore masala dosa",
     "potato masala",
-    "Udupi restaurants",
-    "Mysore masala dosa",
-    "culinary heritage",
-    "food history",
-    "oral history"
+    "fermented food",
+    "tiffin",
+    "vegetarian"
   ],
 
   sources: [
@@ -337,11 +327,11 @@ const foods = [
 
   person: "Shweta Tripathi Sharma",
 
-  category: "Street Food / Snack",
+  category: "Snacks",
 
-  region: "Maharashtra",
+  region: "Western India",
 
-  location: "Mumbai, Maharashtra",
+  location: "Mumbai, Maharashtra, India",
 
   period: "Modern",
 
@@ -416,22 +406,16 @@ const foods = [
 
   tags: [
     "vada pav",
-    "Mumbai",
-    "Maharashtra",
+    "mumbai",
+    "maharashtra",
+    "maharashtrian cuisine",
     "street food",
-    "Indian street food",
     "batata vada",
-    "Dadar",
-    "Mumbai food culture",
-    "working-class food",
-    "railway food",
-    "Marathi food",
-    "garlic chutney",
-    "potato",
     "pav",
-    "food heritage",
-    "oral history",
-    "urban food culture"
+    "garlic chutney",
+    "dadar",
+    "working class food",
+    "railway food"
   ],
 
   sources: [
@@ -481,13 +465,13 @@ const foods = [
 
   person: "Tejaswi Prakash Wayangankar",
 
-  category: "Festive Sweet / Flatbread",
+  category: "Main Course",
 
-  region: "Maharashtra",
+  region: "Western India",
 
   location: "Maharashtra, India",
 
-  period: "Traditional",
+  period: "Medieval",
 
   year: "Medieval references; documented in regional culinary traditions for centuries",
 
@@ -551,23 +535,16 @@ const foods = [
 
   tags: [
     "puran poli",
-    "Maharashtra",
-    "Maharashtrian cuisine",
-    "Holi",
-    "Gudi Padwa",
-    "Ganesh Chaturthi",
+    "maharashtra",
+    "maharashtrian cuisine",
+    "holi",
+    "gudi padwa",
     "festive food",
-    "traditional food",
     "sweet flatbread",
     "chana dal",
     "jaggery",
-    "ghee",
     "katachi amti",
-    "Konkan cuisine",
-    "food heritage",
-    "oral history",
-    "family tradition",
-    "Indian sweets"
+    "konkan cuisine"
   ],
 
   sources: [
@@ -610,10 +587,10 @@ const foods = [
   id: 6,
   name: "Idli",
   person: "Nargis Mithani",
-  category: "Breakfast / Tiffin",
-  region: "South India",
-  location: "Karnataka, Tamil Nadu & South India",
-  period: "Traditional; documented in South Indian literature for over a thousand years",
+  category: "Breakfast",
+  region: "Southern India",
+  location: "Karnataka, India / Tamil Nadu, India",
+  period: "Medieval",
   year: "c. 920 CE onward",
 
   image: "/images/idli.jpg",
@@ -655,15 +632,11 @@ const foods = [
 
   tags: [
     "idli",
-    "south-indian-food",
+    "south indian cuisine",
     "karnataka",
-    "tamil-nadu",
-    "fermentation",
-    "breakfast",
-    "tiffin",
-    "traditional-food",
-    "oral-history",
-    "indian-food-history"
+    "tamil nadu",
+    "fermented food",
+    "tiffin"
   ],
 
   sources: [
@@ -710,8 +683,8 @@ const foods = [
   id: 7,
   name: "Litti Chokha",
   person: "Kabita Singh",
-  category: "Main Course / Regional Food",
-  region: "Bihar & Bhojpuri Region",
+  category: "Main Course",
+  region: "Eastern India",
   location: "Bihar, India",
   period: "Traditional",
   year: "Centuries-old regional tradition",
@@ -767,16 +740,12 @@ const foods = [
   oralHistory: "Whenever I visited my village in Ballia (Eastern UP), we used to cook litti chokha in a group. Most family members participate in the preparation process of litti chokha. Recalling the moment when my family sits together and cooks this delicious food makes it memorable to me.",
 
   tags: [
-    "litti-chokha",
+    "litti chokha",
     "bihar",
-    "bihari-food",
-    "bhojpuri-cuisine",
+    "bihari cuisine",
+    "bhojpuri cuisine",
     "sattu",
-    "chokha",
-    "regional-food",
-    "traditional-food",
-    "indian-food-history",
-    "oral-history"
+    "chokha"
   ],
 
   sources: [
@@ -823,10 +792,10 @@ const foods = [
   id: 8,
   name: "Chole Bhature",
   person: "Sadi Dehlvi",
-  category: "Main Course / Street Food",
-  region: "Punjab & North India",
-  location: "Punjab, Delhi & North India",
-  period: "Modern North Indian culinary tradition",
+  category: "Main Course",
+  region: "Northern India",
+  location: "Punjab, India / Delhi, India",
+  period: "Modern",
   year: "20th century",
 
   image: "/images/chole-bhature.jpg",
@@ -889,17 +858,14 @@ const foods = [
   oralHistory: "My son now wants Chole bhature for breakfast on a Sunday. People from Delhi are eating paneer pasanda, aloo zeera besides chole. Alas, what have we come to?",
 
   tags: [
-    "chole-bhature",
-    "punjabi-food",
-    "delhi-food",
-    "north-indian-food",
-    "street-food",
+    "chole bhature",
+    "punjabi cuisine",
+    "north indian cuisine",
+    "delhi",
+    "street food",
     "chickpeas",
     "bhatura",
-    "partition-food-history",
-    "regional-food",
-    "oral-history",
-    "indian-food-history"
+    "partition"
   ],
 
   sources: [
@@ -946,10 +912,10 @@ const foods = [
   id: 9,
   name: "Momos",
   person: "Kalsang Nyima",
-  category: "Snack / Street Food",
-  region: "Himalayan Region & North India",
-  location: "Tibet, Nepal & Himalayan India",
-  period: "Traditional Himalayan food; widespread in Indian cities from the late 20th century",
+  category: "Snacks",
+  region: "Kathmandu, Nepal",
+  location: "Kathmandu, Nepal / Lhasa, Tibet",
+  period: "Traditional",
   year: "Traditional; popularized widely in India from the 1960s onward",
 
   image: "/images/Momos.jpg",
@@ -1016,17 +982,14 @@ const foods = [
 
   tags: [
     "momos",
-    "tibetan-food",
-    "nepali-food",
-    "himalayan-food",
+    "tibetan cuisine",
+    "nepali cuisine",
+    "himalayan cuisine",
     "dumplings",
-    "street-food",
-    "delhi-food",
+    "street food",
+    "delhi",
     "darjeeling",
-    "migration",
-    "tibetan-refugees",
-    "oral-history",
-    "indian-food-history"
+    "tibetan refugees"
   ],
 
   sources: [
@@ -1076,13 +1039,13 @@ const foods = [
 
   person: "Seema Goswami",
 
-  category: "Snack / Street Food",
+  category: "Snacks",
 
-  region: "North India and South Asia",
+  region: "Northern India",
 
-  location: "Indian subcontinent",
+  location: "Delhi, India",
 
-  period: "Medieval; adapted into Indian cuisine over several centuries",
+  period: "Medieval",
 
   year: "Early references date to the medieval Persianate world; samosa-like pastries were documented in India by the 13th–14th centuries",
 
@@ -1155,23 +1118,15 @@ const foods = [
 
   tags: [
     "samosa",
-    "Indian cuisine",
     "street food",
-    "snack",
-    "South Asian cuisine",
-    "Delhi Sultanate",
-    "Mughal cuisine",
-    "Persian cuisine",
-    "Central Asian food",
-    "medieval food",
-    "potato samosa",
+    "south asian cuisine",
+    "delhi sultanate",
+    "mughal cuisine",
+    "persian cuisine",
+    "central asian cuisine",
     "aloo samosa",
     "shingara",
-    "lukhmi",
-    "street food culture",
-    "culinary heritage",
-    "food history",
-    "oral history"
+    "lukhmi"
   ],
 
   sources: [
@@ -1217,13 +1172,13 @@ const foods = [
 
   person: "Arti Khatri",
 
-  category: "Snack / Street Food",
+  category: "Snacks",
 
-  region: "Rajasthan and North India",
+  region: "Northern India",
 
   location: "Rajasthan, India",
 
-  period: "Traditional; developed through medieval and early-modern North Indian food traditions",
+  period: "Traditional",
 
   year: "Traditional food; exact origin and date of invention are uncertain",
 
@@ -1305,26 +1260,17 @@ const foods = [
 
   tags: [
     "kachori",
-    "kahori",
-    "Rajasthani cuisine",
-    "North Indian cuisine",
-    "Rajasthan",
-    "Jodhpur",
-    "Jaipur",
-    "Kota",
+    "rajasthani cuisine",
+    "rajasthan",
+    "jodhpur",
+    "jaipur",
+    "kota",
     "dal kachori",
     "pyaaz kachori",
     "mawa kachori",
-    "Indian street food",
-    "Indian snack",
-    "breakfast",
-    "lentil food",
+    "street food",
     "fried food",
-    "vegetarian food",
-    "regional cuisine",
-    "culinary heritage",
-    "food history",
-    "oral history"
+    "vegetarian"
   ],
 
   sources: [
@@ -1362,13 +1308,13 @@ const foods = [
 
   person: "Domenico Cicchetti",
 
-  category: "Main Dish / Street Food",
+  category: "Main Course",
 
-  region: "Campania",
+  region: "Naples, Italy",
 
   location: "Naples, Italy",
 
-  period: "Ancient flatbread traditions; modern pizza developed in Naples during the 18th–19th centuries",
+  period: "Modern",
 
   year: "Modern Neapolitan pizza emerged during the 18th and 19th centuries",
 
@@ -1447,25 +1393,17 @@ const foods = [
 
   tags: [
     "pizza",
-    "Italian cuisine",
-    "Neapolitan pizza",
-    "Naples",
-    "Italy",
-    "Campania",
-    "pizza Margherita",
-    "flatbread",
-    "street food",
-    "working-class food",
-    "global food",
-    "Italian food",
+    "italian cuisine",
+    "neapolitan pizza",
+    "naples",
+    "campania",
+    "pizza margherita",
     "pizzeria",
     "mozzarella",
     "tomato",
-    "wood-fired pizza",
-    "Indian pizza",
-    "culinary heritage",
-    "food history",
-    "oral history"
+    "wood fired pizza",
+    "flatbread",
+    "indian pizza"
   ],
 
   sources: [
@@ -1503,13 +1441,13 @@ const foods = [
 
   person: "Shilpa Shetty",
 
-  category: "Snack / Street Food",
+  category: "Snacks",
 
-  region: "North India and South Asia",
+  region: "Northern India",
 
-  location: "Indian subcontinent",
+  location: "India",
 
-  period: "Traditional; developed through regional street-food traditions over several centuries",
+  period: "Traditional",
 
   year: "Exact origin and date of invention are uncertain",
 
@@ -1595,24 +1533,15 @@ const foods = [
     "pani puri",
     "golgappa",
     "puchka",
-    "Indian street food",
-    "Indian snack",
-    "Mumbai street food",
-    "North Indian cuisine",
-    "Maharashtrian cuisine",
-    "Bengali cuisine",
     "chaat",
-    "street food culture",
+    "street food",
+    "north indian cuisine",
+    "mumbai street food",
+    "bengali cuisine",
     "puri",
-    "spicy food",
     "tamarind",
     "mint pani",
-    "potato filling",
-    "chickpeas",
-    "regional cuisine",
-    "culinary heritage",
-    "food history",
-    "oral history"
+    "potato filling"
   ],
 
   sources: [
@@ -1650,13 +1579,13 @@ const foods = [
 
   person: "Purab Kohli",
 
-  category: "Main Dish / Fast Food",
+  category: "Main Course",
 
-  region: "North America and Europe",
+  region: "United States",
 
   location: "United States",
 
-  period: "Modern; developed from 19th-century minced-meat and sandwich traditions",
+  period: "Modern",
 
   year: "Hamburger became established in the United States during the late 19th and early 20th centuries",
 
@@ -1738,25 +1667,16 @@ const foods = [
   tags: [
     "burger",
     "hamburger",
-    "American cuisine",
-    "German cuisine",
-    "American fast food",
+    "american cuisine",
     "fast food",
-    "Hamburg steak",
+    "hamburg steak",
+    "german cuisine",
     "cheeseburger",
     "slider",
-    "street food",
     "diner culture",
-    "McDonald's",
-    "White Castle",
-    "Indian burger",
-    "aloo tikki burger",
-    "vegetarian burger",
-    "plant-based food",
-    "global food",
-    "culinary heritage",
-    "food history",
-    "oral history"
+    "white castle",
+    "mcdonald's",
+    "aloo tikki burger"
   ],
 
   sources: [
@@ -1798,13 +1718,13 @@ const foods = [
 
   person: "Sai Sriteesh Jammula",
 
-  category: "Sweet / Confectionery",
+  category: "Desserts",
 
-  region: "North and Western India",
+  region: "Northern India",
 
   location: "India",
 
-  period: "Traditional; developed within the North Indian and South Asian confectionery tradition",
+  period: "Traditional",
 
   year: "Exact origin and date of invention are uncertain",
 
@@ -1878,25 +1798,16 @@ const foods = [
   tags: [
     "soan papdi",
     "son papdi",
-    "Indian sweets",
-    "Indian confectionery",
-    "North Indian cuisine",
-    "Western Indian cuisine",
     "mithai",
-    "Diwali sweets",
-    "festival food",
+    "indian sweets",
+    "north indian cuisine",
+    "western indian cuisine",
+    "diwali sweets",
     "gram flour",
-    "besan",
     "ghee",
     "cardamom",
     "flaky sweet",
-    "layered sweet",
-    "traditional sweet",
-    "Indian dessert",
-    "festive food",
-    "culinary heritage",
-    "food history",
-    "oral history"
+    "festive food"
   ],
 
   sources: [
@@ -1930,13 +1841,13 @@ const foods = [
 
   person: "Raj Thandhi",
 
-  category: "Snack / Main Dish",
+  category: "Snacks",
 
-  region: "India",
+  region: "Western India",
 
-  location: "Kolkata, West Bengal",
+  location: "Mumbai, Maharashtra, India",
 
-  period: "Modern; developed within India's Indo-Chinese restaurant tradition during the 20th century",
+  period: "Modern",
 
   year: "Developed in the 1970s; commonly associated with Nelson Wang and Mumbai's Chinese-Indian restaurant culture",
 
@@ -2023,24 +1934,15 @@ const foods = [
     "manchurian",
     "vegetable manchurian",
     "chicken manchurian",
-    "Indo-Chinese cuisine",
-    "Indian Chinese food",
-    "Chinese food in India",
-    "Kolkata",
-    "Mumbai",
-    "Nelson Wang",
-    "China Garden",
+    "indo chinese cuisine",
+    "kolkata",
+    "mumbai",
+    "nelson wang",
+    "china garden",
     "street food",
-    "fast food",
-    "vegetarian food",
-    "chilli garlic",
     "soy sauce",
-    "Indian fusion food",
-    "restaurant culture",
-    "culinary adaptation",
-    "culinary heritage",
-    "food history",
-    "oral history"
+    "chilli garlic",
+    "restaurant culture"
   ],
 
   sources: [
@@ -2078,13 +1980,13 @@ const foods = [
 
   person: "Nargis Mithani",
 
-  category: "Breakfast / Tiffin / Snack",
+  category: "Breakfast",
 
-  region: "South India",
+  region: "Southern India",
 
-  location: "Tamil Nadu, Karnataka, Kerala and Andhra-Telangana regions",
+  location: "Karnataka, India / Tamil Nadu, India",
 
-  period: "Traditional; part of the long-standing South Indian vada and tiffin tradition",
+  period: "Traditional",
 
   year: "Exact origin and date of invention are uncertain",
 
@@ -2161,26 +2063,15 @@ const foods = [
     "medu vada",
     "medhu vada",
     "ulundu vadai",
-    "urad dal",
     "vada",
-    "South Indian cuisine",
-    "South Indian food",
-    "Tamil cuisine",
-    "Karnataka cuisine",
-    "Kerala cuisine",
-    "Andhra cuisine",
-    "Udupi cuisine",
+    "urad dal",
+    "south indian cuisine",
+    "tamil cuisine",
+    "karnataka cuisine",
+    "kerala cuisine",
+    "andhra cuisine",
     "tiffin",
-    "breakfast",
-    "Indian snack",
-    "vegetarian food",
-    "sambar",
-    "coconut chutney",
-    "fried food",
-    "pulse food",
-    "culinary heritage",
-    "food history",
-    "oral history"
+    "coconut chutney"
   ],
 
   sources: [
@@ -2215,10 +2106,10 @@ const foods = [
   id: 18,
   name: "Muffins",
   person: "madras samayal",
-  category: "Bakery / Snack",
-  region: "Britain and North America",
-  location: "United Kingdom and United States",
-  period: "Traditional; modern muffin styles developed through British and American baking traditions",
+  category: "Snacks",
+  region: "London, United Kingdom",
+  location: "London, United Kingdom / United States",
+  period: "Traditional",
   year: "English muffins have medieval roots; modern American-style muffins became popular during the 19th century",
   image: "/images/muffins.jpg",
 
@@ -2286,27 +2177,17 @@ const foods = [
 
   tags: [
     "muffin",
-    "muffins",
-    "English muffin",
-    "American muffin",
-    "British cuisine",
-    "American cuisine",
+    "english muffin",
+    "american muffin",
+    "british cuisine",
+    "american cuisine",
     "bakery",
-    "baked food",
-    "breakfast",
-    "snack",
     "quick bread",
-    "baking",
-    "British baking",
-    "American baking",
+    "british baking",
+    "american baking",
     "blueberry muffin",
     "corn muffin",
-    "chocolate muffin",
-    "food history",
-    "culinary heritage",
-    "global food culture",
-    "bakery culture",
-    "oral history"
+    "chocolate muffin"
   ],
 
   sources: [
@@ -2333,10 +2214,10 @@ const foods = [
   id: 19,
   name: "Upma",
   person: "Ravnish Singh",
-  category: "Breakfast / Tiffin",
-  region: "South India",
-  location: "Karnataka, Tamil Nadu, Kerala, Andhra Pradesh and Telangana",
-  period: "Traditional; part of South Indian breakfast and tiffin culture",
+  category: "Breakfast",
+  region: "Southern India",
+  location: "Karnataka, India / Tamil Nadu, India",
+  period: "Traditional",
   year: "Traditional food; exact origin and date of invention are uncertain",
   image: "/images/upma.jpg",
 
@@ -2397,26 +2278,15 @@ const foods = [
     "upma",
     "rava upma",
     "sooji upma",
-    "South Indian cuisine",
-    "Indian breakfast",
-    "tiffin",
-    "Karnataka cuisine",
-    "Tamil cuisine",
-    "Kerala cuisine",
-    "Andhra cuisine",
-    "Telangana cuisine",
+    "south indian cuisine",
     "semolina",
-    "rava",
-    "vegetable upma",
-    "rice upma",
-    "millet upma",
-    "Indian vegetarian food",
-    "home cooking",
-    "breakfast food",
-    "regional cuisine",
-    "culinary heritage",
-    "food history",
-    "oral history"
+    "tiffin",
+    "karnataka cuisine",
+    "tamil cuisine",
+    "kerala cuisine",
+    "andhra cuisine",
+    "telangana cuisine",
+    "millet upma"
   ],
 
   sources: [
@@ -2439,10 +2309,10 @@ const foods = [
   id: 20,
   name: "Sambar Vadi",
   person: "Ashu",
-  category: "Snack / Breakfast",
-  region: "Maharashtra and South India",
-  location: "Maharashtra, India",
-  period: "Modern regional adaptation of South Indian sambar with Maharashtrian vada traditions",
+  category: "Snacks",
+  region: "Western India",
+  location: "Nagpur, Maharashtra, India",
+  period: "Traditional",
   year: "Modern; exact origin and date of invention are uncertain",
   image: "/images/sambar-vadi.jpg",
 
@@ -2500,26 +2370,14 @@ const foods = [
 
   tags: [
     "sambar vadi",
-    "sambar",
-    "vadi",
-    "Maharashtrian cuisine",
-    "South Indian cuisine",
-    "Maharashtra",
-    "Indian snacks",
-    "Indian breakfast",
-    "tiffin",
-    "regional food",
-    "vegetarian food",
-    "lentil food",
-    "South Indian influence",
-    "Maharashtrian snacks",
+    "pudachi vadi",
+    "nagpur",
+    "vidarbha",
+    "maharashtrian cuisine",
+    "maharashtrian snacks",
+    "coriander",
     "street food",
-    "home cooking",
-    "culinary adaptation",
-    "regional cuisine",
-    "culinary heritage",
-    "food history",
-    "oral history"
+    "vegetarian"
   ],
 
   sources: [
@@ -2542,10 +2400,10 @@ const foods = [
   id: 21,
   name: "Gulab Jamun",
   person: "Madhura",
-  category: "Sweet / Dessert",
-  region: "South Asia",
-  location: "Indian subcontinent",
-  period: "Medieval to early-modern; developed through South Asian and Persian-influenced confectionery traditions",
+  category: "Desserts",
+  region: "Northern India",
+  location: "India",
+  period: "Medieval",
   year: "Traditional; exact origin and date of invention are uncertain",
   image: "/images/gulab-jamun.jpg",
 
@@ -2596,27 +2454,17 @@ const foods = [
 
   tags: [
     "gulab jamun",
-    "gulabjamun",
-    "Indian sweets",
-    "Indian dessert",
-    "South Asian cuisine",
-    "South Asian sweets",
-    "Indian cuisine",
     "mithai",
+    "indian sweets",
+    "south asian sweets",
     "khoya",
     "mawa",
     "milk sweets",
-    "Persian influence",
-    "Mughal cuisine",
+    "persian influence",
     "festive food",
     "wedding food",
-    "Diwali sweets",
-    "Ramadan food",
-    "dessert",
-    "sweet",
-    "culinary heritage",
-    "food history",
-    "oral history"
+    "diwali sweets",
+    "ramadan food"
   ],
 
   sources: [
@@ -2643,14 +2491,13 @@ const foods = [
     person:
       "Nithya",
 
-    category: "Sweet / Milk-based confectionery",
+    category: "Desserts",
 
-    region: "North Karnataka",
+    region: "Southern India",
 
     location: "Dharwad, Karnataka, India",
 
-    period:
-      "Traditional; associated with the Thakur family's sweet-making tradition in Dharwad",
+    period: "Modern",
 
     year:
       "Approximately the mid-19th century; the precise founding year is not firmly established",
@@ -2689,19 +2536,16 @@ const foods = [
     oralHistory: "I have the earliest memories of my father bringing Dharwad peda home. His Kannadiga friend would bring it for him when he visited his native place, and I loved it every time. I never imagined then that I would one day settle in Karnataka; looking back, many of my childhood memories are associated with food, making it and sharing it with relatives.",
 
     tags: [
-      "Dharwad Peda",
-      "Dharwad Pedha",
-      "Dharwad",
-      "North Karnataka",
-      "Karnataka cuisine",
-      "traditional Indian sweets",
-      "milk-based sweet",
-      "Thakur family",
-      "Line Bazaar",
-      "Geographical Indication",
-      "GI-tagged food",
-      "culinary heritage",
-      "food history"
+      "dharwad peda",
+      "dharwad pedha",
+      "dharwad",
+      "north karnataka",
+      "karnataka cuisine",
+      "milk sweets",
+      "thakur family",
+      "line bazaar",
+      "geographical indication",
+      "traditional indian sweets"
     ],
 
     sources: [
@@ -2735,14 +2579,13 @@ const foods = [
     person:
       "D. K. Shivakumar",
 
-    category: "Sweet / Traditional confectionery",
+    category: "Desserts",
 
-    region: "Karnataka",
+    region: "Southern India",
 
     location: "Mysuru, Karnataka, India",
 
-    period:
-      "Traditional; associated with the royal kitchens of Mysore Palace during the reign of Krishnaraja Wadiyar IV",
+    period: "Modern",
 
     year:
       "Early 20th century according to the traditional royal-kitchen account; an exact invention date is not conclusively established",
@@ -2784,21 +2627,17 @@ const foods = [
     oralHistory: "My childhood memories of sharing Mysore Pak when my father and relatives who came home often brought me still resonate with me.",
 
     tags: [
-      "Mysore Pak",
-      "Mysuru",
-      "Mysore",
-      "Karnataka cuisine",
-      "traditional Indian sweets",
+      "mysore pak",
+      "mysuru",
+      "mysore palace",
+      "karnataka cuisine",
       "royal cuisine",
-      "Mysore Palace",
-      "Kakasura Madappa",
-      "Krishnaraja Wadiyar IV",
+      "kakasura madappa",
+      "krishnaraja wadiyar iv",
       "gram flour",
       "ghee",
-      "sugar syrup",
-      "festive food",
-      "culinary heritage",
-      "food history"
+      "traditional indian sweets",
+      "festive food"
     ],
 
     sources: [
@@ -2830,14 +2669,13 @@ const foods = [
     person:
       "Depinder Chhibber",
 
-    category: "Sweet / Festive confectionery",
+    category: "Desserts",
 
-    region: "Rajasthan",
+    region: "Northern India",
 
     location: "Jaipur, Rajasthan, India",
 
-    period:
-      "Traditional; closely associated with Rajasthan's monsoon-season and Teej festivities",
+    period: "Traditional",
 
     year:
       "Origin date uncertain; the sweet is part of an established regional culinary tradition",
@@ -2890,22 +2728,18 @@ const foods = [
     oralHistory: "I grew up in Delhi, and a lot of my cooking is nostalgic and memory-driven. After moving to Newcastle in 2002, I could not find the Indian street food I had grown up eating, so my mother and I started making it at home. Ghevar became a dish I particularly enjoyed working on, and I spent time making and perfecting it as my signature dish.",
 
     tags: [
-      "Ghevar",
-      "Rajasthan",
-      "Jaipur",
-      "Rajasthani cuisine",
-      "traditional Indian sweets",
-      "festive food",
-      "Teej",
-      "Hariyali Teej",
-      "Raksha Bandhan",
-      "monsoon traditions",
+      "ghevar",
+      "rajasthani cuisine",
+      "rajasthan",
+      "jaipur",
+      "teej",
+      "hariyali teej",
+      "raksha bandhan",
+      "monsoon",
       "honeycomb sweet",
       "malai ghevar",
       "mawa ghevar",
-      "rabri",
-      "culinary heritage",
-      "food history"
+      "rabri"
     ],
 
     sources: [
@@ -2939,14 +2773,13 @@ const foods = [
   person:
     "Rana Daggubati",
 
-  category: "Main Course / Rice and Meat Dish",
+  category: "Main Course",
 
-  region: "Telangana / Deccan",
+  region: "Southern India",
 
   location: "Hyderabad, Telangana, India",
 
-  period:
-    "Traditional; developed through the interaction of Deccani, Persian, Mughal and local culinary traditions, with biryani preparations documented in late-19th-century Hyderabadi culinary texts",
+  period: "Traditional",
 
   year:
     "Exact origin date uncertain; diverse biryani preparations are documented in late-19th-century Hyderabadi culinary literature",
@@ -3018,28 +2851,18 @@ const foods = [
 
 
   tags: [
-    "Hyderabadi Dum Biryani",
-    "Hyderabadi Biryani",
-    "Hyderabad",
-    "Telangana",
-    "Deccan",
-    "Indian cuisine",
+    "hyderabadi dum biryani",
     "biryani",
+    "hyderabad",
+    "telangana",
+    "deccani cuisine",
     "dum cooking",
     "kachchi biryani",
     "pakki biryani",
     "basmati rice",
     "mutton biryani",
-    "chicken biryani",
-    "Nizams of Hyderabad",
-    "Qutb Shahi dynasty",
-    "Persian culinary influence",
-    "Mughal cuisine",
-    "Deccani cuisine",
-    "royal cuisine",
-    "culinary heritage",
-    "food history",
-    "Indian food traditions"
+    "nizams of hyderabad",
+    "qutb shahi dynasty"
   ],
 
   sources: [
@@ -3079,10 +2902,10 @@ const foods = [
   id: 26,
   name: "Croissant",
   person: "Nick",
-  category: "Pastry",
-  region: "France, with Austrian roots",
-  location: "Paris, France; inspired by the Austrian kipferl",
-  period: "19th century to present",
+  category: "Breakfast",
+  region: "Paris, France",
+  location: "Paris, France / Vienna, Austria",
+  period: "Modern",
   year: "1830s–1915 (documented development and evolution of the modern croissant)",
   image: "/images/croissant.jpg",
   shortDescription: "A buttery, crescent-shaped pastry known for its crisp golden crust and delicate, flaky layers, the croissant is a beloved symbol of French bakery culture with historical roots in Austria.",
@@ -3107,16 +2930,16 @@ const foods = [
   oralHistory: "I remember croissants as one of the foods that made me appreciate French baking. The first time I really noticed how special they were was when I had a freshly baked one in Paris. The crisp, flaky layers and buttery flavour made it very different from the breads I had grown up eating, and it became a food I associated with French café culture.",
  
   tags: [
-    "French cuisine",
-    "Austrian culinary heritage",
-    "Pastry",
-    "Viennoiserie",
-    "Breakfast",
-    "Baking",
-    "Laminated dough",
-    "Butter",
-    "European food history",
-    "Culinary exchange"
+    "croissant",
+    "french cuisine",
+    "austrian cuisine",
+    "kipferl",
+    "viennoiserie",
+    "pastry",
+    "laminated dough",
+    "butter",
+    "paris",
+    "august zang"
   ],
   sources: [
     {
@@ -3148,9 +2971,9 @@ const foods = [
   name: "Sushi",
   person: "Daisuke Nakazawa",
   category: "Main Course",
-  region: "Japan, particularly Edo (modern-day Tokyo)",
-  location: "Japan; nigiri sushi developed in Edo, present-day Tokyo",
-  period: "8th century to present",
+  region: "Tokyo, Japan",
+  location: "Tokyo, Japan",
+  period: "Medieval",
   year: "8th century (early written records in Japan); around 1800–1830 (development and popularization of nigiri sushi)",
   image: "/images/sushi.jpg",
   shortDescription: "A traditional Japanese dish made with vinegared rice and ingredients such as seafood, vegetables or egg, sushi has evolved from an ancient fish-preservation technique into a diverse culinary tradition.",
@@ -3182,17 +3005,15 @@ const foods = [
   oralHistory: "My first memory of eating sushi was eating delivery sushi at my grandfather’s house; I might have been five or six years old. But my first memory of actually liking sushi was in high school, when a friend of mine was training to be a sushi chef, and he influenced me. I never really had a favorite dish before then, but that’s when I started liking sushi.",
 
   tags: [
-    "Japanese cuisine",
-    "Traditional food",
-    "Seafood",
-    "Rice",
-    "Fermentation",
-    "Food preservation",
-    "Nigiri",
-    "Maki",
-    "Regional cuisine",
-    "Culinary heritage",
-    "Global food culture"
+    "sushi",
+    "japanese cuisine",
+    "nigiri",
+    "maki",
+    "edo",
+    "seafood",
+    "rice",
+    "fermentation",
+    "food preservation"
   ],
   sources: [
     {
@@ -3228,9 +3049,9 @@ const foods = [
   name: "Noodles",
   person: "David Chang",
   category: "Main Course",
-  region: "East Asia, with extensive regional traditions across Asia and beyond",
-  location: "China; subsequently developed into diverse regional traditions across East, Southeast and Central Asia and other parts of the world",
-  period: "Ancient times to present",
+  region: "Qinghai, China",
+  location: "Qinghai, China",
+  period: "Ancient",
   year: "Approximately 2000 BCE (based on a debated archaeological interpretation of noodle remains found in China)",
   image: "/images/noodles.jpg",
   shortDescription: "Noodles are a versatile staple made from dough or starch, shaped into strands or strips and cooked in soups, stir-fries, sauces or other dishes. They have a long history in China and have inspired countless regional varieties around the world.",
@@ -3260,18 +3081,16 @@ const foods = [
   oralHistory: "My grandmother was the best cook, and being younger than my brothers and sisters, she took care of me a lot of the time. I remember eating noodles with my dad or my grandfather. Instead of going to the park or going to a ball game, it was, 'let's go to this noodle place somewhere,' and I remember the guys hand-stretching noodles and eating them with kimchi. Those are my food memories.",
 
   tags: [
-    "Chinese cuisine",
-    "Asian cuisine",
-    "Staple food",
-    "Wheat",
-    "Rice noodles",
-    "Hand-pulled noodles",
-    "Regional food traditions",
-    "Food history",
-    "Street food",
-    "Instant noodles",
-    "Culinary heritage",
-    "Global food culture"
+    "noodles",
+    "chinese cuisine",
+    "asian cuisine",
+    "lajia",
+    "staple food",
+    "wheat",
+    "rice noodles",
+    "hand pulled noodles",
+    "street food",
+    "instant noodles"
   ],
   sources: [
     {
@@ -3307,10 +3126,10 @@ const foods = [
   id: 29,
   name: "Caesar Salad",
   person: "Julia Child",
-  category: "Salad",
-  region: "Tijuana, Baja California, Mexico",
-  location: "Caesar's restaurant, Tijuana, Mexico",
-  period: "20th century to present",
+  category: "Snacks",
+  region: "Tijuana, Mexico",
+  location: "Tijuana, Mexico",
+  period: "Modern",
   year: "1924 (commonly cited date of creation; the precise origin story remains debated)",
   image: "/images/caesar-salad.jpg",
   shortDescription: "A classic salad of crisp romaine lettuce, Parmesan cheese, crunchy croutons and a savoury, creamy dressing, Caesar salad originated in Tijuana, Mexico, and became an internationally popular restaurant dish.",
@@ -3343,17 +3162,16 @@ const foods = [
   oralHistory: "I was about nine when my parents took me to his restaurant in Tijuana, just the other side of the border from San Diego. They were so excited when big, jolly Caesar himself came to the table to make the salad, which had already been written up and talked about everywhere. I am probably one of the few people around who saw the real Caesar Cardini making his salad.",
 
   tags: [
-    "Mexican culinary history",
-    "Tijuana",
-    "Caesar Cardini",
-    "Salad",
-    "Romaine lettuce",
-    "Parmesan cheese",
-    "Classic restaurant dishes",
-    "Tableside preparation",
-    "20th-century food history",
-    "International cuisine",
-    "Culinary heritage"
+    "caesar salad",
+    "salad",
+    "tijuana",
+    "mexico",
+    "caesar cardini",
+    "romaine lettuce",
+    "parmesan cheese",
+    "croutons",
+    "tableside preparation",
+    "restaurant dishes"
   ],
   sources: [
     {
@@ -3389,9 +3207,9 @@ const foods = [
   name: "Ramen",
   person: "Rahul Khopkar",
   category: "Main Course",
-  region: "Japan, with roots in Chinese noodle traditions",
-  location: "Japan; early modern ramen culture developed in port cities and urban centres, including Yokohama, Tokyo and Sapporo",
-  period: "Late 19th century to present for modern Japanese ramen; instant ramen from 1958",
+  region: "Tokyo, Japan",
+  location: "Yokohama, Japan / Tokyo, Japan",
+  period: "Modern",
   year: "Early 20th century (modern ramen became popular in Japan); 1958 (first instant ramen)",
   image: "/images/ramen.jpg",
   shortDescription: "Ramen is a Japanese noodle soup featuring wheat noodles served in a flavourful broth with toppings such as sliced meat, eggs, seaweed and spring onions. Influenced by Chinese noodle traditions, it evolved into a distinctive Japanese food with celebrated regional styles.",
@@ -3426,20 +3244,17 @@ const foods = [
   oralHistory: "I used to come home from school and our grandmother was living with us at the time, and she and I would sit down and have a bowl of ramen together after school. I definitely remember that growing up. Food was always an important thing in our family, and we would sit down together and eat dinner as a family for as long as I can remember.",
 
   tags: [
-    "Japanese cuisine",
-    "Chinese culinary influences",
-    "Noodle soup",
-    "Ramen",
-    "Regional Japanese food",
-    "Sapporo ramen",
-    "Tonkotsu",
-    "Miso ramen",
-    "Street food",
-    "Instant noodles",
-    "Momofuku Ando",
-    "Post-war food history",
-    "Culinary exchange",
-    "Global food culture"
+    "ramen",
+    "japanese cuisine",
+    "chinese influence",
+    "noodle soup",
+    "sapporo ramen",
+    "tonkotsu",
+    "miso ramen",
+    "instant noodles",
+    "momofuku ando",
+    "post war japan",
+    "regional japanese cuisine"
   ],
   sources: [
     {
@@ -3474,10 +3289,10 @@ const foods = [
   id: 31,
   name: "Pav Bhaji",
   person: "Sanjyot Keer",
-  category: "Street Food",
-  region: "Maharashtra, Western India",
+  category: "Main Course",
+  region: "Western India",
   location: "Mumbai, Maharashtra, India",
-  period: "19th century to present",
+  period: "Modern",
   year: "1850s–1860s (commonly cited period of origin; the exact date and circumstances are uncertain)",
   image: "/images/pav-bhaji.jpg",
   shortDescription: "A popular Maharashtrian street food consisting of a spicy, mashed vegetable curry served with soft bread rolls toasted in butter. Originating in Mumbai's food culture, pav bhaji has become a beloved meal across India.",
@@ -3520,19 +3335,16 @@ const foods = [
   oralHistory: "I always wanted to enter the kitchen to see what was happening. I remember my first memories of cooking—my first recipe was Pav Bhaji. I used to go on bike rides with my father and my sister to a pav bhaji vendor, where I learned my first recipe by watching him. I cooked my first meal, and it worked out well. My mother had the superpower of putting a smile on people's faces with her cooking. I wanted that superpower too, and when I cooked my first meal and gave it to my family, they had smiles on their faces. That is when I realized I could have that superpower, and that is where my culinary journey began.",
  
   tags: [
-    "Indian cuisine",
-    "Maharashtrian cuisine",
-    "Mumbai",
-    "Street food",
-    "Vegetarian food",
-    "Textile mill history",
-    "Working-class food culture",
-    "Pav",
-    "Bhaji",
-    "Pav bhaji masala",
-    "Regional food",
-    "Urban food history",
-    "Culinary heritage"
+    "pav bhaji",
+    "mumbai",
+    "maharashtrian cuisine",
+    "street food",
+    "pav",
+    "bhaji",
+    "pav bhaji masala",
+    "textile mills",
+    "working class food",
+    "vegetarian"
   ],
   sources: [
     {
@@ -3566,13 +3378,13 @@ const foods = [
 
   person: "Romy Gill",
 
-  category: "Main Course / Curry / Punjabi Cuisine",
+  category: "Main Course",
 
-  region: "Punjab and North India",
+  region: "Northern India",
 
-  location: "Peshawar, in present-day Pakistan, and Delhi, India",
+  location: "Delhi, India / Peshawar, Pakistan",
 
-  period: "Early-to-mid-20th century; popularised in post-Partition Delhi",
+  period: "Modern",
 
   year: "Early 20th century origins are commonly reported; the precise date is disputed. The dish became closely associated with Moti Mahal in Delhi after 1947.",
 
@@ -3668,27 +3480,16 @@ const foods = [
   tags: [
     "butter chicken",
     "murgh makhani",
-    "Punjabi cuisine",
-    "North Indian cuisine",
-    "Delhi food history",
-    "Peshawar",
-    "Moti Mahal",
-    "Kundan Lal Gujral",
-    "Kundan Lal Jaggi",
-    "Thakur Dass Mago",
-    "Partition of India",
+    "punjabi cuisine",
+    "north indian cuisine",
+    "delhi",
+    "peshawar",
+    "moti mahal",
+    "kundan lal gujral",
+    "kundan lal jaggi",
+    "partition of india",
     "tandoori chicken",
-    "tandoor cooking",
-    "tomato gravy",
-    "Indian curry",
-    "Indian restaurant history",
-    "chicken tikka",
-    "kasuri methi",
-    "Indian culinary heritage",
-    "food history",
-    "migration and food",
-    "traditional Indian food",
-    "oral history"
+    "tomato gravy"
   ],
 
   sources: [
@@ -3735,13 +3536,13 @@ const foods = [
 
   person: "Suvir Saran",
 
-  category: "Dessert / Frozen Dairy Dessert / Sweet",
+  category: "Desserts",
 
-  region: "Global; historically associated with China, Persia, the Middle East, and Europe, with distinctive frozen-dessert traditions in India",
+  region: "China / Naples, Italy",
 
-  location: "No single place of origin established; early frozen desserts developed across several regions, while modern European-style ice cream emerged during the early modern period",
+  location: "China / Naples, Italy",
 
-  period: "Ancient frozen-dessert traditions; modern ice cream developed in Europe during the 17th century and became increasingly commercialised from the 19th century onward",
+  period: "Medieval",
 
   year: "Ancient precursors existed thousands of years ago; milk-based frozen desserts are documented in historical accounts of Tang-dynasty China (618–907 CE). European ice cream developed during the 17th century, and mechanical ice-cream makers appeared in the 19th century.",
 
@@ -3834,28 +3635,15 @@ const foods = [
     "ice cream",
     "frozen dessert",
     "dairy dessert",
-    "food history",
-    "culinary heritage",
-    "global cuisine",
-    "frozen confectionery",
-    "history of refrigeration",
-    "ice storage",
-    "Tang dynasty",
-    "Persian culinary traditions",
-    "European confectionery",
-    "17th century food history",
-    "industrial refrigeration",
+    "tang dynasty",
+    "persian culinary traditions",
+    "european confectionery",
+    "refrigeration",
     "ice cream cone",
     "kulfi",
-    "Indian frozen desserts",
-    "Mughal culinary history",
-    "Indian dairy industry",
-    "Amul",
-    "Vadilal",
-    "traditional sweets",
-    "modern food technology",
-    "desserts around the world",
-    "oral history"
+    "indian frozen desserts",
+    "amul",
+    "vadilal"
   ],
 
   sources: [
@@ -3910,13 +3698,13 @@ const foods = [
 
   person: "Al Roker",
 
-  category: "Breakfast / Dessert / Baked Food / Snack",
+  category: "Breakfast",
 
-  region: "Western Europe, particularly Belgium and the Netherlands; now popular worldwide",
+  region: "Brussels, Belgium",
 
-  location: "Medieval Low Countries, including present-day Belgium and the Netherlands; related flat-cake traditions existed in ancient Greece",
+  location: "Brussels, Belgium / Liège, Belgium",
 
-  period: "Ancient flat-cake precursors; medieval European waffle traditions; modern regional varieties developed during the 18th and 19th centuries",
+  period: "Medieval",
 
   year: "Related flat cakes were prepared in ancient Greece; medieval European waffle irons and recipes are documented by the 13th–15th centuries. The first known waffle recipe in English appeared in Robert Smith's Court Cookery in 1725. Brussels and Liège waffles developed as distinctive regional varieties during the 19th century.",
 
@@ -4010,30 +3798,17 @@ const foods = [
 
   tags: [
     "waffles",
-    "Belgian waffles",
-    "Brussels waffles",
-    "Liège waffles",
+    "belgian waffles",
+    "brussels waffles",
+    "liège waffles",
     "stroopwafel",
-    "Belgium",
-    "Netherlands",
-    "European cuisine",
-    "medieval food history",
-    "breakfast",
-    "dessert",
-    "street food",
+    "belgium",
+    "netherlands",
     "waffle iron",
-    "Cornelius Swartwout",
-    "Dutch culinary tradition",
-    "Belgian culinary heritage",
-    "American breakfast",
-    "frozen waffles",
-    "Eggo",
-    "food technology",
-    "international cuisine",
-    "Indian dessert cafes",
-    "culinary heritage",
-    "food history",
-    "oral history"
+    "medieval food history",
+    "cornelius swartwout",
+    "eggo",
+    "street food"
   ],
 
   sources: [
@@ -4084,13 +3859,13 @@ const foods = [
 
   person: "Om Nayak",
 
-  category: "Main Course / Staple Food / Noodles",
+  category: "Main Course",
 
-  region: "Italy and the wider Mediterranean; related noodle traditions also developed in China and East Asia",
+  region: "Sicily, Italy",
 
-  location: "Sicily, southern Italy, and other parts of the Italian Peninsula; independent and related noodle traditions developed in China and elsewhere",
+  location: "Sicily, Italy / Genoa, Italy",
 
-  period: "Ancient and medieval dough-based food traditions; documented Italian pasta by the 12th–13th centuries; industrial production expanded from the 17th to 19th centuries",
+  period: "Medieval",
 
   year: "Pasta-like preparations existed in ancient Mediterranean and Asian food traditions. Al-Idrisi described pasta production in Sicily around 1154 CE, and a Genoese document from 1279 mentions a container of macaroni. Industrial production expanded in Italy from the 17th century onward.",
 
@@ -4199,34 +3974,17 @@ const foods = [
 
   tags: [
     "pasta",
-    "Italian cuisine",
-    "Mediterranean food",
-    "Chinese noodles",
-    "food history",
-    "culinary heritage",
+    "italian cuisine",
     "durum wheat",
-    "semolina",
     "dried pasta",
     "fresh pasta",
     "spaghetti",
     "macaroni",
-    "penne",
-    "fusilli",
-    "lasagne",
-    "ravioli",
-    "tortellini",
-    "Sicily",
-    "Naples",
-    "medieval Italian food",
-    "Marco Polo pasta myth",
-    "Muhammad al-Idrisi",
-    "industrial food production",
-    "tomato sauce",
-    "Italian migration",
-    "global cuisine",
-    "Indian-style pasta",
-    "traditional food",
-    "oral history"
+    "sicily",
+    "naples",
+    "muhammad al idrisi",
+    "marco polo myth",
+    "indian style pasta"
   ],
 
   sources: [
@@ -4281,10 +4039,10 @@ const foods = [
     id: 36,
     name: "Tacos",
     person: "Edson Diaz-Fuentes",
-    category: "Main Course / Street Food",
+    category: "Main Course",
     region: "Mexico",
-    location: "Mexico, with regional traditions across the country",
-    period: "Pre-Hispanic roots; documented as a named food by the 19th century",
+    location: "Mexico",
+    period: "Traditional",
     year: "Exact origin unknown; the word appears in Mexican dictionaries by 1895",
     image: "/images/tacos.jpg",
     shortDescription: "Tacos are a celebrated Mexican dish made by folding or rolling a tortilla around a filling such as meat, beans, vegetables, fish, or eggs. Often finished with salsa, onion, cilantro, and lime, tacos range from simple homemade meals to elaborate regional specialties and internationally popular street food.",
@@ -4325,16 +4083,14 @@ const foods = [
     oralHistory: "My mum would cook the dishes, the stews, the chicken, and the beef, and she’d put the tortillas on the side, so you’d make your own tacos. The salsas are really, really important. For us as a kid they were not spicy — as you don’t like spicy things as a child — but it was really fresh salsa, and you’d have them right next to the chicken and the garnishes, the salsa verde, the onion, the coriander. There was a period when it was mandatory to go and eat tacos at the market. Each stand in the market has its own speciality.",
   
     tags: [
-        "Mexican Cuisine",
-        "Tacos",
-        "Street Food",
-        "Corn Tortilla",
-        "Mesoamerican Foodways",
-        "Indigenous Food Traditions",
-        "Regional Cuisine",
-        "Migration",
-        "Culinary History",
-        "Global Food Culture"
+      "tacos",
+      "mexican cuisine",
+      "street food",
+      "corn tortilla",
+      "mesoamerican foodways",
+      "indigenous food",
+      "tacos al pastor",
+      "tacos árabes"
     ],
     sources: [
         {
@@ -4376,10 +4132,10 @@ const foods = [
     id: 37,
     name: "Aloo Paratha",
     person: "Arshad",
-    category: "Main Course / Flatbread",
-    region: "Punjab, North India",
-    location: "Punjab, India and Punjab, Pakistan; popular throughout South Asia",
-    period: "Traditional; developed after the introduction and widespread cultivation of potatoes in South Asia",
+    category: "Breakfast",
+    region: "Northern India",
+    location: "Punjab, India / Punjab, Pakistan",
+    period: "Traditional",
     year: "Exact origin unknown; the modern potato-stuffed version developed after potatoes reached India in the early modern period",
     image: "/images/aloo-paratha.jpg",
     shortDescription: "Aloo paratha is a popular South Asian flatbread made by stuffing whole-wheat dough with spiced mashed potatoes and cooking it on a hot griddle with ghee, butter, or oil. Closely associated with Punjabi cuisine, it is commonly enjoyed for breakfast or lunch with curd, pickles, chutney, or fresh butter.",
@@ -4433,19 +4189,17 @@ const foods = [
     oralHistory: "I remember sitting down and eating a big spoonful of homemade yogurt with aloo or gobi paratha and a side of pickle. Sometimes bhatura or halwa puri with aloo. We spend time with my cousins and aunties.",
 
     tags: [
-        "Indian Cuisine",
-        "Punjabi Cuisine",
-        "Aloo Paratha",
-        "Stuffed Flatbread",
-        "North Indian Food",
-        "Traditional Breakfast",
-        "Wheat",
-        "Potato",
-        "Home Cooking",
-        "Street Food",
-        "Dhaba Culture",
-        "South Asian Food History",
-        "Culinary Traditions"
+      "aloo paratha",
+      "punjabi cuisine",
+      "stuffed flatbread",
+      "north indian cuisine",
+      "punjabi breakfast",
+      "wheat",
+      "potato",
+      "ghee",
+      "home cooking",
+      "dhaba culture",
+      "street food"
     ],
     sources: [
         {
@@ -4479,10 +4233,10 @@ const foods = [
     id: 38,
     name: "Poha",
     person: "Nilav Pyne",
-    category: "Breakfast / Snack",
-    region: "Western and Central India",
-    location: "Maharashtra, Madhya Pradesh, and other regions across India",
-    period: "Traditional; based on the long-standing South Asian practice of preparing flattened rice",
+    category: "Breakfast",
+    region: "Western India",
+    location: "Maharashtra, India / Madhya Pradesh, India",
+    period: "Traditional",
     year: "Ancient roots for flattened rice; the precise origin and date of the modern poha dish are unknown",
     image: "/images/poha.jpg",
     shortDescription: "Poha is a popular Indian dish made from flattened rice that is softened and cooked with spices, onions, chillies, and other ingredients. Especially associated with Maharashtra and Madhya Pradesh, it is commonly eaten for breakfast and varies regionally, from Maharashtrian kanda poha to Indori poha served with crunchy sev and often paired with jalebi.",
@@ -4537,19 +4291,15 @@ const foods = [
     oralHistory: "At times we have poha, at times Maa cooks noodles, which becomes a quick fix. But more often than not, she does engage in the lengthier process of cooking food, and I also personally enjoy that when I cook at home as well.",
   
     tags: [
-        "Indian Cuisine",
-        "Poha",
-        "Flattened Rice",
-        "Maharashtrian Cuisine",
-        "Indori Cuisine",
-        "Madhya Pradesh",
-        "Breakfast",
-        "Street Food",
-        "Traditional Food",
-        "Rice-Based Dishes",
-        "Regional Variations",
-        "Home Cooking",
-        "Culinary Heritage"
+      "poha",
+      "flattened rice",
+      "maharashtrian cuisine",
+      "maharashtra",
+      "indori poha",
+      "madhya pradesh",
+      "street food",
+      "home cooking",
+      "rice dishes"
     ],
     sources: [
         {
@@ -4587,10 +4337,10 @@ const foods = [
     id: 39,
     name: "Rasgulla",
     person: "Jigyasa Mishra",
-    category: "Sweet / Dessert",
+    category: "Desserts",
     region: "Eastern India",
-    location: "West Bengal and Odisha, India",
-    period: "Traditional; documented regional histories include medieval Odisha and the development of the modern Bengali confectionery tradition in the 19th century",
+    location: "Puri, Odisha, India / Kolkata, West Bengal, India",
+    period: "Traditional",
     year: "15th-century references are cited in Odisha's culinary history; Nobin Chandra Das is traditionally credited with popularizing the Bengali version around 1868",
     image: "/images/rasgulla.jpg",
     shortDescription: "Rasgulla is a popular Indian sweet made from soft balls of fresh chhena, or curdled milk solids, cooked in sugar syrup until they become light, spongy, and juicy. Especially associated with West Bengal and Odisha, it has distinct regional versions and an important place in eastern India's culinary and cultural heritage.",
@@ -4634,21 +4384,18 @@ const foods = [
     oralHistory: "My earliest food memories are of my grandfather, Baba, bringing home rasgullas from Sweet Home, a little sweet shop in Darbhanga, Bihar. On payday, Baba would often parcel my favourite rasgullas and send them with someone travelling to my hometown, Chitrakoot, by train. Baba is no more, but Sweet Home remains in its iconic location, still serving Maithils that same old taste of nostalgia.",
 
     tags: [
-        "Indian Cuisine",
-        "Rasgulla",
-        "Rosogolla",
-        "Rasagola",
-        "Bengali Cuisine",
-        "Odia Cuisine",
-        "Traditional Indian Sweets",
-        "Chhena",
-        "Milk-Based Desserts",
-        "Kolkata",
-        "Puri",
-        "Jagannath Temple",
-        "Religious Food Traditions",
-        "Geographical Indication",
-        "Culinary Heritage"
+      "rasgulla",
+      "rosogolla",
+      "rasagola",
+      "bengali cuisine",
+      "odia cuisine",
+      "chhena",
+      "kolkata",
+      "puri",
+      "jagannath temple",
+      "pahala",
+      "nobin chandra das",
+      "geographical indication"
     ],
     sources: [
         {
@@ -4689,13 +4436,13 @@ const foods = [
 
   person: "Victor Rogers",
 
-  category: "Dessert / Mithai",
+  category: "Desserts",
 
-  region: "Western and Northern India; popular throughout India",
+  region: "Western India",
 
-  location: "India; commonly associated with western Indian sweet-making traditions, particularly Mumbai, Maharashtra, and Ahmedabad and Surat, Gujarat",
+  location: "Mumbai, Maharashtra, India / Ahmedabad, Gujarat, India",
 
-  period: "Modern Indian confectionery tradition; exact origin and date of creation are uncertain",
+  period: "Modern",
 
   year: "Unknown; no reliably verified date of invention. Its present-day popularity is associated with the wider development of Indian mithai shops and festive sweet-gifting traditions.",
 
@@ -4758,24 +4505,15 @@ const foods = [
     "kaju katli",
     "kaju barfi",
     "kaju katri",
-    "Indian sweets",
     "mithai",
-    "Indian desserts",
+    "indian sweets",
     "cashew sweet",
-    "cashew confectionery",
     "barfi",
-    "Diwali",
-    "festive food",
+    "diwali",
     "festive gifting",
-    "Indian culinary heritage",
-    "western Indian cuisine",
-    "Maharashtra",
-    "Gujarat",
-    "Mughal culinary legends",
-    "Bandi Chhor Divas",
     "edible silver leaf",
-    "traditional confectionery",
-    "food history"
+    "gujarat",
+    "maharashtra"
   ],
 
   sources: [

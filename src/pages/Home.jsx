@@ -263,12 +263,12 @@ function Home() {
 
         <div className="regions-list">
           {[
-            "Maharashtra",
-            "Karnataka",
-            "Punjab",
-            "Gujarat",
-            "Tamil Nadu",
-            "Uttar Pradesh",
+            "Northern India",
+            "Southern India",
+            "Eastern India",
+            "Western India",
+            "Northeast India",
+            "Central India",
           ].map((region, index) => (
             <Link
               key={region}
