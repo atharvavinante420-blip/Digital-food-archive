@@ -1,7 +1,1 @@
-### Foods
-- Daal Bhati
-- Masala DOsa
-- Vada Pav
-- Puran Poli
-- Idli
-- Litti Chokha 
+Website Link: [Digital Food Archive](digitalfoodarchive.netlify.app)
