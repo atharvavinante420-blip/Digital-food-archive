@@ -6,21 +6,36 @@ import foods from "../data/food";
 
 function About() {
   const creators = [
-    {
-      name: "Venkatesh K",
-      role: "Research & Development",
-      initials: "YN",
-    },
-    {
-      name: "Yash Mathur",
-      role: "Design & Documentation",
-      initials: "C2",
-    },
-    {
-      name: "Atharva Vinante",
-      role: "Development",
-      initials: "C3",
-    },
+  {
+    name: "Venkatesh K",
+    role: "Research & Analysis",
+    initials: "VK",
+  },
+  {
+    name: "Yash Mathur",
+    role: "UI/UX & Visual Design",
+    initials: "YM",
+  },
+  {
+    name: "Atharva Vinante",
+    role: "Frontend Development",
+    initials: "AV",
+  },
+  {
+    name: "Shrinivas Gaonkar",
+    role: "Content & Research",
+    initials: "SG",
+  },
+  {
+    name: "Shubhash Koushik V",
+    role: "Documentation & Presentation",
+    initials: "SK",
+  },
+  {
+    name: "Omkar Dahiphale",
+    role: "Backend & Integration",
+    initials: "OD",
+  },
   ];
 
 
@@ -370,10 +385,7 @@ function About() {
             <em>who care about stories.</em>
           </h2>
 
-          <p>
-            Replace the placeholder names below
-            with the actual creators of your website.
-          </p>
+         <p>Meet the creators behind our website — the team responsible for its research, design, development, and documentation.</p>
 
         </div>
 
